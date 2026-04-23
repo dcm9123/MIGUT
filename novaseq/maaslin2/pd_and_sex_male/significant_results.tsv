@@ -1,0 +1,7 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Brotaphodocola.s__Brotaphodocola.sp003478505	Males_only	PD male	-0.534119044204319	0.118181829181145	91	16	1.90007611458796e-05	0.00389515603490532
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Agathobacter.s__Agathobacter.rectalis	Males_only	PD male	-2.69496093480447	0.57522411549479	91	67	1.00000359136417e-05	0.00389515603490532
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominiventricola.s__Hominiventricola.sp003480725	Males_only	PD male	-0.657073818720814	0.195415343811944	91	26	0.00114042797468166	0.15585848987316
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia_B.s__Roseburia_B.zhanii	Males_only	PD male	-0.503646237838454	0.164574337652149	91	13	0.00292248925141123	0.233153569722112
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.mutans	Males_only	PD male	0.739195134835565	0.245687555163969	91	24	0.00341200345934798	0.233153569722112
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Fusicatenibacter.s__Fusicatenibacter.saccharivorans	Males_only	PD male	-1.46777633768826	0.483282091277962	91	78	0.00313379883808778	0.233153569722112
