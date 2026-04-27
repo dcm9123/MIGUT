@@ -1,417 +1,417 @@
-feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Brotaphodocola.s__Brotaphodocola.sp003478505	Group	PD	-0.426258711	0.085165085	167	28	1.42E-06	0.000591014
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia_B.s__Roseburia_B.zhanii	Group	PD	-0.47414219	0.110276866	167	23	2.92E-05	0.002505987
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominiventricola.s__Hominiventricola.sp003480725	Group	PD	-0.57009205	0.132830685	167	47	3.01E-05	0.002505987
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anthropogastromicrobium.s__Anthropogastromicrobium.sp934292725	Group	PD	-1.474129082	0.340277578	167	102	2.56E-05	0.002505987
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Agathobacter.s__Agathobacter.rectalis	Group	PD	-1.850725397	0.41747527	167	127	1.69E-05	0.002505987
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruthenibacterium.s__Ruthenibacterium.lactatiformans	Group	PD	0.856692198	0.228101996	167	130	0.00023929	0.016333059
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp934514285	Group	PD	-1.192385713	0.320711891	167	105	0.000274835	0.016333059
-d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.mutans	Group	PD	0.632476569	0.173382006	167	31	0.000354269	0.018421997
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__CAG.177.s__CAG.177.sp003514385	Group	PD	1.040966667	0.296333435	167	36	0.000572146	0.02644588
-d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.infantis	Group	PD	1.420392044	0.408673858	167	99	0.000651382	0.027097484
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominisplanchenecus.s__Hominisplanchenecus.faecis	Group	PD	-0.961797573	0.279114634	167	72	0.000721961	0.027303263
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Solibaculum.s__Solibaculum.mannosilyticum	Group	PD	-0.278357336	0.08206674	167	19	0.00086899	0.028626647
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Fusicatenibacter.s__Fusicatenibacter.saccharivorans	Group	PD	-1.12441648	0.332341171	167	144	0.000894583	0.028626647
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Clostridium_AP.s__Clostridium_AP.scindens	Group	PD	0.533416219	0.160549287	167	35	0.00109897	0.032655111
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__JAGTTR01.s__JAGTTR01.sp018223385	Group	PD	-0.34182414	0.104902986	167	32	0.001360141	0.037721248
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Alitiscatomonas.s__Alitiscatomonas.sp900066535	Group	PD	-0.508389672	0.16256446	167	48	0.002085652	0.054226953
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.onderdonkii	Group	PD	1.075477716	0.354006218	167	123	0.00276921	0.063999509
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anaerostipes.s__	Group	PD	-0.977389456	0.321027089	167	144	0.002712779	0.063999509
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Pararoseburia.s__Pararoseburia.lenta	Group	PD	-0.436210004	0.144557328	167	24	0.002952519	0.06464463
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Ruminococcus_B.s__Ruminococcus_B.gnavus	Group	PD	0.925225012	0.312679576	167	60	0.003540386	0.073640029
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Anaerotignaceae.g__Anaerotignum.s__Anaerotignum.faecicola	Group	PD	-0.524879786	0.180624644	167	55	0.004164765	0.079202355
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Enterocloster.s__Enterocloster.sp900541315	Group	PD	-0.454570057	0.157049735	167	42	0.004312361	0.079202355
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_G.s__Eubacterium_G.ventriosum	Group	PD	-0.582930758	0.202739185	167	73	0.004569367	0.079202355
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Otoolea.s__Otoolea.fessa	Group	PD	-0.601743026	0.208729028	167	89	0.004465564	0.079202355
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Brotaphodocola.s__Brotaphodocola.sp003480315	Group	PD	-0.276096218	0.097919475	167	29	0.005397232	0.089809948
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Clostridium_AQ.s__Clostridium_AQ.innocuum	Group	PD	0.49468271	0.176535992	167	40	0.005683882	0.090942119
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__UBA3402.s__UBA3402.sp003478355	Group	PD	-0.374992433	0.136908623	167	35	0.00684026	0.096989068
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Butyribacter.s__Butyribacter.intestini	Group	PD	-0.444619793	0.162268202	167	27	0.00681976	0.096989068
-d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.thermophilus	Group	PD	0.756220124	0.275656709	167	84	0.006754409	0.096989068
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_F.s__Eubacterium_F.sp003491505	Group	PD	-0.724953534	0.265422019	167	96	0.006994404	0.096989068
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__UMGS1766.s__UMGS1766.sp959602365	Group	PD	0.292426026	0.107554676	167	23	0.0072515	0.097310452
-d__Bacteria.p__Pseudomonadota.c__Gammaproteobacteria.o__Enterobacterales.f__Enterobacteriaceae.g__Escherichia.s__Escherichia.coli_F	Group	PD	1.049280584	0.388931439	167	80	0.007704153	0.100153989
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__CAG.115.s__CAG.115.sp003531585	Group	PD	-0.35846498	0.134432624	167	23	0.008427431	0.106236704
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia.s__Blautia.celeris	Group	PD	0.354967743	0.135094687	167	27	0.009411203	0.115148839
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Gallintestinimicrobium.s__Gallintestinimicrobium.propionicum	Group	PD	-0.516112905	0.198608483	167	89	0.010206667	0.121313533
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Alitiscatomonas.s__Alitiscatomonas.sp900066785	Group	PD	-0.335138585	0.131651708	167	27	0.011823659	0.134137828
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp000435555	Group	PD	0.857026887	0.337096778	167	67	0.011930528	0.134137828
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes_A.s__Alistipes_A.ihumii	Group	PD	0.435898627	0.173305265	167	56	0.012852663	0.14070284
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Zongyangia.s__Zongyangia.gallinarum	Group	PD	0.365905481	0.146939382	167	37	0.013757864	0.145454506
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Lentihominibacter.s__Lentihominibacter.faecis	Group	PD	0.469194742	0.189487081	167	90	0.014290532	0.145454506
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp900539885	Group	PD	-0.584541403	0.236181994	167	60	0.01433566	0.145454506
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnospira.s__Lachnospira.hominis	Group	PD	-0.389668923	0.158747809	167	45	0.015140824	0.149966259
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominifimenecus.s__Hominifimenecus.microfluidus	Group	PD	-0.364284637	0.152889275	167	33	0.018325182	0.169406126
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp900758465	Group	PD	-0.437898209	0.18372002	167	39	0.018284901	0.169406126
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.qucibialis	Group	PD	0.736448727	0.30728991	167	135	0.017666568	0.169406126
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__AF33.28.s__AF33.28.sp003477885	Group	PD	0.27374325	0.115485905	167	24	0.018925417	0.171015221
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Anaeromassilibacillus.s__Anaeromassilibacillus.stercoravium	Group	PD	0.349102126	0.149025613	167	37	0.020345077	0.171015221
-d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.sp902463925	Group	PD	0.512252421	0.217958015	167	32	0.019944273	0.171015221
-d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Lactococcus.s__Lactococcus.lactis	Group	PD	0.481877044	0.204036437	167	57	0.019357043	0.171015221
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp900539945	Group	PD	-0.69211388	0.295951492	167	90	0.020554714	0.171015221
-d__Bacteria.p__Bacillota.c__Bacilli.o__MOL361.f__Turicibacteraceae.g__Turicibacter.s__Turicibacter.sanguinis	Group	PD	0.327431354	0.140870056	167	31	0.021325444	0.173948724
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.torques	Group	PD	0.722239602	0.314145259	167	128	0.022755267	0.182042138
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UBA737.s__UBA737.sp900549055	Group	PD	0.239569946	0.104675298	167	18	0.023365283	0.183395432
-d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.adolescentis	Group	PD	0.880141403	0.389951795	167	70	0.025316857	0.195033565
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Flavonifractor.s__Flavonifractor.plautii	Group	PD	0.517495637	0.23077859	167	77	0.026268345	0.19513628
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.wexlerae_B	Group	PD	-0.759608055	0.337678416	167	155	0.025803028	0.19513628
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.sp900541505	Group	PD	0.294493016	0.132068399	167	24	0.027106597	0.197830605
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.sp946496415	Group	PD	0.340262845	0.154238714	167	49	0.028760117	0.200939449
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Limivivens.s__Limivivens.sp934393555	Group	PD	-0.322581547	0.146223055	167	42	0.028759198	0.200939449
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.prausnitzii_I	Group	PD	-0.455358581	0.206700701	167	73	0.028981651	0.200939449
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Evtepia.s__Evtepia.gabavorous	Group	PD	0.564135409	0.261257304	167	89	0.032270387	0.220073457
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Avimonas_A.s__Avimonas_A.narfia	Group	PD	0.237541038	0.111695426	167	23	0.034933058	0.223571571
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Eggerthella.s__Eggerthella.lenta	Group	PD	0.505491075	0.236328433	167	77	0.033911911	0.223571571
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.acetigignens	Group	PD	-0.468457835	0.218799883	167	63	0.033739568	0.223571571
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__UBA1381.f__UBA1381.g__Hominilimicola.s__Hominilimicola.fabiformis	Group	PD	-0.49486653	0.232142534	167	127	0.03450888	0.223571571
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Allocoprobacillus.s__Allocoprobacillus.merdigallinarum	Group	PD	0.189924935	0.090684546	167	18	0.037757072	0.235563526
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Lentihominibacter.s__Lentihominibacter.excrementipullorum	Group	PD	0.267476343	0.127841959	167	38	0.037947515	0.235563526
-d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.pseudocatenulatum	Group	PD	0.50767895	0.243359753	167	32	0.038505576	0.235563526
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Adlercreutzia.s__Adlercreutzia.equolifaciens	Group	PD	0.484870544	0.233197208	167	133	0.039143122	0.235993317
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Gordonibacter.s__Gordonibacter.pamelaeae	Group	PD	0.351457105	0.170974146	167	46	0.041395348	0.243178522
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Sellimonas.s__Sellimonas.intestinalis	Group	PD	0.438965227	0.213659946	167	39	0.041504027	0.243178522
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Hominibacterium.s__Hominibacterium.hominis	Group	PD	0.345267805	0.168996709	167	62	0.042638857	0.246357839
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Coriobacteriaceae.g__Collinsella.s__Collinsella.sp023656745	Group	PD	0.630743416	0.312886284	167	121	0.045434406	0.258913876
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Tannerellaceae.g__Parabacteroides.s__Parabacteroides.merdae	Group	PD	0.542852853	0.272605541	167	86	0.048092868	0.270359907
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Holdemania.s__Holdemania.filiformis	Group	PD	0.203767011	0.102994406	167	23	0.049545032	0.27480978
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Muricomes.s__Muricomes.sp000509105	Group	PD	0.174403816	0.089895229	167	17	0.054075158	0.287876985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Intestinimonas.s__Intestinimonas.butyriciproducens	Group	PD	0.231012595	0.119157242	167	30	0.054241782	0.287876985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS1623.s__UMGS1623.sp934647945	Group	PD	0.288885575	0.150256185	167	46	0.056250287	0.287876985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Frisingicoccus.s__Frisingicoccus.sp900757195	Group	PD	0.272112609	0.139460921	167	17	0.05272988	0.287876985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Peptostreptococcaceae.g__Romboutsia.s__Romboutsia.timonensis	Group	PD	0.464564755	0.242055407	167	92	0.056678576	0.287876985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Enterocloster.s__Enterocloster.bolteae	Group	PD	0.409457977	0.213356693	167	49	0.056694579	0.287876985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Clostridium_A.s__Clostridium_A.leptum	Group	PD	0.438684867	0.228633057	167	76	0.056744983	0.287876985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Emergencia.s__Emergencia.timonensis	Group	PD	0.202958067	0.106501121	167	19	0.058429409	0.289198682
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminococcus_C.s__Ruminococcus_C.sp000433635	Group	PD	-0.455104084	0.239446107	167	18	0.059091077	0.289198682
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Butyribacter.s__Butyribacter.sp003529475	Group	PD	-0.552118575	0.28945218	167	79	0.058198212	0.289198682
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Scatomonas.s__Scatomonas.merdavium	Group	PD	0.248108287	0.133262622	167	24	0.064409903	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Anaerotruncus.s__Anaerotruncus.colihominis	Group	PD	0.209553595	0.113152426	167	27	0.065818636	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruthenibacterium.s__	Group	PD	0.212459213	0.117647967	167	20	0.072758282	0.297363444
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Longicatena.s__Longicatena.caecimuris	Group	PD	0.30900825	0.168168137	167	32	0.067935375	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.stercoripullorum	Group	PD	0.334558598	0.185425648	167	63	0.073012252	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnospira.s__Lachnospira.sp000437735	Group	PD	-0.326092118	0.179529899	167	48	0.071129121	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp003474435	Group	PD	-0.253019966	0.138277393	167	19	0.069084573	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_F.s__Eubacterium_F.sp900539115	Group	PD	-0.402883391	0.221905454	167	35	0.071252963	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hungatella.s__Hungatella.effluvii	Group	PD	0.265074019	0.144650528	167	20	0.068677569	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Ventricola.s__Ventricola.sp900542445	Group	PD	-0.427850919	0.231188488	167	93	0.066006642	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_I.s__Eubacterium_I.ramulus	Group	PD	-0.406495575	0.220826629	167	81	0.067448256	0.297363444
-d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.bifidum	Group	PD	0.503563499	0.279697269	167	29	0.073626045	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnospira.s__Lachnospira.pectinoschiza_A	Group	PD	-0.540647701	0.2895753	167	68	0.063670512	0.297363444
-d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.sp001556435	Group	PD	0.539130569	0.288218167	167	125	0.06317649	0.297363444
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Barnesiellaceae.g__Barnesiella.s__Barnesiella.intestinihominis	Group	PD	0.564364382	0.303259851	167	91	0.064524441	0.297363444
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.fragilis	Group	PD	0.553722481	0.30553216	167	76	0.071754517	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Bariatricus.s__Bariatricus.comes_A	Group	PD	-0.53464076	0.296440217	167	129	0.073128344	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp905215595	Group	PD	-0.625194973	0.335770377	167	120	0.064385469	0.297363444
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia.s__Blautia.stercoris	Group	PD	-0.439992086	0.245342178	167	38	0.074743449	0.298973795
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Thomasclavelia.s__Thomasclavelia.spiroformis	Group	PD	0.243749342	0.137778122	167	30	0.078717271	0.303693798
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Senegalimassilia.s__Senegalimassilia.anaerobia	Group	PD	-0.241013184	0.136082311	167	18	0.078392968	0.303693798
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Hominenteromicrobium.s__Hominenteromicrobium.sp900549945	Group	PD	0.264846566	0.149767034	167	18	0.078843582	0.303693798
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.sp900539695	Group	PD	-0.319545052	0.180118139	167	76	0.077893243	0.303693798
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Limivivens.s__Limivivens.sp905214955	Group	PD	-0.256995478	0.146072477	167	69	0.080368173	0.306726239
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__HGM12998.s__HGM12998.sp900756495	Group	PD	-0.13593066	0.078291517	167	17	0.084392981	0.313946565
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Coprobacillus.s__Coprobacillus.cateniformis	Group	PD	0.198091478	0.114142652	167	21	0.084524075	0.313946565
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.uniformis	Group	PD	0.555347295	0.319277169	167	150	0.083831184	0.313946565
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Harryflintia.s__Harryflintia.acetispora	Group	PD	0.159212247	0.093030092	167	23	0.088885282	0.318761013
-d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.sp004166885	Group	PD	-0.204609314	0.119361123	167	21	0.088369016	0.318761013
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Peptostreptococcaceae.g__Intestinibacter.s__Intestinibacter.bartlettii	Group	PD	0.389779503	0.226525007	167	63	0.087181543	0.318761013
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Enterocloster.s__Enterocloster.sp000431375	Group	PD	-0.3676632	0.214810944	167	74	0.088855595	0.318761013
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Hominimerdicola.s__Hominimerdicola.aceti	Group	PD	-0.613065939	0.359270517	167	93	0.089811514	0.319329827
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Otoolea.s__Otoolea.symbiosa	Group	PD	0.185860669	0.110090545	167	21	0.09325185	0.323828391
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominiventricola.s__Hominiventricola.filiformis	Group	PD	-0.254716903	0.150357475	167	54	0.092137703	0.323828391
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Agathobaculum.s__Agathobaculum.butyriciproducens	Group	PD	-0.389844026	0.231029595	167	118	0.093412036	0.323828391
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Peptostreptococcaceae.g__Intestinibacter.s__Intestinibacter.sp900540355	Group	PD	0.252697737	0.15105975	167	27	0.096255155	0.330926815
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Faecalibacillus.s__Faecalibacillus.intestinalis	Group	PD	-0.415463686	0.249346375	167	98	0.097568662	0.332693143
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Lentihominibacter.s__Lentihominibacter.butyrica	Group	PD	0.162657201	0.098727145	167	22	0.101349568	0.341482603
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Clostridiales.f__Clostridiaceae.g__Clostridium.s__Clostridium.lentum	Group	PD	0.180040652	0.109883708	167	17	0.103230129	0.341482603
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Lawsonibacter.s__Lawsonibacter.sp900066825	Group	PD	0.190700206	0.11673656	167	17	0.104250699	0.341482603
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__RF39.f__UBA660.g__CAG.302.s__CAG.302.sp934162325	Group	PD	0.355988324	0.217682489	167	26	0.103880734	0.341482603
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Acetatifactor.s__Acetatifactor.acetigignens	Group	PD	-0.452845415	0.276889203	167	100	0.103855702	0.341482603
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Acutalibacter.s__Acutalibacter.ornithocaccae	Group	PD	0.406983766	0.250005012	167	60	0.105453569	0.342724101
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__CAJJNI01.s__CAJJNI01.sp905193085	Group	PD	-0.150059631	0.092476895	167	18	0.106568738	0.343663526
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.ammoniilytica	Group	PD	0.287113344	0.178355976	167	72	0.109358068	0.349945819
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_D.s__Dorea_D.sp900543415	Group	PD	0.346269196	0.215804537	167	29	0.11050519	0.350917244
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__UMGS1766.s__UMGS1766.sp900554855	Group	PD	-0.171218501	0.107263377	167	21	0.112347859	0.354065981
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Faecalibacillus.s__Faecalibacillus.faecis	Group	PD	0.256179315	0.161522794	167	35	0.114648065	0.358598457
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Pseudoscilispira.s__Pseudoscilispira.sp018369915	Group	PD	-0.168618999	0.106919196	167	23	0.116694856	0.362276566
-d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.parasanguinis_G	Group	PD	0.370785502	0.236642169	167	72	0.119062887	0.365674774
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.cirricatena	Group	PD	0.430915145	0.276040838	167	46	0.120426548	0.365674774
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.prausnitzii_E	Group	PD	-0.445956228	0.285544125	167	28	0.120256493	0.365674774
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Dysosmobacter.s__Dysosmobacter.welbionis	Group	PD	0.3627024	0.233030513	167	114	0.121515019	0.366306143
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Limivivens.s__Limivivens.faecihominis	Group	PD	-0.277555078	0.179320444	167	90	0.123582452	0.369858274
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eisenbergiella.s__Eisenbergiella.porci	Group	PD	0.227430853	0.147542629	167	27	0.125120865	0.369970274
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Faecalimonas.s__Faecalimonas.sp029983955	Group	PD	0.305422277	0.198285274	167	30	0.125398578	0.369970274
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia.s__Roseburia.intestinalis	Group	PD	-0.442050613	0.288062341	167	86	0.126805778	0.371487351
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes_A.s__Alistipes_A.indistinctus	Group	PD	0.296346881	0.193866828	167	61	0.128275809	0.373165989
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__HGM13006.s__HGM13006.sp900757695	Group	PD	-0.21318779	0.1418644	167	31	0.134813078	0.388415401
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.ovatus	Group	PD	0.414066726	0.275944782	167	109	0.135385176	0.388415401
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia_D.s__Roseburia_D.yibonii	Group	PD	-0.222969199	0.149853418	167	27	0.138681854	0.395148297
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.caecimuris	Group	PD	0.443456	0.301118149	167	44	0.142737552	0.400492186
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Agathobacter.s__Agathobacter.faecis	Group	PD	-0.594636785	0.404285935	167	105	0.143240974	0.400492186
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.formicilis	Group	PD	-0.570823364	0.388295208	167	113	0.143445519	0.400492186
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.269.s__CAG.269.sp003525075	Group	PD	-0.228208536	0.15583807	167	33	0.144988653	0.402101865
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__QAND01.g__QAND01.s__QAND01.sp003150225	Group	PD	0.191387607	0.132703397	167	34	0.151135542	0.415643855
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Agathobaculum.s__Agathobaculum.ammoniilyticum	Group	PD	0.14443796	0.100330717	167	23	0.15186987	0.415643855
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Bianqueaceae.g__Faecimorpha.s__Faecimorpha.sp937892735	Group	PD	0.129616399	0.091371277	167	18	0.157910973	0.423812677
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Peptostreptococcaceae.g__Terrisporobacter.s__Terrisporobacter.sp900557165	Group	PD	0.222315178	0.156344017	167	36	0.156924941	0.423812677
-d__Bacteria.p__Verrucomicrobiota.c__Verrucomicrobiae.o__Verrucomicrobiales.f__Akkermansiaceae.g__Akkermansia.s__Akkermansia.muciniphila	Group	PD	0.640671424	0.451026499	167	59	0.157356616	0.423812677
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.138.g__SFEL01.s__SFEL01.sp004557245	Group	PD	0.382640982	0.270667981	167	57	0.159336459	0.424897224
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__CAJFUR01.s__CAJFUR01.sp904420575	Group	PD	0.21941591	0.156249968	167	53	0.162120348	0.426848511
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900120195	Group	PD	0.259385703	0.184667301	167	40	0.162016714	0.426848511
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Enterenecus.s__Enterenecus.sp900549885	Group	PD	0.208030405	0.148917953	167	42	0.164305623	0.429881377
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia.s__Roseburia.inulinivorans	Group	PD	-0.344420389	0.248224975	167	93	0.167150331	0.434590859
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.shahii	Group	PD	-0.401328298	0.290398764	167	102	0.168842756	0.436264513
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS856.s__UMGS856.sp900546265	Group	PD	0.146590931	0.106922866	167	20	0.17223778	0.436895833
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__COE1.s__COE1.sp001916965	Group	PD	-0.160683525	0.117047464	167	18	0.171675438	0.436895833
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.faecis	Group	PD	-0.451744107	0.32808013	167	122	0.170398492	0.436895833
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_F.s__Eubacterium_F.sp000433735	Group	PD	-0.225402552	0.166886055	167	35	0.178661041	0.447728873
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia.s__Roseburia.hominis	Group	PD	-0.344326184	0.254842876	167	120	0.178503134	0.447728873
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Schaedlerella.s__Schaedlerella.glycyrrhizinilytica_A	Group	PD	0.234256102	0.174105862	167	49	0.180316086	0.449170609
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.272.g__UMGS1696.s__UMGS1696.sp900753285	Group	PD	-0.116460136	0.087306374	167	20	0.184066788	0.455784428
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp900552475	Group	PD	-0.168198769	0.127427744	167	24	0.188678667	0.464439795
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__UBA4285.s__UBA4285.sp900545225	Group	PD	0.179650963	0.136884943	167	25	0.19120012	0.46787794
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Agathobaculum.s__Agathobaculum.hominis	Group	PD	-0.246784772	0.189281826	167	46	0.194119432	0.472243765
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS1071.s__UMGS1071.sp900542375	Group	PD	0.263362094	0.203879215	167	77	0.198248306	0.479484275
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900066335	Group	PD	-0.343609476	0.271840216	167	38	0.208008254	0.500181698
-d__Bacteria.p__Pseudomonadota.c__Gammaproteobacteria.o__Burkholderiales.f__Burkholderiaceae.g__Parasutterella.s__Parasutterella.sp900552195	Group	PD	-0.270163873	0.216357716	167	60	0.213546989	0.507918187
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Tannerellaceae.g__Parabacteroides.s__Parabacteroides.distasonis	Group	PD	0.3482374	0.278955783	167	131	0.213667507	0.507918187
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_A.s__Dorea_A.amylophila	Group	PD	-0.317822068	0.258664865	167	78	0.22093307	0.522205438
-d__Bacteria.p__Bacillota_G.c__DTU025.o__DTUO25.f__HGM14224.g__HGM14224.s__HGM14224.sp900761905	Group	PD	0.118337183	0.096837897	167	23	0.223445552	0.522209829
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lientehia.s__Lientehia.sp934351765	Group	PD	-0.142393664	0.116329587	167	31	0.222676902	0.522209829
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Lawsonibacter_A.s__Lawsonibacter_A.hominis	Group	PD	0.172279658	0.141416324	167	42	0.224870164	0.522603287
-d__Bacteria.p__Bacillota_C.c__Negativicutes.o__Veillonellales.f__Dialisteraceae.g__Dialister.s__Dialister.invisus	Group	PD	0.383706714	0.318599104	167	49	0.230176793	0.530938287
-d__Bacteria.p__Desulfobacterota.c__Desulfovibrionia.o__Desulfovibrionales.f__Desulfovibrionaceae.g__Bilophila.s__Bilophila.wadsworthia	Group	PD	0.27104608	0.225458723	167	104	0.231009207	0.530938287
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp002404795	Group	PD	-0.258800657	0.217231061	167	50	0.235222707	0.537651903
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Negativibacillus.s__Negativibacillus.faecipullorum	Group	PD	0.130946892	0.111794861	167	22	0.243161259	0.549919818
-d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.animalis_B	Group	PD	0.308175376	0.263142911	167	31	0.243233766	0.549919818
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Muricoprocola.s__Muricoprocola.aceti	Group	PD	-0.128594354	0.110193837	167	20	0.244900935	0.550696156
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__UBA11774.s__UBA11774.sp003507655	Group	PD	0.338587053	0.292439434	167	125	0.248617916	0.556048672
-d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Actinomycetaceae.g__Pauljensenia.s__Pauljensenia.sp905370305	Group	PD	0.102695025	0.089547708	167	22	0.253116667	0.557243384
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__UMGS416.g__Parachristensenella.s__Parachristensenella.sp900542005	Group	PD	0.107815332	0.09433024	167	20	0.254712458	0.557243384
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__Merdicola.s__Merdicola.sp018371855	Group	PD	0.241942358	0.211566984	167	20	0.254457051	0.557243384
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.finegoldii	Group	PD	0.328178566	0.286165484	167	100	0.253118806	0.557243384
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.duncaniae	Group	PD	-0.390144986	0.342168343	167	118	0.255849727	0.557243384
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__UBA3818.s__UBA3818.sp900557155	Group	PD	-0.167528264	0.148121757	167	52	0.259689062	0.560748554
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Egerieenecus.s__Egerieenecus.merdigallinarum	Group	PD	0.214760261	0.190068846	167	50	0.260154978	0.560748554
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__RUG11247.s__RUG11247.sp902767315	Group	PD	-0.119514305	0.106494265	167	30	0.263382146	0.56477821
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Faecaligallichristensenella.s__Faecaligallichristensenella.faecipullorum	Group	PD	0.094124832	0.084274941	167	18	0.265670201	0.566763096
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Dysosmobacter.s__Dysosmobacter.faecalis	Group	PD	-0.162080545	0.147223365	167	42	0.272536713	0.578445269
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Holdemanella.s__Holdemanella.porci	Group	PD	0.201109128	0.18380258	167	19	0.275480254	0.578897889
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Acutalibacter.s__Acutalibacter.timonensis	Group	PD	0.282489405	0.258960166	167	72	0.276924711	0.578897889
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Limiplasma.s__Limiplasma.merdipullorum	Group	PD	0.282797846	0.258573638	167	67	0.275687704	0.578897889
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Suilimivivens.s__	Group	PD	-0.120136596	0.111047371	167	17	0.280897766	0.584267354
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Anaerotruncus.s__Anaerotruncus.massiliensis	Group	PD	0.150294532	0.140285923	167	26	0.285579177	0.591049441
-d__Bacteria.p__Pseudomonadota.c__Gammaproteobacteria.o__Burkholderiales.f__Burkholderiaceae.g__Sutterella.s__Sutterella.wadsworthensis_A	Group	PD	0.133256245	0.126018116	167	20	0.291857784	0.598092799
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Scatomonas.s__Scatomonas.hejianensis	Group	PD	0.134602668	0.127025764	167	36	0.290853225	0.598092799
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Ventricola.s__Ventricola.sp900548125	Group	PD	-0.118097728	0.112300843	167	29	0.294511964	0.600573416
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Wujia.s__Wujia.chipingensis	Group	PD	-0.280602485	0.268291191	167	30	0.297142592	0.602982041
-d__Bacteria.p__Desulfobacterota.c__Desulfovibrionia.o__Desulfovibrionales.f__Desulfovibrionaceae.g__Mailhella.s__Mailhella.merdigallinarum	Group	PD	-0.089824548	0.087482891	167	23	0.306033057	0.614517396
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__UBA644.g__UBA644.s__UBA644.sp900547165	Group	PD	0.117347363	0.115991413	167	21	0.313167519	0.614517396
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Excrementavichristensenella.s__Excrementavichristensenella.intestinipullorum	Group	PD	-0.115428455	0.112093684	167	20	0.304634555	0.614517396
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_D.s__Dorea_D.hominis	Group	PD	0.15008368	0.148224018	167	54	0.312759426	0.614517396
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__UBA738.s__UBA738.sp003522945	Group	PD	0.18432273	0.181067109	167	45	0.310177695	0.614517396
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnoclostridium_B.s__Lachnoclostridium_B.ammoniilytica	Group	PD	-0.178398461	0.174357028	167	105	0.307720956	0.614517396
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eisenbergiella.s__Eisenbergiella.tayi	Group	PD	0.209055054	0.20632019	167	47	0.312421693	0.614517396
-d__Bacteria.p__Pseudomonadota.c__Gammaproteobacteria.o__Burkholderiales.f__Burkholderiaceae.g__Parasutterella.s__Parasutterella.gallistercoris	Group	PD	-0.12651878	0.126645687	167	18	0.319258489	0.62093342
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__F23.B02.s__F23.B02.sp001916715	Group	PD	-0.327005877	0.327445164	167	41	0.319422481	0.62093342
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Anaerotruncus.s__Anaerotruncus.rubiinfantis	Group	PD	0.10307576	0.105063928	167	24	0.327991305	0.626143149
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Massilistercora.s__Massilistercora.sp902406105	Group	PD	0.104282495	0.105722072	167	21	0.325389229	0.626143149
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Acutalibacter.s__Acutalibacter.sp900548545	Group	PD	0.124521557	0.125907876	167	33	0.324116391	0.626143149
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Clostridiales.f__Clostridiaceae.g__Clostridium.s__Clostridium.sp900540255	Group	PD	0.148346596	0.15124929	167	27	0.328123092	0.626143149
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Acetatifactor.s__Acetatifactor.intestinalis	Group	PD	-0.241034421	0.246821508	167	58	0.330219802	0.627266839
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__HGM13006.s__HGM13006.sp900756575	Group	PD	0.113526311	0.118042071	167	31	0.337585259	0.630626985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Angelakisella.s__Angelakisella.sp900547385	Group	PD	0.165550315	0.172083881	167	44	0.33744092	0.630626985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Alangreenwoodia.s__Alangreenwoodia.sp905206455	Group	PD	-0.162511718	0.16982834	167	59	0.340008841	0.630626985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__CAG.194.s__CAG.194.sp000432915	Group	PD	-0.203502798	0.21314043	167	34	0.341084307	0.630626985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Faecousia.s__Faecousia.sp000435995	Group	PD	-0.212093514	0.218795929	167	55	0.333780997	0.630626985
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Porcipelethomonas.s__Porcipelethomonas.sp900538575	Group	PD	-0.253411791	0.263826254	167	24	0.338196348	0.630626985
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Merdibacter.s__Merdibacter.merdipullorum	Group	PD	0.117853483	0.124658983	167	22	0.345833484	0.630994428
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.communis	Group	PD	0.24359619	0.257469237	167	97	0.345472056	0.630994428
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus.s__Coprococcus.aceti	Group	PD	-0.352702064	0.372559094	167	46	0.345175533	0.630994428
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.314.g__CAG.314.s__CAG.314.sp000437915	Group	PD	0.151535027	0.163195227	167	37	0.354478402	0.635801998
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.269.s__CAG.269.sp000431335	Group	PD	-0.139661931	0.150595329	167	21	0.355074085	0.635801998
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_I.s__Eubacterium_I.ramulus_A	Group	PD	0.136862381	0.147895653	167	26	0.356110254	0.635801998
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Anaerotardibacter.s__Anaerotardibacter.sp000435675	Group	PD	0.268303647	0.289751029	167	64	0.355808772	0.635801998
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.caccae	Group	PD	0.286848242	0.308745922	167	92	0.354207195	0.635801998
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.hydrogenotrophica	Group	PD	0.166302948	0.180855051	167	33	0.359156991	0.638501317
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Faecivicinus.s__Faecivicinus.avistercoris	Group	PD	0.139479769	0.153263282	167	35	0.364114979	0.639647534
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Choladousia.s__Choladousia.sp902363665	Group	PD	0.205397842	0.224968713	167	76	0.362571372	0.639647534
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Faecousia.s__Faecousia.sp003525905	Group	PD	0.264854846	0.291210325	167	98	0.364414581	0.639647534
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp000435975	Group	PD	0.188567362	0.212555441	167	31	0.37629245	0.657721256
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnoclostridium_B.s__Lachnoclostridium_B.acetigenes	Group	PD	-0.111660666	0.127173322	167	22	0.381209824	0.66276995
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Scatomorpha.s__Scatomorpha.intestinigallinarum	Group	PD	0.171871587	0.196226785	167	30	0.382367279	0.66276995
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.stercorigallinarum	Group	PD	0.125886769	0.144254828	167	36	0.384111488	0.663030619
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Butyribacter.s__Butyribacter.sp000436755	Group	PD	0.102847646	0.119204505	167	21	0.389508971	0.664011752
-d__Bacteria.p__Bacillota.c__Bacilli.o__MOL361.f__Turicibacteraceae.g__Turicibacter.s__Turicibacter.bilis	Group	PD	0.139006403	0.16058098	167	39	0.387940815	0.664011752
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnospira.s__Lachnospira.eligens	Group	PD	-0.2470918	0.287332914	167	103	0.391064613	0.664011752
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.103.s__CAG.103.sp000432375	Group	PD	0.313608431	0.362929979	167	52	0.388786418	0.664011752
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp000432135	Group	PD	-0.219171785	0.257394369	167	75	0.395724747	0.66668278
-d__Bacteria.p__Verrucomicrobiota.c__Verrucomicrobiae.o__Verrucomicrobiales.f__Akkermansiaceae.g__Akkermansia.s__Akkermansia.muciniphila_F	Group	PD	0.280385742	0.329366309	167	26	0.395842901	0.66668278
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Pseudoflavonifractor.s__Pseudoflavonifractor.faecis	Group	PD	0.065758365	0.07792374	167	19	0.399957693	0.670896775
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.prausnitzii_D	Group	PD	-0.252567581	0.30423422	167	116	0.407639509	0.681036287
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Fimisoma.s__Fimisoma.avicola	Group	PD	-0.10780367	0.135345425	167	23	0.426881563	0.709272666
-d__Bacteria.p__Desulfobacterota.c__Desulfovibrionia.o__Desulfovibrionales.f__Desulfovibrionaceae.g__Desulfovibrio.s__Desulfovibrio.sp018379785	Group	PD	0.137721223	0.173307517	167	26	0.427950575	0.709272666
-d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.dentium	Group	PD	0.109337239	0.138779903	167	21	0.431916928	0.710187518
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus.s__Coprococcus.ammoniilyticus	Group	PD	0.188969083	0.239271462	167	17	0.430796426	0.710187518
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.excrementigallinarum	Group	PD	-0.097274608	0.126033663	167	28	0.441328297	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__JAGZHZ01.s__JAGZHZ01.sp018366495	Group	PD	-0.102157218	0.134293656	167	21	0.447921828	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.273.s__CAG.273.sp000438355	Group	PD	0.155222338	0.206259377	167	47	0.452787295	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Evtepia.s__Evtepia.sp004556345	Group	PD	-0.095038667	0.121457564	167	20	0.435051396	0.710790621
-d__Bacteria.p__Synergistota.c__Synergistia.o__Synergistales.f__Synergistaceae.g__Cloacibacillus.s__Cloacibacillus.evryensis	Group	PD	0.121446768	0.1568606	167	19	0.439900555	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminococcus_C.s__Ruminococcus_C.sp000980705	Group	PD	0.13288651	0.17403386	167	18	0.44621575	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Faecousia.s__Faecousia.sp000434635	Group	PD	-0.187679984	0.246901369	167	57	0.448254773	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Ventricola.s__Ventricola.sp900542395	Group	PD	0.174600035	0.228442032	167	49	0.445775456	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.sp934330165	Group	PD	-0.19888723	0.262696139	167	54	0.450069766	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.sp900540595	Group	PD	0.199837429	0.26129997	167	36	0.445493982	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900066205	Group	PD	0.221860987	0.294004568	167	48	0.451554218	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Ruminococcus_E.s__Ruminococcus_E.bromii	Group	PD	0.380606736	0.504087459	167	103	0.451300722	0.710790621
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900548245	Group	PD	-0.162377869	0.219181147	167	53	0.459844258	0.71915493
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.xylanisolvens	Group	PD	-0.208762387	0.283015074	167	71	0.46178279	0.7194818
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus_A.s__Coprococcus_A.catus_A	Group	PD	-0.174571457	0.240940381	167	103	0.469759123	0.729178341
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.clarus	Group	PD	0.132816259	0.187005976	167	25	0.478567407	0.740089374
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Faecivicinus.s__Faecivicinus.sp900553265	Group	PD	-0.074024037	0.104688191	167	27	0.480507598	0.740337633
-d__Bacteria.p__Bacillota_B.c__Dehalobacteriia.o__UBA4068.f__UBA4068.g__HGM13862.s__HGM13862.sp944393575	Group	PD	0.062911657	0.091256211	167	18	0.491542531	0.754544992
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.273.s__CAG.273.sp003534295	Group	PD	0.138454195	0.203017511	167	21	0.496206825	0.758904555
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Faecousia.s__Faecousia.sp958436045	Group	PD	0.097744503	0.144657408	167	47	0.500179269	0.762177934
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Marinifilaceae.g__Butyricimonas.s__Butyricimonas.sp019423345	Group	PD	0.081384615	0.122895177	167	28	0.508749058	0.769598575
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__QAMH01.g__QAMH01.s__QAMH01.sp900544245	Group	PD	0.153009982	0.230368734	167	43	0.507491997	0.769598575
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Egerieenecus.s__Egerieenecus.sp900553315	Group	PD	0.072932519	0.111259484	167	25	0.513047673	0.773289246
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Scatomorpha.s__Scatomorpha.sp900545405	Group	PD	0.150799277	0.232315218	167	34	0.517166594	0.776683405
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Fimisoma.s__Fimisoma.sp000435715	Group	PD	0.111325529	0.173556129	167	29	0.522128046	0.78131391
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.excrementipullorum	Group	PD	0.086130631	0.135684114	167	26	0.526445997	0.782148339
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Intestinimonas.s__Intestinimonas.massiliensis	Group	PD	0.096145703	0.15083997	167	39	0.524746474	0.782148339
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS1264.s__UMGS1264.sp904399395	Group	PD	-0.085846499	0.136735621	167	34	0.530984347	0.786083589
-d__Bacteria.p__Pseudomonadota.c__Alphaproteobacteria.o__RF32.f__CAG.239.g__Scatacola_A.s__Scatacola_A.faecigallinarum	Group	PD	0.140050926	0.226296355	167	33	0.536847054	0.790647477
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.sp902363575	Group	PD	-0.144208124	0.233599897	167	30	0.537868356	0.790647477
-d__Bacteria.p__Cyanobacteriota.c__Vampirovibrionia.o__Gastranaerophilales.f__Gastranaerophilaceae.g__CAG.196.s__CAG.196.sp002102975	Group	PD	-0.077704267	0.130403421	167	22	0.552074586	0.805835186
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Ventrisoma.s__Ventrisoma.faecale	Group	PD	0.082794662	0.138759224	167	20	0.551539766	0.805835186
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.stercoris	Group	PD	0.198875067	0.338082841	167	56	0.557173107	0.81043361
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.luti	Group	PD	-0.096747111	0.165484957	167	42	0.559596531	0.811122498
-d__Bacteria.p__Bacillota_B.c__Dehalobacteriia.o__UBA7702.f__UBA7702.g__Cryptoclostridium.s__Cryptoclostridium.obscurum	Group	PD	0.064165177	0.111973078	167	17	0.567396972	0.812345107
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__CAG.238.s__CAG.238.sp900542245	Group	PD	-0.072252131	0.125768634	167	32	0.566422394	0.812345107
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Clostridiales.f__Clostridiaceae.g__Clostridium.s__Clostridium.saudiense	Group	PD	0.109305591	0.191168148	167	41	0.568251024	0.812345107
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anaerobutyricum.s__Anaerobutyricum.soehngenii	Group	PD	0.200776607	0.346445188	167	114	0.563019649	0.812345107
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Oliverpabstia.s__Oliverpabstia.intestinalis	Group	PD	-0.185659261	0.326931516	167	108	0.570885505	0.813316335
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp003516765	Group	PD	-0.070869459	0.127080489	167	36	0.577822962	0.817599837
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.dispar	Group	PD	-0.101372708	0.181538073	167	25	0.577321293	0.817599837
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Lawsonibacter.s__Lawsonibacter.aceti	Group	PD	0.052934947	0.096190905	167	21	0.582850068	0.819501355
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Monoglobales.f__Monoglobaceae.g__Monoglobus.s__Monoglobus.pectinilyticus	Group	PD	0.136379398	0.247991283	167	68	0.583106733	0.819501355
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruthenibacterium.s__Ruthenibacterium.merdipullorum	Group	PD	-0.071804729	0.133583998	167	21	0.591629272	0.828679385
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Alitiscatomonas.s__Alitiscatomonas.aceti	Group	PD	0.113857509	0.213728097	167	93	0.594943233	0.830524782
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp900545585	Group	PD	-0.068740863	0.134236304	167	22	0.609273837	0.839264623
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Eubacterium_R.s__Eubacterium_R.sp000434995	Group	PD	-0.092554313	0.179734831	167	26	0.607277647	0.839264623
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Anaerotardibacter.s__Anaerotardibacter.sp000436075	Group	PD	0.11682644	0.227525568	167	41	0.608312874	0.839264623
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Pseudoruminococcus.s__Pseudoruminococcus.massiliensis	Group	PD	0.136710133	0.266686895	167	26	0.608899845	0.839264623
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Pseudobutyricicoccus.s__Pseudobutyricicoccus.lothianensis	Group	PD	-0.048449217	0.10770268	167	19	0.653414598	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.272.g__UMGS911.s__UMGS911.sp900545935	Group	PD	0.050468386	0.112110331	167	17	0.653180834	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.272.g__UMGS911.s__UMGS911.sp003343545	Group	PD	-0.055702693	0.125956487	167	25	0.65889641	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__CAG.274.g__CAG.274.s__CAG.274.sp900545305	Group	PD	-0.047279658	0.106468959	167	18	0.657573901	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.272.g__Flemingibacterium.s__Flemingibacterium.sp900546315	Group	PD	-0.042525521	0.094929988	167	17	0.654764495	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__CAKTXU01.s__CAKTXU01.sp934615635	Group	PD	0.043081535	0.09457373	167	24	0.649324121	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__QAND01.g__UMGS1975.s__UMGS1975.sp959600905	Group	PD	-0.063909617	0.137216695	167	46	0.64200376	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.245.s__CAG.245.sp000435175	Group	PD	-0.073488301	0.165735188	167	32	0.658051541	0.846846241
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Thomasclavelia.s__Thomasclavelia.ramosa	Group	PD	0.05700651	0.129174283	167	18	0.659562938	0.846846241
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__UMGS124.g__JAHZGC01.s__JAHZGC01.sp019421015	Group	PD	0.06114969	0.122867674	167	34	0.619367033	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Massilistercora.s__Massilistercora.timonensis	Group	PD	0.089554288	0.184370799	167	30	0.62780354	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Onthomonas.s__Onthomonas.sp003150485	Group	PD	0.083892087	0.183269563	167	35	0.647732531	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Negativibacillus.s__Negativibacillus.massiliensis	Group	PD	-0.081171423	0.178876822	167	30	0.650580657	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__UBA1750.g__Spyradocola.s__Spyradocola.merdavium	Group	PD	0.077436477	0.164409708	167	51	0.638264983	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.138.g__UBA1685.s__UBA1685.sp002320595	Group	PD	-0.071353305	0.155726446	167	23	0.647414187	0.846846241
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Marinifilaceae.g__Butyricimonas.s__Butyricimonas.paravirosa	Group	PD	0.075280076	0.153833726	167	46	0.625236744	0.846846241
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.faecis	Group	PD	0.08014005	0.174898015	167	26	0.64740435	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.intestinalis	Group	PD	0.124169977	0.266577274	167	100	0.641977543	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.sp900540775	Group	PD	-0.130036645	0.26220911	167	38	0.620605665	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Ruminococcus_E.s__Ruminococcus_E.intestinalis	Group	PD	-0.140483293	0.317537473	167	23	0.658768422	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__CAG.217.s__	Group	PD	-0.141527086	0.304529262	167	48	0.642729977	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.faecis	Group	PD	0.126302375	0.264601269	167	152	0.633758134	0.846846241
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Pseudolachnospira.s__Pseudolachnospira.sp022867805	Group	PD	-0.070720357	0.169228984	167	41	0.676565445	0.850305816
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__UMGS973.s__UMGS973.sp900547295	Group	PD	0.054393694	0.125446697	167	27	0.665145256	0.850305816
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.382.g__Woodwardibium.s__Woodwardibium.sp900760275	Group	PD	-0.051429018	0.121799773	167	26	0.673397843	0.850305816
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Avimicrobium.s__Avimicrobium.caecorum	Group	PD	-0.054322635	0.126680895	167	41	0.668617366	0.850305816
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_G.s__Eubacterium_G.sp000435815	Group	PD	0.056845963	0.132082879	167	27	0.66748013	0.850305816
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anaerostipes.s__Anaerostipes.amylophilus	Group	PD	-0.108747711	0.259857578	167	44	0.676133338	0.850305816
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea.s__Dorea.formicigenerans	Group	PD	-0.095802318	0.224768047	167	121	0.670497615	0.850305816
-d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__ML615J.28.f__CAG.313.g__CAG.313.s__CAG.313.sp000433035	Group	PD	0.06554091	0.161735893	167	19	0.685830315	0.85090368
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_G.s__Eubacterium_G.segne	Group	PD	-0.048857071	0.122262995	167	36	0.689963259	0.85090368
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter_A.s__Mediterraneibacter_A.butyricigenes	Group	PD	0.055513286	0.140345786	167	51	0.692950549	0.85090368
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Clostridiales.f__Clostridiaceae.g__Clostridium.s__Clostridium.sp000435835	Group	PD	-0.048288715	0.118574426	167	31	0.68435668	0.85090368
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_G.s__Eubacterium_G.sp000434315	Group	PD	-0.069224466	0.173404583	167	43	0.690256298	0.85090368
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp000436615	Group	PD	-0.108706194	0.270802951	167	47	0.688629053	0.85090368
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.103.s__CAG.103.sp905215475	Group	PD	0.118286835	0.299513499	167	60	0.693404682	0.85090368
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Hominenteromicrobium.s__Hominenteromicrobium.mulieris	Group	PD	0.141357893	0.346649501	167	126	0.683961361	0.85090368
-d__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A.smithii	Group	PD	0.156339242	0.401167883	167	61	0.697253367	0.853110002
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Tannerellaceae.g__Parabacteroides.s__Parabacteroides.segnis	Group	PD	0.052871301	0.137773316	167	27	0.701653538	0.85352974
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.fusiformis	Group	PD	-0.138925857	0.362075529	167	134	0.70169993	0.85352974
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Limiplasma.s__Limiplasma.sp900548145	Group	PD	0.045918303	0.125980775	167	19	0.715961382	0.868338003
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Pseudobutyricicoccus.s__Pseudobutyricicoccus.sp003477405	Group	PD	-0.033150255	0.098559129	167	17	0.737035145	0.886146302
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.senegalensis	Group	PD	0.048347627	0.142597019	167	32	0.735002611	0.886146302
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anaerobutyricum.s__Anaerobutyricum.hallii	Group	PD	-0.10922083	0.322362204	167	125	0.735180634	0.886146302
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Eubacterium_R.s__Eubacterium_R.sp000436835	Group	PD	0.063900192	0.194115519	167	19	0.742432263	0.887624773
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Lawsonibacter.s__Lawsonibacter.asaccharolyticus	Group	PD	0.065995643	0.200561822	167	105	0.742532262	0.887624773
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminiclostridium_E.s__Ruminiclostridium_E.siraeum	Group	PD	0.110743526	0.352264865	167	85	0.753632836	0.898313066
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Hominicoprocola.s__Hominicoprocola.sp900317525	Group	PD	0.071280307	0.234659741	167	78	0.76169324	0.905326823
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Phocaeicola.s__Phocaeicola.massiliensis	Group	PD	-0.070951528	0.236479226	167	37	0.764529782	0.906109371
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__UMGS1783.g__UMGS1783.s__UMGS1783.sp900555065	Group	PD	-0.027134698	0.099404439	167	23	0.785215545	0.910501269
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Tannerellaceae.g__Parabacteroides.s__Parabacteroides.johnsonii	Group	PD	-0.037634734	0.134433081	167	18	0.779865415	0.910501269
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia_C.s__Roseburia_C.amylophila	Group	PD	-0.072679929	0.265932349	167	56	0.784962614	0.910501269
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.sp900557355	Group	PD	0.068873458	0.25047659	167	27	0.783683569	0.910501269
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Hominicoprocola.s__Hominicoprocola.sp934835795	Group	PD	-0.072292438	0.251321161	167	100	0.773975919	0.910501269
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_A.s__Dorea_A.longicatena	Group	PD	-0.102917465	0.373633138	167	106	0.783314735	0.910501269
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__UBA11524.s__UBA11524.sp000437595	Group	PD	-0.103093469	0.378626583	167	63	0.785745085	0.910501269
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.putredinis	Group	PD	0.105650254	0.384009786	167	124	0.783565293	0.910501269
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.zhangwenhongii	Group	PD	-0.039411504	0.149284447	167	26	0.792107244	0.912788403
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Dysosmobacter.s__Dysosmobacter.segnis	Group	PD	-0.076233115	0.286878416	167	90	0.790776439	0.912788403
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Fimadaptatus.s__Fimadaptatus.sp900553645	Group	PD	-0.033234621	0.128816156	167	26	0.796728106	0.91557705
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.269.s__CAG.269.sp000437215	Group	PD	-0.026371482	0.109931633	167	17	0.810713416	0.917188779
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp900553545	Group	PD	0.028734543	0.115077969	167	25	0.803132809	0.917188779
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Scatomorpha.s__Scatomorpha.merdavium	Group	PD	0.029400637	0.122655857	167	19	0.810860169	0.917188779
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.schinkii_B	Group	PD	0.041203337	0.171451449	167	24	0.810379952	0.917188779
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Marinifilaceae.g__Odoribacter.s__Odoribacter.splanchnicus	Group	PD	0.054251023	0.219304194	167	106	0.804923286	0.917188779
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Phocaeicola.s__Phocaeicola.dorei	Group	PD	0.098241657	0.410957719	167	88	0.811359304	0.917188779
-d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.gordonii	Group	PD	0.026092197	0.111991143	167	18	0.816062236	0.917534034
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.eggerthii	Group	PD	0.061960291	0.265961914	167	31	0.816075944	0.917534034
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Hominicoprocola.s__Hominicoprocola.sp003522105	Group	PD	-0.031169441	0.142533108	167	17	0.827167936	0.92495268
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Onthomonas.s__Onthomonas.sp900545815	Group	PD	0.032418649	0.150166781	167	30	0.829344591	0.92495268
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Porcipelethomonas.s__Porcipelethomonas.ammoniilytica	Group	PD	-0.04744563	0.217387711	167	31	0.827501298	0.92495268
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Muricoprocola.s__Muricoprocola.shaoxingensis	Group	PD	-0.027962007	0.135074157	167	20	0.83625553	0.930166579
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_D.s__Dorea_D.sp000433535	Group	PD	0.04518765	0.227462799	167	45	0.842773664	0.934916918
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Enterocloster.s__Enterocloster.sp001517625	Group	PD	0.036007968	0.198830527	167	26	0.856512295	0.945117015
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Fimivicinus.s__Fimivicinus.sp900544375	Group	PD	0.041439287	0.226203405	167	27	0.854870092	0.945117015
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900551715	Group	PD	0.015174217	0.105007367	167	24	0.885277109	0.954765965
-d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Gordonibacter.s__Gordonibacter.urolithinfaciens	Group	PD	0.017479474	0.123203491	167	27	0.887351958	0.954765965
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.138.g__Phil1.s__Phil1.sp001940855	Group	PD	-0.029689412	0.181152715	167	22	0.870017049	0.954765965
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Acutalibacter.s__Acutalibacter.stercoravium	Group	PD	-0.021869752	0.152690507	167	17	0.886283866	0.954765965
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp900545925	Group	PD	0.01938328	0.137675346	167	31	0.888207761	0.954765965
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Frisingicoccus.s__Frisingicoccus.sp900549105	Group	PD	0.0198561	0.139523203	167	21	0.887005646	0.954765965
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes_A.s__Alistipes_A.hominis	Group	PD	0.023535594	0.154784416	167	43	0.879330088	0.954765965
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Marinifilaceae.g__Odoribacter.s__Odoribacter.laneus	Group	PD	-0.032172425	0.206115878	167	28	0.876153662	0.954765965
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.138.g__PeH17.s__PeH17.sp000435055	Group	PD	0.044085074	0.30619707	167	59	0.885695002	0.954765965
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Phocaeicola.s__Phocaeicola.vulgatus	Group	PD	0.05512082	0.361361106	167	127	0.878950037	0.954765965
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.103.s__CAG.103.sp900317855	Group	PD	-0.040175736	0.330934901	167	39	0.903521363	0.968723935
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.382.g__Woodwardibium.s__Woodwardibium.gallinarum	Group	PD	-0.01391252	0.127293957	167	27	0.913101772	0.972296635
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Tidjanibacter.s__Tidjanibacter.inops	Group	PD	-0.022262446	0.211259539	167	25	0.916202598	0.972296635
-d__Bacteria.p__Bacillota_C.c__Negativicutes.o__Acidaminococcales.f__Acidaminococcaceae.g__Phascolarctobacterium.s__Phascolarctobacterium.faecium	Group	PD	0.036240599	0.337923022	167	75	0.914724801	0.972296635
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp934424005	Group	PD	0.039508931	0.349374711	167	135	0.910100882	0.972296635
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS1071.s__UMGS1071.sp934476545	Group	PD	-0.009457219	0.100077791	167	19	0.924827696	0.973995751
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Butyricicoccus_A.s__Butyricicoccus_A.intestinisimiae	Group	PD	0.012079153	0.126105999	167	18	0.923807002	0.973995751
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__V9D3004.s__V9D3004.sp900760345	Group	PD	0.019111889	0.198477596	167	37	0.923405184	0.973995751
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Schaedlerella.s__Schaedlerella.hominis	Group	PD	-0.006712848	0.099011953	167	20	0.946028236	0.976262318
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp934394595	Group	PD	-0.01348537	0.15804473	167	61	0.932105438	0.976262318
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Agathobacter.s__Agathobacter.sp000434275	Group	PD	-0.01014967	0.145582778	167	20	0.94450292	0.976262318
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Brotaphodocola.s__	Group	PD	0.00967192	0.148362988	167	25	0.948100905	0.976262318
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Alectryocaccomicrobium.s__Alectryocaccomicrobium.faecavium	Group	PD	-0.012741615	0.159457792	167	29	0.936408949	0.976262318
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Choladousia.s__Choladousia.sp902363135	Group	PD	0.014986269	0.19857578	167	107	0.939933172	0.976262318
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Fimenecus.s__Fimenecus.sp000432435	Group	PD	-0.020123042	0.280827431	167	36	0.942962253	0.976262318
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.thetaiotaomicron	Group	PD	-0.017190683	0.245954786	167	106	0.944362927	0.976262318
-d__Bacteria.p__Verrucomicrobiota.c__Verrucomicrobiae.o__Verrucomicrobiales.f__Akkermansiaceae.g__Akkermansia.s__Akkermansia.biwaensis	Group	PD	-0.024645643	0.305113991	167	24	0.935718624	0.976262318
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Evtepia.s__Evtepia.excrementipullorum	Group	PD	0.014115779	0.238431671	167	37	0.952862366	0.978742578
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Fimadaptatus.s__Fimadaptatus.faecigallinarum	Group	PD	-0.005474715	0.108710443	167	17	0.959896004	0.983538763
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminococcus_C.s__Ruminococcus_C.callidus	Group	PD	0.008944347	0.195494409	167	23	0.963562888	0.984870176
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Negativibacillus.s__Negativibacillus.sp000435195	Group	PD	0.008893574	0.21159896	167	56	0.966525336	0.985476814
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Emergencia.s__Emergencia.sp904420065	Group	PD	0.00089673	0.094320478	167	18	0.992425894	0.997645537
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Anaeromassilibacillus.s__Anaeromassilibacillus.sp001305115	Group	PD	-0.001576762	0.096582998	167	17	0.98699447	0.997645537
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Paraprevotella.s__Paraprevotella.clara	Group	PD	-0.001780474	0.144111036	167	23	0.990157412	0.997645537
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Coprobacteraceae.g__Coprobacter.s__Coprobacter.fastidiosus	Group	PD	0.000388856	0.13157653	167	23	0.997645537	0.997645537
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.salyersiae	Group	PD	0.000579364	0.136195971	167	23	0.996611027	0.997645537
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.coprocola	Group	PD	-0.001963969	0.217901859	167	68	0.992819582	0.997645537
-d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus_A.s__Coprococcus_A.catus	Group	PD	0.004825657	0.227002496	167	58	0.983065401	0.997645537
-d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.cellulosilyticus	Group	PD	0.001510211	0.347445115	167	80	0.996537162	0.997645537
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval	tmp	
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Agathobacter.s__Agathobacter.rectalis	Group	PD	-1.850725397	0.41747527	167	127	1.69E-05	0.002505987	0.277252928	3.606814926
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anthropogastromicrobium.s__Anthropogastromicrobium.sp934292725	Group	PD	-1.474129082	0.340277578	167	102	2.56E-05	0.002505987	0.359950622	2.77815883
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp934514285	Group	PD	-1.192385713	0.320711891	167	105	0.000274835	0.016333059	0.43757866	2.285303401
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Fusicatenibacter.s__Fusicatenibacter.saccharivorans	Group	PD	-1.12441648	0.332341171	167	144	0.000894583	0.028626647	0.458687507	2.180133499
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anaerostipes.s__	Group	PD	-0.977389456	0.321027089	167	144	0.002712779	0.063999509	0.507897946	1.968899477
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominisplanchenecus.s__Hominisplanchenecus.faecis	Group	PD	-0.961797573	0.279114634	167	72	0.000721961	0.027303263	0.513416806	1.947735228
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.wexlerae_B	Group	PD	-0.759608055	0.337678416	167	155	0.025803028	0.19513628	0.590656776	1.693030607
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_F.s__Eubacterium_F.sp003491505	Group	PD	-0.724953534	0.265422019	167	96	0.006994404	0.096989068	0.605016531	1.652847401
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp900539945	Group	PD	-0.69211388	0.295951492	167	90	0.020554714	0.171015221	0.618946287	1.615649082
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp905215595	Group	PD	-0.625194973	0.335770377	167	120	0.064385469	0.297363444	0.648332153	1.542419262
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Hominimerdicola.s__Hominimerdicola.aceti	Group	PD	-0.613065939	0.359270517	167	93	0.089811514	0.319329827	0.653805791	1.529506183
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Otoolea.s__Otoolea.fessa	Group	PD	-0.601743026	0.208729028	167	89	0.004465564	0.079202355	0.658957339	1.517548922
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Agathobacter.s__Agathobacter.faecis	Group	PD	-0.594636785	0.404285935	167	105	0.143240974	0.400492186	0.662211153	1.510092355
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp900539885	Group	PD	-0.584541403	0.236181994	167	60	0.01433566	0.145454506	0.666861284	1.49956224
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_G.s__Eubacterium_G.ventriosum	Group	PD	-0.582930758	0.202739185	167	73	0.004569367	0.079202355	0.667606193	1.497889042
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.formicilis	Group	PD	-0.570823364	0.388295208	167	113	0.143445519	0.400492186	0.673232457	1.485371049
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominiventricola.s__Hominiventricola.sp003480725	Group	PD	-0.57009205	0.132830685	167	47	3.01E-05	0.002505987	0.67357381	1.484618292
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Butyribacter.s__Butyribacter.sp003529475	Group	PD	-0.552118575	0.28945218	167	79	0.058198212	0.289198682	0.68201786	1.466237262
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnospira.s__Lachnospira.pectinoschiza_A	Group	PD	-0.540647701	0.2895753	167	68	0.063670512	0.297363444	0.687462202	1.454625428
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Bariatricus.s__Bariatricus.comes_A	Group	PD	-0.53464076	0.296440217	167	129	0.073128344	0.297363444	0.690330552	1.448581404
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Anaerotignaceae.g__Anaerotignum.s__Anaerotignum.faecicola	Group	PD	-0.524879786	0.180624644	167	55	0.004164765	0.079202355	0.69501702	1.438813684
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Gallintestinimicrobium.s__Gallintestinimicrobium.propionicum	Group	PD	-0.516112905	0.198608483	167	89	0.010206667	0.121313533	0.699253316	1.430096901
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Alitiscatomonas.s__Alitiscatomonas.sp900066535	Group	PD	-0.508389672	0.16256446	167	48	0.002085652	0.054226953	0.703006692	1.422461566
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__UBA1381.f__UBA1381.g__Hominilimicola.s__Hominilimicola.fabiformis	Group	PD	-0.49486653	0.232142534	167	127	0.03450888	0.223571571	0.709627326	1.409190379
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia_B.s__Roseburia_B.zhanii	Group	PD	-0.47414219	0.110276866	167	23	2.92E-05	0.002505987	0.719894704	1.389092036
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.acetigignens	Group	PD	-0.468457835	0.218799883	167	63	0.033739568	0.223571571	0.722736753	1.38362965
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.prausnitzii_I	Group	PD	-0.455358581	0.206700701	167	73	0.028981651	0.200939449	0.729328875	1.371123555
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminococcus_C.s__Ruminococcus_C.sp000433635	Group	PD	-0.455104084	0.239446107	167	18	0.059091077	0.289198682	0.729457543	1.370881704
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Enterocloster.s__Enterocloster.sp900541315	Group	PD	-0.454570057	0.157049735	167	42	0.004312361	0.079202355	0.729727609	1.370374354
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Acetatifactor.s__Acetatifactor.acetigignens	Group	PD	-0.452845415	0.276889203	167	100	0.103855702	0.341482603	0.730600469	1.368737145
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.faecis	Group	PD	-0.451744107	0.32808013	167	122	0.170398492	0.436895833	0.731158399	1.367692693
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.prausnitzii_E	Group	PD	-0.445956228	0.285544125	167	28	0.120256493	0.365674774	0.734097591	1.362216704
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Butyribacter.s__Butyribacter.intestini	Group	PD	-0.444619793	0.162268202	167	27	0.00681976	0.096989068	0.734777934	1.360955404
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia.s__Roseburia.intestinalis	Group	PD	-0.442050613	0.288062341	167	86	0.126805778	0.371487351	0.736087607	1.358533944
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia.s__Blautia.stercoris	Group	PD	-0.439992086	0.245342178	167	38	0.074743449	0.298973795	0.737138652	1.356596886
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.sp900758465	Group	PD	-0.437898209	0.18372002	167	39	0.018284901	0.169406126	0.738209286	1.354629397
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Pararoseburia.s__Pararoseburia.lenta	Group	PD	-0.436210004	0.144557328	167	24	0.002952519	0.06464463	0.739073626	1.353045171
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Ventricola.s__Ventricola.sp900542445	Group	PD	-0.427850919	0.231188488	167	93	0.066006642	0.297363444	0.743368304	1.345228192
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Brotaphodocola.s__Brotaphodocola.sp003478505	Group	PD	-0.426258711	0.085165085	167	28	1.42E-06	0.000591014	0.744189164	1.343744371
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Faecalibacillus.s__Faecalibacillus.intestinalis	Group	PD	-0.415463686	0.249346375	167	98	0.097568662	0.332693143	0.749778475	1.333727272
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_I.s__Eubacterium_I.ramulus	Group	PD	-0.406495575	0.220826629	167	81	0.067448256	0.297363444	0.75445378	1.325462244
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_F.s__Eubacterium_F.sp900539115	Group	PD	-0.402883391	0.221905454	167	35	0.071252963	0.297363444	0.756345129	1.322147735
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.shahii	Group	PD	-0.401328298	0.290398764	167	102	0.168842756	0.436264513	0.75716084	1.320723349
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.duncaniae	Group	PD	-0.390144986	0.342168343	167	118	0.255849727	0.557243384	0.763052916	1.310525101
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Agathobaculum.s__Agathobaculum.butyriciproducens	Group	PD	-0.389844026	0.231029595	167	118	0.093412036	0.323828391	0.763212113	1.310251741
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnospira.s__Lachnospira.hominis	Group	PD	-0.389668923	0.158747809	167	45	0.015140824	0.149966259	0.763304751	1.310092723
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__UBA3402.s__UBA3402.sp003478355	Group	PD	-0.374992433	0.136908623	167	35	0.00684026	0.096989068	0.771109457	1.296832753
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Enterocloster.s__Enterocloster.sp000431375	Group	PD	-0.3676632	0.214810944	167	74	0.088855595	0.318761013	0.775036844	1.290261241
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominifimenecus.s__Hominifimenecus.microfluidus	Group	PD	-0.364284637	0.152889275	167	33	0.018325182	0.169406126	0.776853984	1.287243189
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__CAG.115.s__CAG.115.sp003531585	Group	PD	-0.35846498	0.134432624	167	23	0.008427431	0.106236704	0.779994048	1.282061065
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus.s__Coprococcus.aceti	Group	PD	-0.352702064	0.372559094	167	46	0.345175533	0.630994428	0.783116004	1.276950025
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia.s__Roseburia.inulinivorans	Group	PD	-0.344420389	0.248224975	167	93	0.167150331	0.434590859	0.787624346	1.269640795
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia.s__Roseburia.hominis	Group	PD	-0.344326184	0.254842876	167	120	0.178503134	0.447728873	0.787675778	1.269557892
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900066335	Group	PD	-0.343609476	0.271840216	167	38	0.208008254	0.500181698	0.78806718	1.268927353
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__JAGTTR01.s__JAGTTR01.sp018223385	Group	PD	-0.34182414	0.104902986	167	32	0.001360141	0.037721248	0.789043017	1.267358026
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Alitiscatomonas.s__Alitiscatomonas.sp900066785	Group	PD	-0.335138585	0.131651708	167	27	0.011823659	0.134137828	0.792707986	1.261498582
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__F23.B02.s__F23.B02.sp001916715	Group	PD	-0.327005877	0.327445164	167	41	0.319422481	0.62093342	0.797189229	1.254407314
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnospira.s__Lachnospira.sp000437735	Group	PD	-0.326092118	0.179529899	167	48	0.071129121	0.297363444	0.797694304	1.253613063
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Limivivens.s__Limivivens.sp934393555	Group	PD	-0.322581547	0.146223055	167	42	0.028759198	0.200939449	0.799637731	1.250566301
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.sp900539695	Group	PD	-0.319545052	0.180118139	167	76	0.077893243	0.303693798	0.801322532	1.247936955
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_A.s__Dorea_A.amylophila	Group	PD	-0.317822068	0.258664865	167	78	0.22093307	0.522205438	0.802280108	1.246447457
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Wujia.s__Wujia.chipingensis	Group	PD	-0.280602485	0.268291191	167	30	0.297142592	0.602982041	0.823247149	1.214702051
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Solibaculum.s__Solibaculum.mannosilyticum	Group	PD	-0.278357336	0.08206674	167	19	0.00086899	0.028626647	0.824529299	1.212813179
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Limivivens.s__Limivivens.faecihominis	Group	PD	-0.277555078	0.179320444	167	90	0.123582452	0.369858274	0.824987933	1.212138942
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Brotaphodocola.s__Brotaphodocola.sp003480315	Group	PD	-0.276096218	0.097919475	167	29	0.005397232	0.089809948	0.825822586	1.210913841
+d__Bacteria.p__Pseudomonadota.c__Gammaproteobacteria.o__Burkholderiales.f__Burkholderiaceae.g__Parasutterella.s__Parasutterella.sp900552195	Group	PD	-0.270163873	0.216357716	167	60	0.213546989	0.507918187	0.82922535	1.205944801
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp002404795	Group	PD	-0.258800657	0.217231061	167	50	0.235222707	0.537651903	0.835782434	1.196483629
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Limivivens.s__Limivivens.sp905214955	Group	PD	-0.256995478	0.146072477	167	69	0.080368173	0.306726239	0.836828866	1.194987459
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hominiventricola.s__Hominiventricola.filiformis	Group	PD	-0.254716903	0.150357475	167	54	0.092137703	0.323828391	0.838151587	1.1931016
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Porcipelethomonas.s__Porcipelethomonas.sp900538575	Group	PD	-0.253411791	0.263826254	167	24	0.338196348	0.630626985	0.838910151	1.192022767
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp003474435	Group	PD	-0.253019966	0.138277393	167	19	0.069084573	0.297363444	0.839138024	1.191699067
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Faecalibacterium.s__Faecalibacterium.prausnitzii_D	Group	PD	-0.252567581	0.30423422	167	116	0.407639509	0.681036287	0.839401193	1.191325445
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnospira.s__Lachnospira.eligens	Group	PD	-0.2470918	0.287332914	167	103	0.391064613	0.664011752	0.842593213	1.186812313
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Agathobaculum.s__Agathobaculum.hominis	Group	PD	-0.246784772	0.189281826	167	46	0.194119432	0.472243765	0.842772549	1.186559768
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Acetatifactor.s__Acetatifactor.intestinalis	Group	PD	-0.241034421	0.246821508	167	58	0.330219802	0.627266839	0.846138408	1.181839744
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Senegalimassilia.s__Senegalimassilia.anaerobia	Group	PD	-0.241013184	0.136082311	167	18	0.078392968	0.303693798	0.846150864	1.181822347
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.269.s__CAG.269.sp003525075	Group	PD	-0.228208536	0.15583807	167	33	0.144988653	0.402101865	0.853694307	1.171379487
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_F.s__Eubacterium_F.sp000433735	Group	PD	-0.225402552	0.166886055	167	35	0.178661041	0.447728873	0.855356324	1.169103415
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia_D.s__Roseburia_D.yibonii	Group	PD	-0.222969199	0.149853418	167	27	0.138681854	0.395148297	0.856800247	1.167133184
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp000432135	Group	PD	-0.219171785	0.257394369	167	75	0.395724747	0.66668278	0.859058459	1.164065134
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__HGM13006.s__HGM13006.sp900757695	Group	PD	-0.21318779	0.1418644	167	31	0.134813078	0.388415401	0.862629052	1.159246837
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Faecousia.s__Faecousia.sp000435995	Group	PD	-0.212093514	0.218795929	167	55	0.333780997	0.630626985	0.8632836	1.158367888
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.xylanisolvens	Group	PD	-0.208762387	0.283015074	167	71	0.46178279	0.7194818	0.865279191	1.155696347
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.sp004166885	Group	PD	-0.204609314	0.119361123	167	21	0.088369016	0.318761013	0.867773651	1.152374238
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__CAG.194.s__CAG.194.sp000432915	Group	PD	-0.203502798	0.21314043	167	34	0.341084307	0.630626985	0.86843947	1.151490731
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.sp934330165	Group	PD	-0.19888723	0.262696139	167	54	0.450069766	0.710790621	0.87122229	1.14781269
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Faecousia.s__Faecousia.sp000434635	Group	PD	-0.187679984	0.246901369	167	57	0.448254773	0.710790621	0.878016536	1.138930714
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Oliverpabstia.s__Oliverpabstia.intestinalis	Group	PD	-0.185659261	0.326931516	167	108	0.570885505	0.813316335	0.879247199	1.137336577
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnoclostridium_B.s__Lachnoclostridium_B.ammoniilytica	Group	PD	-0.178398461	0.174357028	167	105	0.307720956	0.614517396	0.883683431	1.131626966
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus_A.s__Coprococcus_A.catus_A	Group	PD	-0.174571457	0.240940381	167	103	0.469759123	0.729178341	0.88603067	1.128629103
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__UMGS1766.s__UMGS1766.sp900554855	Group	PD	-0.171218501	0.107263377	167	21	0.112347859	0.354065981	0.888092281	1.126009111
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Pseudoscilispira.s__Pseudoscilispira.sp018369915	Group	PD	-0.168618999	0.106919196	167	23	0.116694856	0.362276566	0.889693922	1.123982052
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp900552475	Group	PD	-0.168198769	0.127427744	167	24	0.188678667	0.464439795	0.88995311	1.123654705
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__UBA3818.s__UBA3818.sp900557155	Group	PD	-0.167528264	0.148121757	167	52	0.259689062	0.560748554	0.89036682	1.123132598
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Alangreenwoodia.s__Alangreenwoodia.sp905206455	Group	PD	-0.162511718	0.16982834	167	59	0.340008841	0.630626985	0.893468197	1.119234018
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900548245	Group	PD	-0.162377869	0.219181147	167	53	0.459844258	0.71915493	0.893551094	1.119130184
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Dysosmobacter.s__Dysosmobacter.faecalis	Group	PD	-0.162080545	0.147223365	167	42	0.272536713	0.578445269	0.893735264	1.118899567
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__COE1.s__COE1.sp001916965	Group	PD	-0.160683525	0.117047464	167	18	0.171675438	0.436895833	0.894601123	1.117816616
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__CAJJNI01.s__CAJJNI01.sp905193085	Group	PD	-0.150059631	0.092476895	167	18	0.106568738	0.343663526	0.901213212	1.109615335
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.sp902363575	Group	PD	-0.144208124	0.233599897	167	30	0.537868356	0.790647477	0.904875916	1.105123899
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lientehia.s__Lientehia.sp934351765	Group	PD	-0.142393664	0.116329587	167	31	0.222676902	0.522209829	0.906014683	1.103734872
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__CAG.217.s__	Group	PD	-0.141527086	0.304529262	167	48	0.642729977	0.846846241	0.906559059	1.103072095
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Ruminococcus_E.s__Ruminococcus_E.intestinalis	Group	PD	-0.140483293	0.317537473	167	23	0.658768422	0.846846241	0.907215194	1.102274308
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.269.s__CAG.269.sp000431335	Group	PD	-0.139661931	0.150595329	167	21	0.355074085	0.635801998	0.907731841	1.101646935
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.fusiformis	Group	PD	-0.138925857	0.362075529	167	134	0.70169993	0.85352974	0.90819509	1.10108501
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__HGM12998.s__HGM12998.sp900756495	Group	PD	-0.13593066	0.078291517	167	17	0.084392981	0.313946565	0.910082564	1.098801405
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.sp900540775	Group	PD	-0.130036645	0.26220911	167	38	0.620605665	0.846846241	0.913808239	1.094321497
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Muricoprocola.s__Muricoprocola.aceti	Group	PD	-0.128594354	0.110193837	167	20	0.244900935	0.550696156	0.914722248	1.093228029
+d__Bacteria.p__Pseudomonadota.c__Gammaproteobacteria.o__Burkholderiales.f__Burkholderiaceae.g__Parasutterella.s__Parasutterella.gallistercoris	Group	PD	-0.12651878	0.126645687	167	18	0.319258489	0.62093342	0.916039186	1.091656356
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Suilimivivens.s__	Group	PD	-0.120136596	0.111047371	167	17	0.280897766	0.584267354	0.92010053	1.086837761
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__RUG11247.s__RUG11247.sp902767315	Group	PD	-0.119514305	0.106494265	167	30	0.263382146	0.56477821	0.920497491	1.086369066
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Ventricola.s__Ventricola.sp900548125	Group	PD	-0.118097728	0.112300843	167	29	0.294511964	0.600573416	0.921401768	1.085302888
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.272.g__UMGS1696.s__UMGS1696.sp900753285	Group	PD	-0.116460136	0.087306374	167	20	0.184066788	0.455784428	0.922448238	1.084071668
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Excrementavichristensenella.s__Excrementavichristensenella.intestinipullorum	Group	PD	-0.115428455	0.112093684	167	20	0.304634555	0.614517396	0.923108123	1.083296718
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Lachnoclostridium_B.s__Lachnoclostridium_B.acetigenes	Group	PD	-0.111660666	0.127173322	167	22	0.381209824	0.66276995	0.925522093	1.080471236
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anaerobutyricum.s__Anaerobutyricum.hallii	Group	PD	-0.10922083	0.322362204	167	125	0.735180634	0.886146302	0.927088628	1.078645525
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anaerostipes.s__Anaerostipes.amylophilus	Group	PD	-0.108747711	0.259857578	167	44	0.676133338	0.850305816	0.927392709	1.078291851
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp000436615	Group	PD	-0.108706194	0.270802951	167	47	0.688629053	0.85090368	0.927419397	1.078260821
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Fimisoma.s__Fimisoma.avicola	Group	PD	-0.10780367	0.135345425	167	23	0.426881563	0.709272666	0.927999755	1.077586491
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__UBA11524.s__UBA11524.sp000437595	Group	PD	-0.103093469	0.378626583	167	63	0.785745085	0.910501269	0.931034498	1.074074056
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_A.s__Dorea_A.longicatena	Group	PD	-0.102917465	0.373633138	167	106	0.783314735	0.910501269	0.931148088	1.073943031
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__JAGZHZ01.s__JAGZHZ01.sp018366495	Group	PD	-0.102157218	0.134293656	167	21	0.447921828	0.710790621	0.931638898	1.073377252
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.dispar	Group	PD	-0.101372708	0.181538073	167	25	0.577321293	0.817599837	0.932145643	1.072793728
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.excrementigallinarum	Group	PD	-0.097274608	0.126033663	167	28	0.441328297	0.710790621	0.934797248	1.069750689
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.luti	Group	PD	-0.096747111	0.165484957	167	42	0.559596531	0.811122498	0.935139103	1.069359624
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea.s__Dorea.formicigenerans	Group	PD	-0.095802318	0.224768047	167	121	0.670497615	0.850305816	0.935751708	1.068659551
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Evtepia.s__Evtepia.sp004556345	Group	PD	-0.095038667	0.121457564	167	20	0.435051396	0.710790621	0.936247154	1.068094035
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Eubacterium_R.s__Eubacterium_R.sp000434995	Group	PD	-0.092554313	0.179734831	167	26	0.607277647	0.839264623	0.937860782	1.066256335
+d__Bacteria.p__Desulfobacterota.c__Desulfovibrionia.o__Desulfovibrionales.f__Desulfovibrionaceae.g__Mailhella.s__Mailhella.merdigallinarum	Group	PD	-0.089824548	0.087482891	167	23	0.306033057	0.614517396	0.939637015	1.064240748
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS1264.s__UMGS1264.sp904399395	Group	PD	-0.085846499	0.136735621	167	34	0.530984347	0.786083589	0.942231521	1.061310281
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Negativibacillus.s__Negativibacillus.massiliensis	Group	PD	-0.081171423	0.178876822	167	30	0.650580657	0.846846241	0.945289789	1.057876655
+d__Bacteria.p__Cyanobacteriota.c__Vampirovibrionia.o__Gastranaerophilales.f__Gastranaerophilaceae.g__CAG.196.s__CAG.196.sp002102975	Group	PD	-0.077704267	0.130403421	167	22	0.552074586	0.805835186	0.947564289	1.055337366
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Dysosmobacter.s__Dysosmobacter.segnis	Group	PD	-0.076233115	0.286878416	167	90	0.790776439	0.912788403	0.948531036	1.05426176
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Faecivicinus.s__Faecivicinus.sp900553265	Group	PD	-0.074024037	0.104688191	167	27	0.480507598	0.740337633	0.949984555	1.052648693
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.245.s__CAG.245.sp000435175	Group	PD	-0.073488301	0.165735188	167	32	0.658051541	0.846846241	0.950337391	1.052257871
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Roseburia_C.s__Roseburia_C.amylophila	Group	PD	-0.072679929	0.265932349	167	56	0.784962614	0.910501269	0.950870034	1.051668434
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Hominicoprocola.s__Hominicoprocola.sp934835795	Group	PD	-0.072292438	0.251321161	167	100	0.773975919	0.910501269	0.951125461	1.051386006
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__CAG.238.s__CAG.238.sp900542245	Group	PD	-0.072252131	0.125768634	167	32	0.566422394	0.812345107	0.951152035	1.051356632
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruthenibacterium.s__Ruthenibacterium.merdipullorum	Group	PD	-0.071804729	0.133583998	167	21	0.591629272	0.828679385	0.951447047	1.051030641
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.138.g__UBA1685.s__UBA1685.sp002320595	Group	PD	-0.071353305	0.155726446	167	23	0.647414187	0.846846241	0.951744805	1.050701821
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Phocaeicola.s__Phocaeicola.massiliensis	Group	PD	-0.070951528	0.236479226	167	37	0.764529782	0.906109371	0.952009894	1.050409252
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp003516765	Group	PD	-0.070869459	0.127080489	167	36	0.577822962	0.817599837	0.952064051	1.0503495
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Pseudolachnospira.s__Pseudolachnospira.sp022867805	Group	PD	-0.070720357	0.169228984	167	41	0.676565445	0.850305816	0.952162452	1.050240952
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_G.s__Eubacterium_G.sp000434315	Group	PD	-0.069224466	0.173404583	167	43	0.690256298	0.85090368	0.953150235	1.04915255
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp900545585	Group	PD	-0.068740863	0.134236304	167	22	0.609273837	0.839264623	0.953469792	1.048800925
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__QAND01.g__UMGS1975.s__UMGS1975.sp959600905	Group	PD	-0.063909617	0.137216695	167	46	0.64200376	0.846846241	0.95666809	1.045294612
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.272.g__UMGS911.s__UMGS911.sp003343545	Group	PD	-0.055702693	0.125956487	167	25	0.65889641	0.846846241	0.962125707	1.039365223
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Avimicrobium.s__Avimicrobium.caecorum	Group	PD	-0.054322635	0.126680895	167	41	0.668617366	0.850305816	0.9630465	1.038371459
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.382.g__Woodwardibium.s__Woodwardibium.sp900760275	Group	PD	-0.051429018	0.121799773	167	26	0.673397843	0.850305816	0.964980024	1.036290882
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_G.s__Eubacterium_G.segne	Group	PD	-0.048857071	0.122262995	167	36	0.689963259	0.85090368	0.966701864	1.034445093
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Pseudobutyricicoccus.s__Pseudobutyricicoccus.lothianensis	Group	PD	-0.048449217	0.10770268	167	19	0.653414598	0.846846241	0.966975192	1.034152694
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Clostridiales.f__Clostridiaceae.g__Clostridium.s__Clostridium.sp000435835	Group	PD	-0.048288715	0.118574426	167	31	0.68435668	0.85090368	0.967082776	1.034037649
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Porcipelethomonas.s__Porcipelethomonas.ammoniilytica	Group	PD	-0.04744563	0.217387711	167	31	0.827501298	0.92495268	0.967648087	1.033433553
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__CAG.274.g__CAG.274.s__CAG.274.sp900545305	Group	PD	-0.047279658	0.106468959	167	18	0.657573901	0.846846241	0.967759414	1.03331467
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.272.g__Flemingibacterium.s__Flemingibacterium.sp900546315	Group	PD	-0.042525521	0.094929988	167	17	0.654764495	0.846846241	0.970953748	1.029915176
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.103.s__CAG.103.sp900317855	Group	PD	-0.040175736	0.330934901	167	39	0.903521363	0.968723935	0.972536475	1.02823907
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.zhangwenhongii	Group	PD	-0.039411504	0.149284447	167	26	0.792107244	0.912788403	0.973051788	1.02769453
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Tannerellaceae.g__Parabacteroides.s__Parabacteroides.johnsonii	Group	PD	-0.037634734	0.134433081	167	18	0.779865415	0.910501269	0.974250901	1.026429638
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Fimadaptatus.s__Fimadaptatus.sp900553645	Group	PD	-0.033234621	0.128816156	167	26	0.796728106	0.91557705	0.97722683	1.023303873
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Pseudobutyricicoccus.s__Pseudobutyricicoccus.sp003477405	Group	PD	-0.033150255	0.098559129	167	17	0.737035145	0.886146302	0.977283978	1.023244034
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Marinifilaceae.g__Odoribacter.s__Odoribacter.laneus	Group	PD	-0.032172425	0.206115878	167	28	0.876153662	0.954765965	0.977946586	1.022550734
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Hominicoprocola.s__Hominicoprocola.sp003522105	Group	PD	-0.031169441	0.142533108	167	17	0.827167936	0.92495268	0.978626706	1.021840088
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.138.g__Phil1.s__Phil1.sp001940855	Group	PD	-0.029689412	0.181152715	167	22	0.870017049	0.954765965	0.979631173	1.020792343
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Muricoprocola.s__Muricoprocola.shaoxingensis	Group	PD	-0.027962007	0.135074157	167	20	0.83625553	0.930166579	0.980804833	1.019570833
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__UMGS1783.g__UMGS1783.s__UMGS1783.sp900555065	Group	PD	-0.027134698	0.099404439	167	23	0.785215545	0.910501269	0.981367434	1.01898633
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.269.s__CAG.269.sp000437215	Group	PD	-0.026371482	0.109931633	167	17	0.810713416	0.917188779	0.981886735	1.018447408
+d__Bacteria.p__Verrucomicrobiota.c__Verrucomicrobiae.o__Verrucomicrobiales.f__Akkermansiaceae.g__Akkermansia.s__Akkermansia.biwaensis	Group	PD	-0.024645643	0.305113991	167	24	0.935718624	0.976262318	0.98306203	1.017229808
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Tidjanibacter.s__Tidjanibacter.inops	Group	PD	-0.022262446	0.211259539	167	25	0.916202598	0.972296635	0.984687298	1.015550827
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Acutalibacter.s__Acutalibacter.stercoravium	Group	PD	-0.021869752	0.152690507	167	17	0.886283866	0.954765965	0.984955362	1.015274437
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Fimenecus.s__Fimenecus.sp000432435	Group	PD	-0.020123042	0.280827431	167	36	0.942962253	0.976262318	0.986148596	1.01404596
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.thetaiotaomicron	Group	PD	-0.017190683	0.245954786	167	106	0.944362927	0.976262318	0.988155037	1.011986948
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.382.g__Woodwardibium.s__Woodwardibium.gallinarum	Group	PD	-0.01391252	0.127293957	167	27	0.913101772	0.972296635	0.990402925	1.009690072
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp934394595	Group	PD	-0.01348537	0.15804473	167	61	0.932105438	0.976262318	0.990696204	1.009391169
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Alectryocaccomicrobium.s__Alectryocaccomicrobium.faecavium	Group	PD	-0.012741615	0.159457792	167	29	0.936408949	0.976262318	0.991207071	1.00887093
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Agathobacter.s__Agathobacter.sp000434275	Group	PD	-0.01014967	0.145582778	167	20	0.94450292	0.976262318	0.992989474	1.00706002
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS1071.s__UMGS1071.sp934476545	Group	PD	-0.009457219	0.100077791	167	19	0.924827696	0.973995751	0.993466194	1.006576777
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Schaedlerella.s__Schaedlerella.hominis	Group	PD	-0.006712848	0.099011953	167	20	0.946028236	0.976262318	0.995357817	1.004663834
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Fimadaptatus.s__Fimadaptatus.faecigallinarum	Group	PD	-0.005474715	0.108710443	167	17	0.959896004	0.983538763	0.996212408	1.003801993
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.coprocola	Group	PD	-0.001963969	0.217901859	167	68	0.992819582	0.997645537	0.998639607	1.001362247
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Paraprevotella.s__Paraprevotella.clara	Group	PD	-0.001780474	0.144111036	167	23	0.990157412	0.997645537	0.998766631	1.001234892
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Anaeromassilibacillus.s__Anaeromassilibacillus.sp001305115	Group	PD	-0.001576762	0.096582998	167	17	0.98699447	0.997645537	0.998907669	1.001093526
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Coprobacteraceae.g__Coprobacter.s__Coprobacter.fastidiosus	Group	PD	0.000388856	0.13157653	167	23	0.997645537	0.997645537	1.000269571	0.999730502
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.salyersiae	Group	PD	0.000579364	0.136195971	167	23	0.996611027	0.997645537	1.000401665	0.999598496
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Emergencia.s__Emergencia.sp904420065	Group	PD	0.00089673	0.094320478	167	18	0.992425894	0.997645537	1.000621759	0.999378627
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.cellulosilyticus	Group	PD	0.001510211	0.347445115	167	80	0.996537162	0.997645537	1.001047347	0.998953749
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus_A.s__Coprococcus_A.catus	Group	PD	0.004825657	0.227002496	167	58	0.983065401	0.997645537	1.003350491	0.996660697
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Negativibacillus.s__Negativibacillus.sp000435195	Group	PD	0.008893574	0.21159896	167	56	0.966525336	0.985476814	1.006183596	0.993854406
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminococcus_C.s__Ruminococcus_C.callidus	Group	PD	0.008944347	0.195494409	167	23	0.963562888	0.984870176	1.006219007	0.99381943
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Brotaphodocola.s__	Group	PD	0.00967192	0.148362988	167	25	0.948100905	0.976262318	1.006726587	0.993318358
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Butyricicoccus_A.s__Butyricicoccus_A.intestinisimiae	Group	PD	0.012079153	0.126105999	167	18	0.923807002	0.973995751	1.008407779	0.991662322
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Evtepia.s__Evtepia.excrementipullorum	Group	PD	0.014115779	0.238431671	167	37	0.952862366	0.978742578	1.009832335	0.990263398
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Choladousia.s__Choladousia.sp902363135	Group	PD	0.014986269	0.19857578	167	107	0.939933172	0.976262318	1.010441829	0.989666076
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900551715	Group	PD	0.015174217	0.105007367	167	24	0.885277109	0.954765965	1.010573474	0.989537155
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Gordonibacter.s__Gordonibacter.urolithinfaciens	Group	PD	0.017479474	0.123203491	167	27	0.887351958	0.954765965	1.012189542	0.987957253
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__V9D3004.s__V9D3004.sp900760345	Group	PD	0.019111889	0.198477596	167	37	0.923405184	0.973995751	1.013335487	0.986840008
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp900545925	Group	PD	0.01938328	0.137675346	167	31	0.888207761	0.954765965	1.013526127	0.986654387
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Frisingicoccus.s__Frisingicoccus.sp900549105	Group	PD	0.0198561	0.139523203	167	21	0.887005646	0.954765965	1.013858349	0.98633108
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes_A.s__Alistipes_A.hominis	Group	PD	0.023535594	0.154784416	167	43	0.879330088	0.954765965	1.016447424	0.983818716
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.gordonii	Group	PD	0.026092197	0.111991143	167	18	0.816062236	0.917534034	1.01825027	0.982076833
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.170.s__CAG.170.sp900553545	Group	PD	0.028734543	0.115077969	167	25	0.803132809	0.917188779	1.02011694	0.980279771
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Scatomorpha.s__Scatomorpha.merdavium	Group	PD	0.029400637	0.122655857	167	19	0.810860169	0.917188779	1.020588038	0.979827279
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Onthomonas.s__Onthomonas.sp900545815	Group	PD	0.032418649	0.150166781	167	30	0.829344591	0.92495268	1.022725267	0.977779695
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Enterocloster.s__Enterocloster.sp001517625	Group	PD	0.036007968	0.198830527	167	26	0.856512295	0.945117015	1.0252729	0.975350075
+d__Bacteria.p__Bacillota_C.c__Negativicutes.o__Acidaminococcales.f__Acidaminococcaceae.g__Phascolarctobacterium.s__Phascolarctobacterium.faecium	Group	PD	0.036240599	0.337923022	167	75	0.914724801	0.972296635	1.025438236	0.975192815
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp934424005	Group	PD	0.039508931	0.349374711	167	135	0.910100882	0.972296635	1.027763934	0.972986079
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.schinkii_B	Group	PD	0.041203337	0.171451449	167	24	0.810379952	0.917188779	1.028971723	0.971844004
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Fimivicinus.s__Fimivicinus.sp900544375	Group	PD	0.041439287	0.226203405	167	27	0.854870092	0.945117015	1.029140024	0.971685074
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__CAKTXU01.s__CAKTXU01.sp934615635	Group	PD	0.043081535	0.09457373	167	24	0.649324121	0.846846241	1.030312181	0.970579615
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.138.g__PeH17.s__PeH17.sp000435055	Group	PD	0.044085074	0.30619707	167	59	0.885695002	0.954765965	1.031029116	0.969904715
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_D.s__Dorea_D.sp000433535	Group	PD	0.04518765	0.227462799	167	45	0.842773664	0.934916918	1.031817378	0.969163751
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Limiplasma.s__Limiplasma.sp900548145	Group	PD	0.045918303	0.125980775	167	19	0.715961382	0.868338003	1.032340074	0.968673042
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.senegalensis	Group	PD	0.048347627	0.142597019	167	32	0.735002611	0.886146302	1.034079875	0.967043286
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__CAG.272.g__UMGS911.s__UMGS911.sp900545935	Group	PD	0.050468386	0.112110331	167	17	0.653180834	0.846846241	1.035601088	0.965622779
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Tannerellaceae.g__Parabacteroides.s__Parabacteroides.segnis	Group	PD	0.052871301	0.137773316	167	27	0.701653538	0.85352974	1.037327395	0.964015801
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Lawsonibacter.s__Lawsonibacter.aceti	Group	PD	0.052934947	0.096190905	167	21	0.582850068	0.819501355	1.037373159	0.963973274
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Marinifilaceae.g__Odoribacter.s__Odoribacter.splanchnicus	Group	PD	0.054251023	0.219304194	167	106	0.804923286	0.917188779	1.038319918	0.963094305
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__UMGS973.s__UMGS973.sp900547295	Group	PD	0.054393694	0.125446697	167	27	0.665145256	0.850305816	1.038422605	0.962999067
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Phocaeicola.s__Phocaeicola.vulgatus	Group	PD	0.05512082	0.361361106	167	127	0.878950037	0.954765965	1.038946107	0.962513833
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter_A.s__Mediterraneibacter_A.butyricigenes	Group	PD	0.055513286	0.140345786	167	51	0.692950549	0.85090368	1.039228777	0.96225203
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_G.s__Eubacterium_G.sp000435815	Group	PD	0.056845963	0.132082879	167	27	0.66748013	0.850305816	1.040189199	0.961363568
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Thomasclavelia.s__Thomasclavelia.ramosa	Group	PD	0.05700651	0.129174283	167	18	0.659562938	0.846846241	1.040304961	0.961256591
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__UMGS124.g__JAHZGC01.s__JAHZGC01.sp019421015	Group	PD	0.06114969	0.122867674	167	34	0.619367033	0.846846241	1.043296837	0.958499982
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.eggerthii	Group	PD	0.061960291	0.265961914	167	31	0.816075944	0.917534034	1.043883195	0.957961585
+d__Bacteria.p__Bacillota_B.c__Dehalobacteriia.o__UBA4068.f__UBA4068.g__HGM13862.s__HGM13862.sp944393575	Group	PD	0.062911657	0.091256211	167	18	0.491542531	0.754544992	1.044571797	0.957330078
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Eubacterium_R.s__Eubacterium_R.sp000436835	Group	PD	0.063900192	0.194115519	167	19	0.742432263	0.887624773	1.045287783	0.95667434
+d__Bacteria.p__Bacillota_B.c__Dehalobacteriia.o__UBA7702.f__UBA7702.g__Cryptoclostridium.s__Cryptoclostridium.obscurum	Group	PD	0.064165177	0.111973078	167	17	0.567396972	0.812345107	1.045479792	0.95649864
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__ML615J.28.f__CAG.313.g__CAG.313.s__CAG.313.sp000433035	Group	PD	0.06554091	0.161735893	167	19	0.685830315	0.85090368	1.046477222	0.955586972
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Pseudoflavonifractor.s__Pseudoflavonifractor.faecis	Group	PD	0.065758365	0.07792374	167	19	0.399957693	0.670896775	1.046634968	0.955442949
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Lawsonibacter.s__Lawsonibacter.asaccharolyticus	Group	PD	0.065995643	0.200561822	167	105	0.742532262	0.887624773	1.046807121	0.955285821
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.sp900557355	Group	PD	0.068873458	0.25047659	167	27	0.783683569	0.910501269	1.048897322	0.953382165
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Hominicoprocola.s__Hominicoprocola.sp900317525	Group	PD	0.071280307	0.234659741	167	78	0.76169324	0.905326823	1.050648659	0.951792963
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Egerieenecus.s__Egerieenecus.sp900553315	Group	PD	0.072932519	0.111259484	167	25	0.513047673	0.773289246	1.051852578	0.950703569
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Marinifilaceae.g__Butyricimonas.s__Butyricimonas.paravirosa	Group	PD	0.075280076	0.153833726	167	46	0.625236744	0.846846241	1.053565549	0.949157839
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__UBA1750.g__Spyradocola.s__Spyradocola.merdavium	Group	PD	0.077436477	0.164409708	167	51	0.638264983	0.846846241	1.055141494	0.94774019
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.faecis	Group	PD	0.08014005	0.174898015	167	26	0.64740435	0.846846241	1.057120656	0.945965812
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Marinifilaceae.g__Butyricimonas.s__Butyricimonas.sp019423345	Group	PD	0.081384615	0.122895177	167	28	0.508749058	0.769598575	1.058032992	0.945150111
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Ventrisoma.s__Ventrisoma.faecale	Group	PD	0.082794662	0.138759224	167	20	0.551539766	0.805835186	1.059067587	0.944226801
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Onthomonas.s__Onthomonas.sp003150485	Group	PD	0.083892087	0.183269563	167	35	0.647732531	0.846846241	1.059873502	0.943508822
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.excrementipullorum	Group	PD	0.086130631	0.135684114	167	26	0.526445997	0.782148339	1.061519321	0.942045971
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Massilistercora.s__Massilistercora.timonensis	Group	PD	0.089554288	0.184370799	167	30	0.62780354	0.846846241	1.064041402	0.939813054
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Faecaligallichristensenella.s__Faecaligallichristensenella.faecipullorum	Group	PD	0.094124832	0.084274941	167	18	0.265670201	0.566763096	1.067417694	0.936840381
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Intestinimonas.s__Intestinimonas.massiliensis	Group	PD	0.096145703	0.15083997	167	39	0.524746474	0.782148339	1.068913939	0.935529011
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Faecousia.s__Faecousia.sp958436045	Group	PD	0.097744503	0.144657408	167	47	0.500179269	0.762177934	1.07009917	0.934492828
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Phocaeicola.s__Phocaeicola.dorei	Group	PD	0.098241657	0.410957719	167	88	0.811359304	0.917188779	1.070467991	0.934170857
+d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Actinomycetaceae.g__Pauljensenia.s__Pauljensenia.sp905370305	Group	PD	0.102695025	0.089547708	167	22	0.253116667	0.557243384	1.073777459	0.931291667
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Butyribacter.s__Butyribacter.sp000436755	Group	PD	0.102847646	0.119204505	167	21	0.389508971	0.664011752	1.073891059	0.931193152
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Anaerotruncus.s__Anaerotruncus.rubiinfantis	Group	PD	0.10307576	0.105063928	167	24	0.327991305	0.626143149	1.074060872	0.931045927
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Massilistercora.s__Massilistercora.sp902406105	Group	PD	0.104282495	0.105722072	167	21	0.325389229	0.626143149	1.074959641	0.930267484
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.putredinis	Group	PD	0.105650254	0.384009786	167	124	0.783565293	0.910501269	1.075979248	0.929385954
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__UMGS416.g__Parachristensenella.s__Parachristensenella.sp900542005	Group	PD	0.107815332	0.09433024	167	20	0.254712458	0.557243384	1.077595202	0.927992254
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Clostridiales.f__Clostridiaceae.g__Clostridium.s__Clostridium.saudiense	Group	PD	0.109305591	0.191168148	167	41	0.568251024	0.812345107	1.078708899	0.927034162
+d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.dentium	Group	PD	0.109337239	0.138779903	167	21	0.431916928	0.710187518	1.078732563	0.927013826
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminiclostridium_E.s__Ruminiclostridium_E.siraeum	Group	PD	0.110743526	0.352264865	167	85	0.753632836	0.898313066	1.079784585	0.926110647
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Fimisoma.s__Fimisoma.sp000435715	Group	PD	0.111325529	0.173556129	167	29	0.522128046	0.78131391	1.080220273	0.925737116
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__HGM13006.s__HGM13006.sp900756575	Group	PD	0.113526311	0.118042071	167	31	0.337585259	0.630626985	1.081869369	0.924326012
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Alitiscatomonas.s__Alitiscatomonas.aceti	Group	PD	0.113857509	0.213728097	167	93	0.594943233	0.830524782	1.082117761	0.92411384
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Anaerotardibacter.s__Anaerotardibacter.sp000436075	Group	PD	0.11682644	0.227525568	167	41	0.608312874	0.839264623	1.084346951	0.922214056
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__UBA644.g__UBA644.s__UBA644.sp900547165	Group	PD	0.117347363	0.115991413	167	21	0.313167519	0.614517396	1.084738554	0.921881126
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Merdibacter.s__Merdibacter.merdipullorum	Group	PD	0.117853483	0.124658983	167	22	0.345833484	0.630994428	1.085119164	0.921557773
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.103.s__CAG.103.sp905215475	Group	PD	0.118286835	0.299513499	167	60	0.693404682	0.85090368	1.085445157	0.921281
+d__Bacteria.p__Bacillota_G.c__DTU025.o__DTUO25.f__HGM14224.g__HGM14224.s__HGM14224.sp900761905	Group	PD	0.118337183	0.096837897	167	23	0.223445552	0.522209829	1.085483039	0.921248849
+d__Bacteria.p__Synergistota.c__Synergistia.o__Synergistales.f__Synergistaceae.g__Cloacibacillus.s__Cloacibacillus.evryensis	Group	PD	0.121446768	0.1568606	167	19	0.439900555	0.710790621	1.087825212	0.919265328
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.intestinalis	Group	PD	0.124169977	0.266577274	167	100	0.641977543	0.846846241	1.089880513	0.917531773
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Acutalibacter.s__Acutalibacter.sp900548545	Group	PD	0.124521557	0.125907876	167	33	0.324116391	0.626143149	1.090146146	0.917308201
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.stercorigallinarum	Group	PD	0.125886769	0.144254828	167	36	0.384111488	0.663030619	1.091178232	0.916440569
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.faecis	Group	PD	0.126302375	0.264601269	167	152	0.633758134	0.846846241	1.091492619	0.916176603
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Bianqueaceae.g__Faecimorpha.s__Faecimorpha.sp937892735	Group	PD	0.129616399	0.091371277	167	18	0.157910973	0.423812677	1.094002776	0.914074463
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Negativibacillus.s__Negativibacillus.faecipullorum	Group	PD	0.130946892	0.111794861	167	22	0.243161259	0.549919818	1.095012161	0.913231867
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.clarus	Group	PD	0.132816259	0.187005976	167	25	0.478567407	0.740089374	1.096431939	0.912049316
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminococcus_C.s__Ruminococcus_C.sp000980705	Group	PD	0.13288651	0.17403386	167	18	0.44621575	0.710790621	1.09648533	0.912004906
+d__Bacteria.p__Pseudomonadota.c__Gammaproteobacteria.o__Burkholderiales.f__Burkholderiaceae.g__Sutterella.s__Sutterella.wadsworthensis_A	Group	PD	0.133256245	0.126018116	167	20	0.291857784	0.598092799	1.096766374	0.911771206
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Scatomonas.s__Scatomonas.hejianensis	Group	PD	0.134602668	0.127025764	167	36	0.290853225	0.598092799	1.09779043	0.910920675
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Monoglobales.f__Monoglobaceae.g__Monoglobus.s__Monoglobus.pectinilyticus	Group	PD	0.136379398	0.247991283	167	68	0.583106733	0.819501355	1.099143231	0.909799535
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Pseudoruminococcus.s__Pseudoruminococcus.massiliensis	Group	PD	0.136710133	0.266686895	167	26	0.608899845	0.839264623	1.099395236	0.909590989
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_I.s__Eubacterium_I.ramulus_A	Group	PD	0.136862381	0.147895653	167	26	0.356110254	0.635801998	1.099511262	0.909495005
+d__Bacteria.p__Desulfobacterota.c__Desulfovibrionia.o__Desulfovibrionales.f__Desulfovibrionaceae.g__Desulfovibrio.s__Desulfovibrio.sp018379785	Group	PD	0.137721223	0.173307517	167	26	0.427950575	0.709272666	1.100166	0.90895374
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.273.s__CAG.273.sp003534295	Group	PD	0.138454195	0.203017511	167	21	0.496206825	0.758904555	1.100725089	0.908492056
+d__Bacteria.p__Bacillota.c__Bacilli.o__MOL361.f__Turicibacteraceae.g__Turicibacter.s__Turicibacter.bilis	Group	PD	0.139006403	0.16058098	167	39	0.387940815	0.664011752	1.101146485	0.908144387
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Faecivicinus.s__Faecivicinus.avistercoris	Group	PD	0.139479769	0.153263282	167	35	0.364114979	0.639647534	1.101507844	0.907846463
+d__Bacteria.p__Pseudomonadota.c__Alphaproteobacteria.o__RF32.f__CAG.239.g__Scatacola_A.s__Scatacola_A.faecigallinarum	Group	PD	0.140050926	0.226296355	167	33	0.536847054	0.790647477	1.101944013	0.907487121
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Hominenteromicrobium.s__Hominenteromicrobium.mulieris	Group	PD	0.141357893	0.346649501	167	126	0.683961361	0.85090368	1.102942739	0.906665382
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Agathobaculum.s__Agathobaculum.ammoniilyticum	Group	PD	0.14443796	0.100330717	167	23	0.15186987	0.415643855	1.105299971	0.904731771
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS856.s__UMGS856.sp900546265	Group	PD	0.146590931	0.106922866	167	20	0.17223778	0.436895833	1.10695067	0.903382623
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Clostridiales.f__Clostridiaceae.g__Clostridium.s__Clostridium.sp900540255	Group	PD	0.148346596	0.15124929	167	27	0.328123092	0.626143149	1.108298576	0.902283935
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_D.s__Dorea_D.hominis	Group	PD	0.15008368	0.148224018	167	54	0.312759426	0.614517396	1.109633832	0.901198189
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Anaerotruncus.s__Anaerotruncus.massiliensis	Group	PD	0.150294532	0.140285923	167	26	0.285579177	0.591049441	1.109796018	0.901066487
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Scatomorpha.s__Scatomorpha.sp900545405	Group	PD	0.150799277	0.232315218	167	34	0.517166594	0.776683405	1.110184362	0.900751293
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.314.g__CAG.314.s__CAG.314.sp000437915	Group	PD	0.151535027	0.163195227	167	37	0.354478402	0.635801998	1.110750682	0.900292042
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__QAMH01.g__QAMH01.s__QAMH01.sp900544245	Group	PD	0.153009982	0.230368734	167	43	0.507491997	0.769598575	1.111886851	0.899372089
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.273.s__CAG.273.sp000438355	Group	PD	0.155222338	0.206259377	167	47	0.452787295	0.710790621	1.113593224	0.89799397
+d__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A.smithii	Group	PD	0.156339242	0.401167883	167	61	0.697253367	0.853110002	1.114455678	0.897299031
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Harryflintia.s__Harryflintia.acetispora	Group	PD	0.159212247	0.093030092	167	23	0.088885282	0.318761013	1.116677234	0.895513914
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Lentihominibacter.s__Lentihominibacter.butyrica	Group	PD	0.162657201	0.098727145	167	22	0.101349568	0.341482603	1.119346889	0.893378103
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Angelakisella.s__Angelakisella.sp900547385	Group	PD	0.165550315	0.172083881	167	44	0.33744092	0.630626985	1.121593828	0.891588359
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.hydrogenotrophica	Group	PD	0.166302948	0.180855051	167	33	0.359156991	0.638501317	1.122179099	0.891123351
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Scatomorpha.s__Scatomorpha.intestinigallinarum	Group	PD	0.171871587	0.196226785	167	30	0.382367279	0.66276995	1.126518954	0.887690346
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Lawsonibacter_A.s__Lawsonibacter_A.hominis	Group	PD	0.172279658	0.141416324	167	42	0.224870164	0.522603287	1.126837638	0.887439296
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Muricomes.s__Muricomes.sp000509105	Group	PD	0.174403816	0.089895229	167	17	0.054075158	0.287876985	1.128497964	0.886133632
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Ventricola.s__Ventricola.sp900542395	Group	PD	0.174600035	0.228442032	167	49	0.445775456	0.710790621	1.12865146	0.886013119
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__UBA4285.s__UBA4285.sp900545225	Group	PD	0.179650963	0.136884943	167	25	0.19120012	0.46787794	1.132609835	0.882916578
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Clostridiales.f__Clostridiaceae.g__Clostridium.s__Clostridium.lentum	Group	PD	0.180040652	0.109883708	167	17	0.103230129	0.341482603	1.132915808	0.882678124
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__UBA738.s__UBA738.sp003522945	Group	PD	0.18432273	0.181067109	167	45	0.310177695	0.614517396	1.136283422	0.880062122
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Otoolea.s__Otoolea.symbiosa	Group	PD	0.185860669	0.110090545	167	21	0.09325185	0.323828391	1.137495367	0.87912446
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp000435975	Group	PD	0.188567362	0.212555441	167	31	0.37629245	0.657721256	1.139631467	0.877476649
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus.s__Coprococcus.ammoniilyticus	Group	PD	0.188969083	0.239271462	167	17	0.430796426	0.710187518	1.139948843	0.877232348
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Allocoprobacillus.s__Allocoprobacillus.merdigallinarum	Group	PD	0.189924935	0.090684546	167	18	0.037757072	0.235563526	1.140704362	0.876651333
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Lawsonibacter.s__Lawsonibacter.sp900066825	Group	PD	0.190700206	0.11673656	167	17	0.104250699	0.341482603	1.141317515	0.876180368
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__QAND01.g__QAND01.s__QAND01.sp003150225	Group	PD	0.191387607	0.132703397	167	34	0.151135542	0.415643855	1.141861448	0.875762993
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Coprobacillus.s__Coprobacillus.cateniformis	Group	PD	0.198091478	0.114142652	167	21	0.084524075	0.313946565	1.147179762	0.871702965
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.stercoris	Group	PD	0.198875067	0.338082841	167	56	0.557173107	0.81043361	1.147803013	0.871229635
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.sp900540595	Group	PD	0.199837429	0.26129997	167	36	0.445493982	0.710790621	1.14856892	0.870648667
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Anaerobutyricum.s__Anaerobutyricum.soehngenii	Group	PD	0.200776607	0.346445188	167	114	0.563019649	0.812345107	1.149316869	0.870082069
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Holdemanella.s__Holdemanella.porci	Group	PD	0.201109128	0.18380258	167	19	0.275480254	0.578897889	1.149581801	0.869881551
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Emergencia.s__Emergencia.timonensis	Group	PD	0.202958067	0.106501121	167	19	0.058429409	0.289198682	1.151056035	0.868767436
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Holdemania.s__Holdemania.filiformis	Group	PD	0.203767011	0.102994406	167	23	0.049545032	0.27480978	1.151701633	0.86828044
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Choladousia.s__Choladousia.sp902363665	Group	PD	0.205397842	0.224968713	167	76	0.362571372	0.639647534	1.153004259	0.867299485
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Enterenecus.s__Enterenecus.sp900549885	Group	PD	0.208030405	0.148917953	167	42	0.164305623	0.429881377	1.155110128	0.86571832
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eisenbergiella.s__Eisenbergiella.tayi	Group	PD	0.209055054	0.20632019	167	47	0.312421693	0.614517396	1.155930817	0.865103677
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Anaerotruncus.s__Anaerotruncus.colihominis	Group	PD	0.209553595	0.113152426	167	27	0.065818636	0.297363444	1.156330332	0.864804782
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruthenibacterium.s__	Group	PD	0.212459213	0.117647967	167	20	0.072758282	0.297363444	1.158661552	0.863064799
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Egerieenecus.s__Egerieenecus.merdigallinarum	Group	PD	0.214760261	0.190068846	167	50	0.260154978	0.560748554	1.160511051	0.861689339
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__CAJFUR01.s__CAJFUR01.sp904420575	Group	PD	0.21941591	0.156249968	167	53	0.162120348	0.426848511	1.164262127	0.858913106
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900066205	Group	PD	0.221860987	0.294004568	167	48	0.451554218	0.710790621	1.16623699	0.857458654
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Peptostreptococcaceae.g__Terrisporobacter.s__Terrisporobacter.sp900557165	Group	PD	0.222315178	0.156344017	167	36	0.156924941	0.423812677	1.166604204	0.857188751
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eisenbergiella.s__Eisenbergiella.porci	Group	PD	0.227430853	0.147542629	167	27	0.125120865	0.369970274	1.170748227	0.854154614
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Intestinimonas.s__Intestinimonas.butyriciproducens	Group	PD	0.231012595	0.119157242	167	30	0.054241782	0.287876985	1.173658424	0.852036657
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Schaedlerella.s__Schaedlerella.glycyrrhizinilytica_A	Group	PD	0.234256102	0.174105862	167	49	0.180316086	0.449170609	1.176300044	0.850123236
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Avimonas_A.s__Avimonas_A.narfia	Group	PD	0.237541038	0.111695426	167	23	0.034933058	0.223571571	1.178981465	0.848189755
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UBA737.s__UBA737.sp900549055	Group	PD	0.239569946	0.104675298	167	18	0.023365283	0.183395432	1.180640671	0.846997757
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__Merdicola.s__Merdicola.sp018371855	Group	PD	0.241942358	0.211566984	167	20	0.254457051	0.557243384	1.18258375	0.845606072
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.communis	Group	PD	0.24359619	0.257469237	167	97	0.345472056	0.630994428	1.183940181	0.844637268
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Thomasclavelia.s__Thomasclavelia.spiroformis	Group	PD	0.243749342	0.137778122	167	30	0.078717271	0.303693798	1.184065871	0.844547609
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Scatomonas.s__Scatomonas.merdavium	Group	PD	0.248108287	0.133262622	167	24	0.064409903	0.297363444	1.187648806	0.841999752
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Peptostreptococcaceae.g__Intestinibacter.s__Intestinibacter.sp900540355	Group	PD	0.252697737	0.15105975	167	27	0.096255155	0.330926815	1.191432928	0.839325468
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Coprobacillaceae.g__Faecalibacillus.s__Faecalibacillus.faecis	Group	PD	0.256179315	0.161522794	167	35	0.114648065	0.358598457	1.194311621	0.837302411
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.sp900120195	Group	PD	0.259385703	0.184667301	167	40	0.162016714	0.426848511	1.196968929	0.835443574
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS1071.s__UMGS1071.sp900542375	Group	PD	0.263362094	0.203879215	167	77	0.198248306	0.479484275	1.200272594	0.833144075
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Hominenteromicrobium.s__Hominenteromicrobium.sp900549945	Group	PD	0.264846566	0.149767034	167	18	0.078843582	0.303693798	1.20150826	0.832287246
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Faecousia.s__Faecousia.sp003525905	Group	PD	0.264854846	0.291210325	167	98	0.364414581	0.639647534	1.201515155	0.832282469
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Hungatella.s__Hungatella.effluvii	Group	PD	0.265074019	0.144650528	167	20	0.068677569	0.297363444	1.201697702	0.832156039
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Lentihominibacter.s__Lentihominibacter.excrementipullorum	Group	PD	0.267476343	0.127841959	167	38	0.037947515	0.235563526	1.203700393	0.830771516
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Anaerotardibacter.s__Anaerotardibacter.sp000435675	Group	PD	0.268303647	0.289751029	167	64	0.355808772	0.635801998	1.204390845	0.830295252
+d__Bacteria.p__Desulfobacterota.c__Desulfovibrionia.o__Desulfovibrionales.f__Desulfovibrionaceae.g__Bilophila.s__Bilophila.wadsworthia	Group	PD	0.27104608	0.225458723	167	104	0.231009207	0.530938287	1.206682461	0.828718435
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Frisingicoccus.s__Frisingicoccus.sp900757195	Group	PD	0.272112609	0.139460921	167	17	0.05272988	0.287876985	1.207574845	0.828106021
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__AF33.28.s__AF33.28.sp003477885	Group	PD	0.27374325	0.115485905	167	24	0.018925417	0.171015221	1.208940507	0.827170563
+d__Bacteria.p__Verrucomicrobiota.c__Verrucomicrobiae.o__Verrucomicrobiales.f__Akkermansiaceae.g__Akkermansia.s__Akkermansia.muciniphila_F	Group	PD	0.280385742	0.329366309	167	26	0.395842901	0.66668278	1.214519574	0.823370838
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Acutalibacter.s__Acutalibacter.timonensis	Group	PD	0.282489405	0.258960166	167	72	0.276924711	0.578897889	1.216291816	0.822171117
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Limiplasma.s__Limiplasma.merdipullorum	Group	PD	0.282797846	0.258573638	167	67	0.275687704	0.578897889	1.21655188	0.821995359
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.caccae	Group	PD	0.286848242	0.308745922	167	92	0.354207195	0.635801998	1.219972174	0.819690827
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.ammoniilytica	Group	PD	0.287113344	0.178355976	167	72	0.109358068	0.349945819	1.22019637	0.819540219
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS1623.s__UMGS1623.sp934647945	Group	PD	0.288885575	0.150256185	167	46	0.056250287	0.287876985	1.221696201	0.8185341
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__UMGS1766.s__UMGS1766.sp959602365	Group	PD	0.292426026	0.107554676	167	23	0.0072515	0.097310452	1.224697991	0.816527836
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.sp900541505	Group	PD	0.294493016	0.132068399	167	24	0.027106597	0.197830605	1.226453908	0.815358811
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes_A.s__Alistipes_A.indistinctus	Group	PD	0.296346881	0.193866828	167	61	0.128275809	0.373165989	1.228030916	0.814311747
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Faecalimonas.s__Faecalimonas.sp029983955	Group	PD	0.305422277	0.198285274	167	30	0.125398578	0.369970274	1.235780297	0.809205327
+d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.animalis_B	Group	PD	0.308175376	0.263142911	167	31	0.243233766	0.549919818	1.238140792	0.807662591
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Longicatena.s__Longicatena.caecimuris	Group	PD	0.30900825	0.168168137	167	32	0.067935375	0.297363444	1.238855782	0.807196459
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__CAG.103.s__CAG.103.sp000432375	Group	PD	0.313608431	0.362929979	167	52	0.388786418	0.664011752	1.242812305	0.804626729
+d__Bacteria.p__Bacillota.c__Bacilli.o__MOL361.f__Turicibacteraceae.g__Turicibacter.s__Turicibacter.sanguinis	Group	PD	0.327431354	0.140870056	167	31	0.021325444	0.173948724	1.254777317	0.796954158
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.finegoldii	Group	PD	0.328178566	0.286165484	167	100	0.253118806	0.557243384	1.255427369	0.7965415
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.stercoripullorum	Group	PD	0.334558598	0.185425648	167	63	0.073012252	0.297363444	1.260991541	0.793026731
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__UBA11774.s__UBA11774.sp003507655	Group	PD	0.338587053	0.292439434	167	125	0.248617916	0.556048672	1.264517544	0.790815442
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.sp946496415	Group	PD	0.340262845	0.154238714	167	49	0.028760117	0.200939449	1.265987224	0.789897387
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Hominibacterium.s__Hominibacterium.hominis	Group	PD	0.345267805	0.168996709	167	62	0.042638857	0.246357839	1.27038678	0.787161844
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Dorea_D.s__Dorea_D.sp900543415	Group	PD	0.346269196	0.215804537	167	29	0.11050519	0.350917244	1.271268876	0.786615655
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Tannerellaceae.g__Parabacteroides.s__Parabacteroides.distasonis	Group	PD	0.3482374	0.278955783	167	131	0.213667507	0.507918187	1.273004395	0.785543242
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Anaeromassilibacillus.s__Anaeromassilibacillus.stercoravium	Group	PD	0.349102126	0.149025613	167	37	0.020345077	0.171015221	1.27376764	0.785072543
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Gordonibacter.s__Gordonibacter.pamelaeae	Group	PD	0.351457105	0.170974146	167	46	0.041395348	0.243178522	1.275848569	0.783792077
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia.s__Blautia.celeris	Group	PD	0.354967743	0.135094687	167	27	0.009411203	0.115148839	1.278956985	0.781887125
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__RF39.f__UBA660.g__CAG.302.s__CAG.302.sp934162325	Group	PD	0.355988324	0.217682489	167	26	0.103880734	0.341482603	1.279862056	0.781334204
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Dysosmobacter.s__Dysosmobacter.welbionis	Group	PD	0.3627024	0.233030513	167	114	0.121515019	0.366306143	1.285832214	0.777706445
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Zongyangia.s__Zongyangia.gallinarum	Group	PD	0.365905481	0.146939382	167	37	0.013757864	0.145454506	1.288690198	0.775981691
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.parasanguinis_G	Group	PD	0.370785502	0.236642169	167	72	0.119062887	0.365674774	1.293056668	0.773361311
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Ruminococcus_E.s__Ruminococcus_E.bromii	Group	PD	0.380606736	0.504087459	167	103	0.451300722	0.710790621	1.301889259	0.768114487
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__CAG.138.g__SFEL01.s__SFEL01.sp004557245	Group	PD	0.382640982	0.270667981	167	57	0.159336459	0.424897224	1.30372626	0.767032184
+d__Bacteria.p__Bacillota_C.c__Negativicutes.o__Veillonellales.f__Dialisteraceae.g__Dialister.s__Dialister.invisus	Group	PD	0.383706714	0.318599104	167	49	0.230176793	0.530938287	1.30468969	0.766465779
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Peptostreptococcaceae.g__Intestinibacter.s__Intestinibacter.bartlettii	Group	PD	0.389779503	0.226525007	167	63	0.087181543	0.318761013	1.310193143	0.763246248
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Acutalibacter.s__Acutalibacter.ornithocaccae	Group	PD	0.406983766	0.250005012	167	60	0.105453569	0.342724101	1.32591084	0.754198525
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Enterocloster.s__Enterocloster.bolteae	Group	PD	0.409457977	0.213356693	167	49	0.056694579	0.287876985	1.328186718	0.752906189
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.ovatus	Group	PD	0.414066726	0.275944782	167	109	0.135385176	0.388415401	1.33243645	0.750504836
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.cirricatena	Group	PD	0.430915145	0.276040838	167	46	0.120426548	0.365674774	1.348088439	0.741791096
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes_A.s__Alistipes_A.ihumii	Group	PD	0.435898627	0.173305265	167	56	0.012852663	0.14070284	1.352753175	0.739233157
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Clostridium_A.s__Clostridium_A.leptum	Group	PD	0.438684867	0.228633057	167	76	0.056744983	0.287876985	1.355368237	0.737806873
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Sellimonas.s__Sellimonas.intestinalis	Group	PD	0.438965227	0.213659946	167	39	0.041504027	0.243178522	1.355631652	0.737663508
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Blautia_A.s__Blautia_A.caecimuris	Group	PD	0.443456	0.301118149	167	44	0.142737552	0.400492186	1.359857991	0.735370904
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Peptostreptococcaceae.g__Romboutsia.s__Romboutsia.timonensis	Group	PD	0.464564755	0.242055407	167	92	0.056678576	0.287876985	1.37990099	0.724689675
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Peptostreptococcales.f__Anaerovoracaceae.g__Lentihominibacter.s__Lentihominibacter.faecis	Group	PD	0.469194742	0.189487081	167	90	0.014290532	0.145454506	1.384336568	0.722367684
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Lactococcus.s__Lactococcus.lactis	Group	PD	0.481877044	0.204036437	167	57	0.019357043	0.171015221	1.396559503	0.716045394
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Adlercreutzia.s__Adlercreutzia.equolifaciens	Group	PD	0.484870544	0.233197208	167	133	0.039143122	0.235993317	1.399460284	0.714561186
+d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__Erysipelotrichales.f__Erysipelotrichaceae.g__Clostridium_AQ.s__Clostridium_AQ.innocuum	Group	PD	0.49468271	0.176535992	167	40	0.005683882	0.090942119	1.409010839	0.709717748
+d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.bifidum	Group	PD	0.503563499	0.279697269	167	29	0.073626045	0.297363444	1.417711029	0.705362362
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Eggerthella.s__Eggerthella.lenta	Group	PD	0.505491075	0.236328433	167	77	0.033911911	0.223571571	1.41960649	0.704420561
+d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.pseudocatenulatum	Group	PD	0.50767895	0.243359753	167	32	0.038505576	0.235563526	1.421760984	0.703353103
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.sp902463925	Group	PD	0.512252421	0.217958015	167	32	0.019944273	0.171015221	1.426275244	0.701126942
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Flavonifractor.s__Flavonifractor.plautii	Group	PD	0.517495637	0.23077859	167	77	0.026268345	0.19513628	1.431468216	0.698583447
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Clostridium_AP.s__Clostridium_AP.scindens	Group	PD	0.533416219	0.160549287	167	35	0.00109897	0.032655111	1.447352388	0.690916744
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.sp001556435	Group	PD	0.539130569	0.288218167	167	125	0.06317649	0.297363444	1.453096554	0.688185515
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Tannerellaceae.g__Parabacteroides.s__Parabacteroides.merdae	Group	PD	0.542852853	0.272605541	167	86	0.048092868	0.270359907	1.456850516	0.686412222
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.fragilis	Group	PD	0.553722481	0.30553216	167	76	0.071754517	0.297363444	1.467868248	0.681260053
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Bacteroidaceae.g__Bacteroides.s__Bacteroides.uniformis	Group	PD	0.555347295	0.319277169	167	150	0.083831184	0.313946565	1.469522344	0.680493226
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Evtepia.s__Evtepia.gabavorous	Group	PD	0.564135409	0.261257304	167	89	0.032270387	0.220073457	1.478501194	0.67636063
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Barnesiellaceae.g__Barnesiella.s__Barnesiella.intestinihominis	Group	PD	0.564364382	0.303259851	167	91	0.064524441	0.297363444	1.478735869	0.676253292
+d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Coriobacteriaceae.g__Collinsella.s__Collinsella.sp023656745	Group	PD	0.630743416	0.312886284	167	121	0.045434406	0.258913876	1.548362654	0.645843529
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.mutans	Group	PD	0.632476569	0.173382006	167	31	0.000354269	0.018421997	1.550223867	0.645068123
+d__Bacteria.p__Verrucomicrobiota.c__Verrucomicrobiae.o__Verrucomicrobiales.f__Akkermansiaceae.g__Akkermansia.s__Akkermansia.muciniphila	Group	PD	0.640671424	0.451026499	167	59	0.157356616	0.423812677	1.559054568	0.641414368
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.torques	Group	PD	0.722239602	0.314145259	167	128	0.022755267	0.182042138	1.649741063	0.606155731
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Gemmiger.s__Gemmiger.qucibialis	Group	PD	0.736448727	0.30728991	167	135	0.017666568	0.169406126	1.666069665	0.600214998
+d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.thermophilus	Group	PD	0.756220124	0.275656709	167	84	0.006754409	0.096989068	1.689059469	0.592045466
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruthenibacterium.s__Ruthenibacterium.lactatiformans	Group	PD	0.856692198	0.228101996	167	130	0.00023929	0.016333059	1.810881569	0.552217228
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp000435555	Group	PD	0.857026887	0.337096778	167	67	0.011930528	0.134137828	1.811301722	0.552089134
+d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.adolescentis	Group	PD	0.880141403	0.389951795	167	70	0.025316857	0.195033565	1.840555691	0.543314177
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Ruminococcus_B.s__Ruminococcus_B.gnavus	Group	PD	0.925225012	0.312679576	167	60	0.003540386	0.073640029	1.898980396	0.52659838
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__CAG.177.s__CAG.177.sp003514385	Group	PD	1.040966667	0.296333435	167	36	0.000572146	0.02644588	2.057605875	0.486001723
+d__Bacteria.p__Pseudomonadota.c__Gammaproteobacteria.o__Enterobacterales.f__Enterobacteriaceae.g__Escherichia.s__Escherichia.coli_F	Group	PD	1.049280584	0.388931439	167	80	0.007704153	0.100153989	2.069497612	0.483209062
+d__Bacteria.p__Bacteroidota.c__Bacteroidia.o__Bacteroidales.f__Rikenellaceae.g__Alistipes.s__Alistipes.onderdonkii	Group	PD	1.075477716	0.354006218	167	123	0.00276921	0.063999509	2.107419781	0.47451391
+d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Bifidobacteriaceae.g__Bifidobacterium.s__Bifidobacterium.infantis	Group	PD	1.420392044	0.408673858	167	99	0.000651382	0.027097484	2.676582356	0.373610772
