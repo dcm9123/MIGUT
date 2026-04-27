@@ -1,0 +1,5 @@
+# Large files that exceed GitHub's 100MB limit
+novaseq/final_results_raw/merged_genefamilies_uniref_renamed_stratified.tsv
+novaseq/final_results_raw/merged_genefamilies_uniref_renamed_unstratified.tsv
+novaseq/final_results_raw/merged_genefamilies_eggnog_renamed_stratified.tsv
+novaseq/final_results_raw/merged_genefamilies_rxn_renamed_stratified.tsv
