@@ -1,0 +1,55 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/home/daniel.castanedamogo/anaconda3/envs/metaphlan4/bin/metaphlan --nproc 24 --input_type fastq --db_dir /bulk/IMCshared_bulk/shared/dbs/metaphlan4.2/ -t rel_ab_w_read_stats -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_Lib_pos_plate2_metaphlan4.txt --mapout /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_Lib_pos_plate2_bowtie2.vz2 --verbose /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/merged/PD_Lib_pos_plate2_bmtagged__merged.fastq
+#7532405 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 7468458
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	0.848959	-	63947
+k__Bacteria	2	98.713539	2.002314911513082	7330862
+k__Eukaryota	2759	0.437503	0.008874347077557881	137596
+k__Bacteria|p__Firmicutes	2|1239	72.36981	1.4679561881914056	4456371
+k__Bacteria|p__Pseudomonadota	2|1224	26.343729	0.5343587233216762	2874491
+k__Eukaryota|p__Ascomycota	2759|4890	0.437503	0.008874347077557881	137596
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	72.36981	1.4679561881914056	4456371
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria	2|1224|1236	26.343729	0.5343587233216762	2874491
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes	2759|4890|4891	0.437503	0.008874347077557881	137596
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales	2|1239|91061|1385	37.163705	0.7538321565417103	2560631
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	35.206106	0.7141240316496952	1895740
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales	2|1224|1236|91347	19.248874	0.39044601244668364	1905034
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales	2|1224|1236|72274	7.094854	0.14391271087499258	969457
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales	2759|4890|4891|4892	0.437503	0.008874347077557881	137596
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae	2|1224|1236|91347|543	19.248874	0.39044601244668364	1905034
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae	2|1239|91061|186826|33958	18.92653	0.3839075499841577	956384
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae	2|1239|91061|186826|81852	16.279576	0.33021648166553746	939356
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae	2|1239|91061|1385|90964	14.1113	0.28623497486737737	822242
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae	2|1239|91061|1385|186817	11.569337	0.23467353773388147	993673
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Listeriaceae	2|1239|91061|1385|186820	11.483067	0.23292364394045145	744716
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae	2|1224|1236|72274|135621	7.094854	0.14391271087499258	969457
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales|f__Saccharomycetaceae	2759|4890|4891|4892|4893	0.437503	0.008874347077557881	137596
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Limosilactobacillus	2|1239|91061|186826|33958|2742598	18.92653	0.3839075499841577	956384
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus	2|1239|91061|186826|81852|1350	16.279576	0.33021648166553746	939356
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus	2|1239|91061|1385|90964|1279	14.1113	0.28623497486737737	822242
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Bacillus	2|1239|91061|1385|186817|1386	11.569337	0.23467353773388147	993673
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Listeriaceae|g__Listeria	2|1239|91061|1385|186820|1637	11.483067	0.23292364394045145	744716
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Salmonella	2|1224|1236|91347|543|590	9.924789	0.20131537444893688	1000162
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia	2|1224|1236|91347|543|561	9.324085	0.18913063799774674	904872
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas	2|1224|1236|72274|135621|286	7.094854	0.14391271087499258	969457
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales|f__Saccharomycetaceae|g__Saccharomyces	2759|4890|4891|4892|4893|4930	0.437503	0.008874347077557881	137596
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Limosilactobacillus|s__Limosilactobacillus_fermentum	2|1239|91061|186826|33958|2742598|1613	18.92653	0.3839075499841577	956384
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_faecalis	2|1239|91061|186826|81852|1350|1351	16.279576	0.33021648166553746	939356
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_aureus	2|1239|91061|1385|90964|1279|1280	14.1113	0.28623497486737737	822242
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Bacillus|s__Bacillus_spizizenii	2|1239|91061|1385|186817|1386|96241	11.569337	0.23467353773388147	993673
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Listeriaceae|g__Listeria|s__Listeria_monocytogenes	2|1239|91061|1385|186820|1637|1639	11.483067	0.23292364394045145	744716
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Salmonella|s__Salmonella_enterica	2|1224|1236|91347|543|590|28901	9.924789	0.20131537444893688	1000162
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia|s__Escherichia_coli	2|1224|1236|91347|543|561|562	9.324085	0.18913063799774674	904872
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_aeruginosa	2|1224|1236|72274|135621|286|287	7.094854	0.14391271087499258	969457
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales|f__Saccharomycetaceae|g__Saccharomyces|s__Saccharomyces_cerevisiae	2759|4890|4891|4892|4893|4930|4932	0.437503	0.008874347077557881	137596
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Limosilactobacillus|s__Limosilactobacillus_fermentum|t__SGB7106	2|1239|91061|186826|33958|2742598|1613|	18.92653	0.3839075499841577	956384
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_faecalis|t__SGB7962	2|1239|91061|186826|81852|1350|1351|	16.279576	0.33021648166553746	939356
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_aureus|t__SGB7852	2|1239|91061|1385|90964|1279|1280|	14.1113	0.28623497486737737	822242
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Bacillus|s__Bacillus_spizizenii|t__SGB7791_group	2|1239|91061|1385|186817|1386|96241|	11.569337	0.23467353773388147	993673
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Listeriaceae|g__Listeria|s__Listeria_monocytogenes|t__SGB7535	2|1239|91061|1385|186820|1637|1639|	11.483067	0.23292364394045145	744716
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Salmonella|s__Salmonella_enterica|t__SGB10073	2|1224|1236|91347|543|590|28901|	9.924789	0.20131537444893688	1000162
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia|s__Escherichia_coli|t__SGB10068	2|1224|1236|91347|543|561|562|	9.324085	0.18913063799774674	904872
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_aeruginosa|t__SGB12320	2|1224|1236|72274|135621|286|287|	7.094854	0.14391271087499258	969457
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales|f__Saccharomycetaceae|g__Saccharomyces|s__Saccharomyces_cerevisiae|t__EUK4932	2759|4890|4891|4892|4893|4930|4932|	0.437503	0.008874347077557881	137596

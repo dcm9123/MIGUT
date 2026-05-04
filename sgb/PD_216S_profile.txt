@@ -1,0 +1,25 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/home/daniel.castanedamogo/anaconda3/envs/metaphlan4/bin/metaphlan --nproc 24 --input_type fastq --db_dir /bulk/IMCshared_bulk/shared/dbs/metaphlan4.2/ -t rel_ab_w_read_stats -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_216S_metaphlan4.txt --mapout /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_216S_bowtie2.vz2 --verbose /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/merged/PD_216S_bmtagged__merged.fastq
+#61218 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 37091
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	39.411611	-	24127
+k__Bacteria	2	60.588389	0.0004693000640139148	37091
+k__Bacteria|p__Firmicutes	2|1239	41.343826	0.00032023726521739445	22900
+k__Bacteria|p__Bacteroidota	2|976	19.244563	0.00014906279879652037	14191
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	41.343826	0.00032023726521739445	22900
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	19.244563	0.00014906279879652037	14191
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales	2|1239|186801|3085636	41.343826	0.00032023726521739445	22900
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	19.244563	0.00014906279879652037	14191
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae	2|1239|186801|3085636|186803	41.343826	0.00032023726521739445	22900
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	19.244563	0.00014906279879652037	14191
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter	2|1239|186801|3085636|186803|1766253	38.492644	0.00029815284126766674	10533
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	19.244563	0.00014906279879652037	14191
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia	2|1239|186801|3085636|186803|572511	2.851182	2.208442394972772e-05	12367
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter_rectalis	2|1239|186801|3085636|186803|1766253|39491	38.492644	0.00029815284126766674	10533
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_stercoris	2|976|200643|171549|815|816|46506	19.244563	0.00014906279879652037	14191
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_wexlerae	2|1239|186801|3085636|186803|572511|418240	2.851182	2.208442394972772e-05	12367
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter_rectalis|t__SGB4933	2|1239|186801|3085636|186803|1766253|39491|	38.492644	0.00029815284126766674	10533
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_stercoris|t__SGB1830	2|976|200643|171549|815|816|46506|	19.244563	0.00014906279879652037	14191
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_wexlerae|t__SGB4837	2|1239|186801|3085636|186803|572511|418240|	2.851182	2.208442394972772e-05	12367

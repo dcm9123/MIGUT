@@ -1,0 +1,21 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/home/daniel.castanedamogo/anaconda3/envs/metaphlan4/bin/metaphlan --nproc 24 --input_type fastq --db_dir /bulk/IMCshared_bulk/shared/dbs/metaphlan4.2/ -t rel_ab_w_read_stats -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_212S_metaphlan4.txt --mapout /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_212S_bowtie2.vz2 --verbose /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/merged/PD_212S_bmtagged__merged.fastq
+#31786 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 30822
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	3.032782	-	964
+k__Bacteria	2	96.967218	0.001281712692744416	30822
+k__Bacteria|p__Firmicutes	2|1239	96.967218	0.001281712692744416	30822
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	96.967218	0.001281712692744416	30822
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales	2|1239|186801|3085636	96.967218	0.001281712692744416	30822
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae	2|1239|186801|3085636|186803	96.967218	0.001281712692744416	30822
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes	2|1239|186801|3085636|186803|207244	91.341934	0.0012073576790210656	10016
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Fusicatenibacter	2|1239|186801|3085636|186803|1407607	3.941705	5.2101458977718944e-05	10082
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia	2|1239|186801|3085636|186803|572511	1.68358	2.225355474563145e-05	10724
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes|s__Anaerostipes_hadrus	2|1239|186801|3085636|186803|207244|649756	91.341934	0.0012073576790210656	10016
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Fusicatenibacter|s__Fusicatenibacter_saccharivorans	2|1239|186801|3085636|186803|1407607|1150298	3.941705	5.2101458977718944e-05	10082
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_wexlerae	2|1239|186801|3085636|186803|572511|418240	1.68358	2.225355474563145e-05	10724
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes|s__Anaerostipes_hadrus|t__SGB4540	2|1239|186801|3085636|186803|207244|649756|	91.341934	0.0012073576790210656	10016
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Fusicatenibacter|s__Fusicatenibacter_saccharivorans|t__SGB4874	2|1239|186801|3085636|186803|1407607|1150298|	3.941705	5.2101458977718944e-05	10082
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_wexlerae|t__SGB4837	2|1239|186801|3085636|186803|572511|418240|	1.68358	2.225355474563145e-05	10724

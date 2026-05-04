@@ -1,0 +1,18 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/home/daniel.castanedamogo/anaconda3/envs/metaphlan4/bin/metaphlan --nproc 24 --input_type fastq --db_dir /bulk/IMCshared_bulk/shared/dbs/metaphlan4.2/ -t rel_ab_w_read_stats -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_112S_metaphlan4.txt --mapout /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_112S_bowtie2.vz2 --verbose /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/merged/PD_112S_bmtagged__merged.fastq
+#22261 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 19623
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	11.850321	-	2638
+k__Bacteria	2	88.149679	0.0004161474962818904	19623
+k__Bacteria|p__Firmicutes	2|1239	88.149679	0.0004161474962818904	19623
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	88.149679	0.0004161474962818904	19623
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales	2|1239|186801|3085636	88.149679	0.0004161474962818904	19623
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae	2|1239|186801|3085636|186803	88.149679	0.0004161474962818904	19623
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter	2|1239|186801|3085636|186803|1766253	64.395957	0.00030400809657267757	11034
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia	2|1239|186801|3085636|186803|841	23.753722	0.00011213939970921281	8589
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter_rectalis	2|1239|186801|3085636|186803|1766253|39491	64.395957	0.00030400809657267757	11034
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_faecis	2|1239|186801|3085636|186803|841|301302	23.753722	0.00011213939970921281	8589
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter_rectalis|t__SGB4933	2|1239|186801|3085636|186803|1766253|39491|	64.395957	0.00030400809657267757	11034
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_faecis|t__SGB4925	2|1239|186801|3085636|186803|841|301302|	23.753722	0.00011213939970921281	8589

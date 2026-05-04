@@ -1,0 +1,47 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/home/daniel.castanedamogo/anaconda3/envs/metaphlan4/bin/metaphlan --nproc 24 --input_type fastq --db_dir /bulk/IMCshared_bulk/shared/dbs/metaphlan4.2/ -t rel_ab_w_read_stats -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_211P_metaphlan4.txt --mapout /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_211P_bowtie2.vz2 --verbose /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/merged/PD_211P_bmtagged__merged.fastq
+#77478 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 82836
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	0.0	-	-5358
+k__Bacteria	2	100.0	0.003045475967465609	82836
+k__Bacteria|p__Firmicutes	2|1239	84.03232	0.0025591840970272993	49070
+k__Bacteria|p__Bacteroidota	2|976	11.08207	0.0003375017977101184	23472
+k__Bacteria|p__Verrucomicrobiota	2|74201	4.88561	0.00014879007272819151	10294
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	84.03232	0.0025591840970272993	49070
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	11.08207	0.0003375017977101184	23472
+k__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiia	2|74201|203494	4.88561	0.00014879007272819151	10294
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales	2|1239|186801|3085636	74.59666	0.002271823214593117	42249
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	11.08207	0.0003375017977101184	23472
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	9.43566	0.00028736088243418243	6821
+k__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiia|o__Verrucomicrobiales	2|74201|203494|48461	4.88561	0.00014879007272819151	10294
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae	2|1239|186801|3085636|186803	74.59666	0.002271823214593117	42249
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae	2|1239|186801|186802|216572	9.43566	0.00028736088243418243	6821
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae	2|976|200643|171549|171550	7.7204	0.0002351229512092882	10939
+k__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiia|o__Verrucomicrobiales|f__Akkermansiaceae	2|74201|203494|48461|1647988	4.88561	0.00014879007272819151	10294
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	3.36167	0.00010237884650083023	12533
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia	2|1239|186801|3085636|186803|572511	46.23464	0.0014080649878777996	15606
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia	2|1239|186801|3085636|186803|841	19.33206	0.0005887531644362375	9348
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus	2|1239|186801|186802|216572|1263	9.43566	0.00028736088243418243	6821
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter	2|1239|186801|3085636|186803|2316020	8.67805	0.00026428795776866157	9550
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes	2|976|200643|171549|171550|239759	7.7204	0.0002351229512092882	10939
+k__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiia|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia	2|74201|203494|48461|1647988|239934	4.88561	0.00014879007272819151	10294
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola	2|976|200643|171549|815|909656	3.36167	0.00010237884650083023	12533
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira	2|1239|186801|3085636|186803|28050	0.3519	1.071710451041791e-05	7745
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_wexlerae	2|1239|186801|3085636|186803|572511|418240	46.23464	0.0014080649878777996	15606
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_faecis	2|1239|186801|3085636|186803|841|301302	19.33206	0.0005887531644362375	9348
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_bromii	2|1239|186801|186802|216572|1263|40518	9.43566	0.00028736088243418243	6821
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Ruminococcus_torques	2|1239|186801|3085636|186803|2316020|33039	8.67805	0.00026428795776866157	9550
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_onderdonkii	2|976|200643|171549|171550|239759|328813	7.7204	0.0002351229512092882	10939
+k__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiia|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia|s__Akkermansia_muciniphila	2|74201|203494|48461|1647988|239934|239935	4.88561	0.00014879007272819151	10294
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola_vulgatus	2|976|200643|171549|815|909656|821	3.36167	0.00010237884650083023	12533
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira_eligens	2|1239|186801|3085636|186803|28050|39485	0.3519	1.071710451041791e-05	7745
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_wexlerae|t__SGB4837	2|1239|186801|3085636|186803|572511|418240|	46.23464	0.0014080649878777996	15606
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_faecis|t__SGB4925	2|1239|186801|3085636|186803|841|301302|	19.33206	0.0005887531644362375	9348
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_bromii|t__SGB4285	2|1239|186801|186802|216572|1263|40518|	9.43566	0.00028736088243418243	6821
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Ruminococcus_torques|t__SGB4608	2|1239|186801|3085636|186803|2316020|33039|	8.67805	0.00026428795776866157	9550
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_onderdonkii|t__SGB2303	2|976|200643|171549|171550|239759|328813|	7.7204	0.0002351229512092882	10939
+k__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiia|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia|s__Akkermansia_muciniphila|t__SGB9226	2|74201|203494|48461|1647988|239934|239935|	4.88561	0.00014879007272819151	10294
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola_vulgatus|t__SGB1814	2|976|200643|171549|815|909656|821|	3.36167	0.00010237884650083023	12533
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira_eligens|t__SGB5082	2|1239|186801|3085636|186803|28050|39485|	0.3519	1.071710451041791e-05	7745

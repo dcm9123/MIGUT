@@ -1,0 +1,42 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/home/daniel.castanedamogo/anaconda3/envs/metaphlan4/bin/metaphlan --nproc 24 --input_type fastq --db_dir /bulk/IMCshared_bulk/shared/dbs/metaphlan4.2/ -t rel_ab_w_read_stats -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_182S_metaphlan4.txt --mapout /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_182S_bowtie2.vz2 --verbose /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/merged/PD_182S_bmtagged__merged.fastq
+#111585 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 125827
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	0.0	-	-14242
+k__Bacteria	2	100.0	0.008771257686111655	125827
+k__Bacteria|p__Bacteroidota	2|976	90.43121	0.007931954734190486	87986
+k__Bacteria|p__Firmicutes	2|1239	9.56879	0.0008393029519211679	37841
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	90.43121	0.007931954734190486	87986
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	9.56879	0.0008393029519211679	37841
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	90.43121	0.007931954734190486	87986
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales	2|1239|186801|3085636	9.56879	0.0008393029519211679	37841
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	68.20249	0.005982216491269062	58890
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae	2|976|200643|171549|171550	22.03155	0.0019324438288160811	15251
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae	2|1239|186801|3085636|186803	9.56879	0.0008393029519211679	37841
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae	2|976|200643|171549|2005525	0.19717	1.7294414105341767e-05	13845
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola	2|976|200643|171549|815|909656	34.72956	0.003046218935864557	28597
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	33.47294	0.0029359975554045055	30293
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes	2|976|200643|171549|171550|239759	22.03155	0.0019324438288160811	15251
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__GGB74412	2|1239|186801|3085636|186803|	3.67371	0.0003222306606684597	8781
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia	2|1239|186801|3085636|186803|841	2.92203	0.0002562983442377465	10081
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter	2|1239|186801|3085636|186803|1766253	2.36496	0.0002074365430508791	9728
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter	2|1239|186801|3085636|186803|2316020	0.60809	5.333740396408258e-05	9251
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides	2|976|200643|171549|2005525|375288	0.19717	1.7294414105341767e-05	13845
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola_dorei	2|976|200643|171549|815|909656|357276	34.72956	0.003046218935864557	28597
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_cellulosilyticus	2|976|200643|171549|815|816|246787	33.47294	0.0029359975554045055	30293
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_onderdonkii	2|976|200643|171549|171550|239759|328813	22.03155	0.0019324438288160811	15251
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__GGB74412|s__GGB74412_SGB5075	2|1239|186801|3085636|186803||	3.67371	0.0003222306606684597	8781
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_faecis	2|1239|186801|3085636|186803|841|301302	2.92203	0.0002562983442377465	10081
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter_rectalis	2|1239|186801|3085636|186803|1766253|39491	2.36496	0.0002074365430508791	9728
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Ruminococcus_torques	2|1239|186801|3085636|186803|2316020|33039	0.60809	5.333740396408258e-05	9251
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides|s__Parabacteroides_distasonis	2|976|200643|171549|2005525|375288|823	0.19717	1.7294414105341767e-05	13845
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola_dorei|t__SGB1815	2|976|200643|171549|815|909656|357276|	34.72956	0.003046218935864557	28597
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_cellulosilyticus|t__SGB1844	2|976|200643|171549|815|816|246787|	33.47294	0.0029359975554045055	30293
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_onderdonkii|t__SGB2303	2|976|200643|171549|171550|239759|328813|	22.03155	0.0019324438288160811	15251
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__GGB74412|s__GGB74412_SGB5075|t__SGB5075	2|1239|186801|3085636|186803|||	3.67371	0.0003222306606684597	8781
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_faecis|t__SGB4925	2|1239|186801|3085636|186803|841|301302|	2.92203	0.0002562983442377465	10081
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter_rectalis|t__SGB4933	2|1239|186801|3085636|186803|1766253|39491|	2.36496	0.0002074365430508791	9728
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Ruminococcus_torques|t__SGB4608	2|1239|186801|3085636|186803|2316020|33039|	0.60809	5.333740396408258e-05	9251
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides|s__Parabacteroides_distasonis|t__SGB1934	2|976|200643|171549|2005525|375288|823|	0.19717	1.7294414105341767e-05	13845

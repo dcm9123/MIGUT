@@ -1,0 +1,39 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/home/daniel.castanedamogo/anaconda3/envs/metaphlan4/bin/metaphlan --nproc 24 --input_type fastq --db_dir /bulk/IMCshared_bulk/shared/dbs/metaphlan4.2/ -t rel_ab_w_read_stats -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_83P_metaphlan4.txt --mapout /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/metaphlan4/PD_83P_bowtie2.vz2 --verbose /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/metqc_output_daniel_snakemake/merged/PD_83P_bmtagged__merged.fastq
+#95161 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 72017
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	24.320888	-	23144
+k__Bacteria	2	75.679112	0.00820266917881421	72017
+k__Bacteria|p__Firmicutes	2|1239	73.648832	0.00798261220802907	65050
+k__Bacteria|p__Actinomycetota	2|201174	2.03028	0.0002200569707851393	6967
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	73.412709	0.007957019414901092	59689
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia	2|201174|84998	2.03028	0.0002200569707851393	6967
+k__Bacteria|p__Firmicutes|c__CFGB1765	2|1239|	0.236123	2.559279312797702e-05	5361
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales	2|1239|186801|3085636	56.369898	0.006109791845636718	37826
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	17.042811	0.0018472275692643747	21863
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales	2|201174|84998|84999	2.03028	0.0002200569707851393	6967
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765	2|1239||	0.236123	2.559279312797702e-05	5361
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae	2|1239|186801|3085636|186803	56.369898	0.006109791845636718	37826
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_unclassified	2|1239|186801|186802|	11.97017	0.0012974167306611265	11213
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae	2|1239|186801|186802|216572	5.072641	0.0005498108386032482	10650
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae	2|201174|84998|84999|84107	2.03028	0.0002200569707851393	6967
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765|f__FGB1765	2|1239|||	0.236123	2.559279312797702e-05	5361
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia	2|1239|186801|3085636|186803|572511	56.369898	0.006109791845636718	37826
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_unclassified|g__Gemmiger	2|1239|186801|186802||204475	11.97017	0.0012974167306611265	11213
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Hominenteromicrobium	2|1239|186801|186802|216572|3073575	5.072641	0.0005498108386032482	10650
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella	2|201174|84998|84999|84107|102106	2.03028	0.0002200569707851393	6967
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765|f__FGB1765|g__GGB4566	2|1239||||	0.236123	2.559279312797702e-05	5361
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_wexlerae	2|1239|186801|3085636|186803|572511|418240	49.346998	0.005348597320324424	26352
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_unclassified|g__Gemmiger|s__Gemmiger_SGB15295	2|1239|186801|186802||204475|	11.97017	0.0012974167306611265	11213
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_obeum	2|1239|186801|3085636|186803|572511|40520	7.0229	0.0007611945253122934	11474
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Hominenteromicrobium|s__Hominenteromicrobium_mulieris	2|1239|186801|186802|216572|3073575|2885357	5.072641	0.0005498108386032482	10650
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella|s__Collinsella_tanakaei	2|201174|84998|84999|84107|102106|626935	2.03028	0.0002200569707851393	6967
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765|f__FGB1765|g__GGB4566|s__GGB4566_SGB6305	2|1239|||||	0.236123	2.559279312797702e-05	5361
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_wexlerae|t__SGB4837	2|1239|186801|3085636|186803|572511|418240|	49.346998	0.005348597320324424	26352
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_unclassified|g__Gemmiger|s__Gemmiger_SGB15295|t__SGB15295	2|1239|186801|186802||204475||	11.97017	0.0012974167306611265	11213
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia_obeum|t__SGB4811	2|1239|186801|3085636|186803|572511|40520|	7.0229	0.0007611945253122934	11474
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Hominenteromicrobium|s__Hominenteromicrobium_mulieris|t__SGB14861	2|1239|186801|186802|216572|3073575|2885357|	5.072641	0.0005498108386032482	10650
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella|s__Collinsella_tanakaei|t__SGB14737	2|201174|84998|84999|84107|102106|626935|	2.03028	0.0002200569707851393	6967
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765|f__FGB1765|g__GGB4566|s__GGB4566_SGB6305|t__SGB6305	2|1239||||||	0.236123	2.559279312797702e-05	5361
