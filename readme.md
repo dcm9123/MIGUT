@@ -35,4 +35,11 @@ Every odd line represents the forward .fastq file, and every even line represent
 
 `for file in *_1.fastq.gz; do bbduk.sh in1=${file} in2=${file%%_1.fastq.gz}_2.fastq.gz out1=../bbduk_testing/{file%%_1.fastq.gz}_1_bbduk_filt.fastq.gz out2=../bbduk_testing/${file%%_1.fastq.gz}_2_bbduk_filt.fastq.gz trimq=20 qtrim=rl minlen=60 maq=20 maxns=2 hdist=1 k=27 stats=../bbduk_testing/${file%%_1.fastq.gz}_stats.txt tbo tpe threads=32 ref=adapters; done; `
 
+Now I will visualize the results with `fastqc` and `multiqc`: 
+`for file in *_1_bbduk_filt*; do fastqc ${file} ${file%%_1_bbduk_filt.fastq.gz}_2_bbduk_filt.fastq.gz -o fastqc_output/; done;`
 
+### May 19th, 2026
+
+I am back from YUL, and I have done a few updates on the analysis. First, I decided to keep the results from the QC pipeline that does the following: raw data -> bbduk adapter removal -> bbduk polyG polyC removal -> Prinseq -> bmtagger -> bbmerge -> Metaphlan4
+
+I was able to reduce the duplication with Prinseq to levels varying between 0%-8%. The results of my pipeline are in ARC, specifically in `/bulk/IMCshared/daniel/parkinsons/novaseq/results_0526/` 

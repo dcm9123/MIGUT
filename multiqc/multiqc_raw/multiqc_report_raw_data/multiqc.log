@@ -1,0 +1,508 @@
+[2026-05-12 14:07:22,390] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/daniel.castanedamogo/anaconda3/envs/multiqc/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc_config.yaml
+[2026-05-12 14:07:22,391] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/daniel.castanedamogo/.multiqc_config.yaml
+[2026-05-12 14:07:22,391] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2026-05-12 14:07:22,539] multiqc                                            [DEBUG  ]  Loading config settings from: utils/multiqc_config.yaml
+[2026-05-12 14:07:22,539] multiqc                                            [DEBUG  ]  New config 'megaqc_timeout': 30
+[2026-05-12 14:07:22,539] multiqc                                            [DEBUG  ]  New config 'data_dir_name': multiqc_data
+[2026-05-12 14:07:22,539] multiqc                                            [DEBUG  ]  New config 'subtitle': None
+[2026-05-12 14:07:22,539] multiqc                                            [DEBUG  ]  New config 'fn_ignore_files': ['.DS_Store', '*.bam', '*.bai', '*.sam', '*.fq.gz', '*.fastq.gz', '*.fq', '*.fastq', '*.fa', '*.gtf', '*.bed', '*.vcf', '*.txt.gz', '*.pdf', '*.html']
+[2026-05-12 14:07:22,539] multiqc                                            [DEBUG  ]  New config 'prepend_dirs': False
+[2026-05-12 14:07:22,539] multiqc                                            [DEBUG  ]  New config 'table_cond_formatting_colours': [{'blue': '#337ab7'}, {'lbue': '#5bc0de'}, {'pass': '#5cb85c'}, {'warn': '#f0ad4e'}, {'fail': '#d9534f'}]
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'sample_names_ignore': []
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'base_count_multiplier': 1e-06
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'file_list': False
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'base_count_prefix': Mb
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'collapse_tables': True
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'num_datasets_plot_limit': 50
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'plots_dir_name': multiqc_plots
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'plots_force_interactive': False
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'title': None
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'sample_names_rename_buttons': []
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'top_modules': []
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'zip_data_dir': False
+[2026-05-12 14:07:22,540] multiqc                                            [DEBUG  ]  New config 'custom_plot_config': {}
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'report_header_info': None
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'remove_sections': []
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'read_count_prefix': M
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'fn_clean_sample_names': True
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'prepend_dirs_sep':  | 
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'lint': False
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'section_comments': {}
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'fn_clean_trim': ['.', ':', '_', '-', '.r', '_val', '.idxstats', '_trimmed', '.trimmed', '.csv', '.yaml', '.yml', '.json', '_mqc', 'short_summary_', '_summary', '.summary', '.align', '.h5', '_matrix', '.stats', '.hist']
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'export_plots': False
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'report_comment': None
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'custom_logo_title': None
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'no_version_check': False
+[2026-05-12 14:07:22,541] multiqc                                            [DEBUG  ]  New config 'intro_text': None
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'fn_ignore_paths': ['*/work/??/??????????????????????????????']
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'ignore_symlinks': False
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'table_cond_formatting_rules': {'all_columns': {'warn': [{'s_eq': 'warn'}, {'s_eq': 'unknown'}], 'fail': [{'s_eq': 'fail'}, {'s_eq': 'false'}], 'pass': [{'s_eq': 'pass'}, {'s_eq': 'true'}]}}
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'output_fn_name': multiqc_report.html
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'simple_output': False
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'megaqc_access_token': None
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'custom_logo_url': None
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'force': False
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'data_format_extensions': {'tsv': 'txt', 'yaml': 'yaml', 'json': 'json'}
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'plots_force_flat': False
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'fn_ignore_dirs': ['multiqc_data', 'icarus_viewers', 'runs_per_reference', 'not_aligned', 'contigs_reports']
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'table_columns_visible': {}
+[2026-05-12 14:07:22,542] multiqc                                            [DEBUG  ]  New config 'decimalPoint_format': None
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'custom_logo': None
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'fn_clean_exts': ['.gz', '.fastq', '.fq', '.bam', '.sam', '.sra', '.vcf', '.dat', '_tophat', '.log', '.stderr', '.out', '.spp', '.fa', '.fasta', '.png', '.jpg', '.jpeg', 'Log.final', 'ReadsPerGene', '.flagstat', '_star_aligned', '_fastqc', '.hicup', '.counts', '_counts', '.txt', '.tsv', '.csv', '.aligned', 'Aligned', '.merge', '.deduplicated', '.dedup', '.clean', '.sorted', '.report', '| stdin', '.geneBodyCoverage', '.inner_distance_freq', '.junctionSaturation_plot.r', '.pos.DupRate.xls', '.GC.xls', '_slamdunk', '_bismark', '.conpair', '.concordance', '.contamination', '.BEST.results', '_peaks.xls', '.relatedness', '.cnt', '.aqhist', '.bhist', '.bincov', '.bqhist', '.covhist', '.covstats', '.ehist', '.gchist', '.idhist', '.ihist', '.indelhist', '.lhist', '.mhist', '.qahist', '.qhist', '.rpkm', '.selfSM', '.extendedFrags']
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'prepend_dirs_depth': 0
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'template': default
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'read_count_desc': millions
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'sample_names_ignore_re': []
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'skip_generalstats': False
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'sample_names_rename': []
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'config_file': None
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'read_count_multiplier': 1e-06
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'thousandsSep_format': None
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'report_readerrors': False
+[2026-05-12 14:07:22,543] multiqc                                            [DEBUG  ]  New config 'megaqc_url': False
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'export_plot_formats': ['png', 'svg', 'pdf']
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'max_table_rows': 500
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'table_columns_placement': {}
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'pandoc_template': None
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'make_data_dir': True
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'plots_flat_numseries': 1
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'module_order': ['custom_content', {'conpair': {'module_tag': ['WGS', 'cancer', 'DNA']}}, {'peddy': {'module_tag': ['DNA']}}, {'methylQA': {'module_tag': ['Methylation', 'DNA']}}, {'phantompeakqualtools': {'module_tag': ['chip']}}, {'qualimap': {'module_tag': ['DNA', 'RNA']}}, {'preseq': {'module_tag': ['DNA', 'RNA']}}, {'quast': {'module_tag': ['DNA', 'Metagenomics', 'Denovo']}}, {'qorts': {'module_tag': ['RNA']}}, {'rna_seqc': {'module_tag': ['RNA']}}, {'rsem': {'module_tag': ['RNA']}}, {'rseqc': {'module_tag': ['RNA']}}, {'busco': {'module_tag': ['Denovo']}}, {'goleft_indexcov': {'module_tag': ['DNA']}}, {'disambiguate': {'module_tag': ['RNA']}}, {'supernova': {'module_tag': ['DNA', 'Denovo']}}, {'deeptools': {'module_tag': ['DNA', 'RNA', 'chip']}}, {'sargasso': {'module_tag': ['RNA']}}, {'verifybamid': {'module_tag': ['DNA']}}, {'mirtrace': {'module_tag': ['smRNA', 'miRNA']}}, {'happy': {'module_tag': ['DNA']}}, {'homer': {'module_tag': ['RNA', 'DNA', 'chip']}}, {'macs2': {'module_tag': ['chip']}}, {'theta2': {'module_tag': ['DNA', 'cancer']}}, {'snpeff': {'module_tag': ['DNA']}}, {'gatk': {'module_tag': ['DNA']}}, {'htseq': {'module_tag': ['DNA', 'RNA']}}, {'bcftools': {'module_tag': ['DNA']}}, {'featureCounts': {'module_tag': ['DNA', 'RNA']}}, {'dedup': {'module_tag': ['DNA', 'ancient']}}, {'damageprofiler': {'module_tag': ['DNA', 'ancient']}}, {'picard': {'module_tag': ['DNA', 'RNA']}}, {'prokka': {'module_tag': ['prokarytotic', 'denovo']}}, {'samblaster': {'module_tag': ['DNA', 'RNA']}}, {'samtools': {'module_tag': ['DNA', 'RNA']}}, {'bamtools': {'module_tag': ['DNA', 'RNA']}}, {'jellyfish': {'module_tag': ['DNA']}}, {'vcftools': {'module_tag': ['DNA']}}, {'longranger': {'module_tag': ['DNA', 'WGS']}}, {'stacks': {'module_tag': ['DNA']}}, {'bbmap': {'module_tag': ['DNA', 'RNA']}}, {'bismark': {'module_tag': ['DNA', 'methylation']}}, {'biscuit': {'module_tag': ['DNA', 'methylation']}}, {'hicexplorer': {'module_tag': ['hi-c']}}, {'hicup': {'module_tag': ['hi-c']}}, {'hicpro': {'module_tag': ['hi-c']}}, {'salmon': {'module_tag': ['RNA']}}, {'kallisto': {'module_tag': ['RNA']}}, {'slamdunk': {'module_tag': ['slam']}}, {'star': {'module_tag': ['RNA']}}, {'hisat2': {'module_tag': ['RNA']}}, {'tophat': {'module_tag': ['RNA']}}, {'bowtie2': {'module_tag': ['RNA']}}, {'bowtie1': {'module_tag': ['RNA']}}, {'kat': {'module_tag': ['DNA']}}, {'leehom': {'module_tag': ['RNA', 'DNA']}}, {'adapterRemoval': {'module_tag': ['RNA', 'DNA']}}, {'clipandmerge': {'module_tag': ['DNA', 'ancient']}}, {'cutadapt': {'module_tag': ['RNA', 'DNA']}}, {'flexbar': {'module_tag': ['RNA', 'DNA']}}, {'trimmomatic': {'module_tag': ['RNA', 'DNA']}}, {'skewer': {'module_tag': ['RNA', 'DNA']}}, {'sortmerna': {'module_tag': ['RNA', 'DNA']}}, {'biobloomtools': {'module_tag': ['RNA', 'DNA']}}, {'fastq_screen': {'module_tag': ['RNA', 'DNA']}}, {'afterqc': {'module_tag': ['RNA', 'DNA']}}, {'fastp': {'module_tag': ['RNA', 'DNA']}}, {'fastqc': {'module_tag': ['RNA', 'DNA']}}, {'minionqc': {'module_tag': ['DNA', 'RNA']}}, {'clusterflow': {'module_tag': ['RNA', 'DNA', 'methylation']}}, {'bcl2fastq': {'module_tag': ['RNA', 'DNA', 'methylation']}}, {'interop': {'module_tag': ['RNA', 'DNA', 'methylation']}}, {'flash': {'module_tag': ['DNA', 'RNA']}}]
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'log_filesize_limit': 10000000
+[2026-05-12 14:07:22,544] multiqc                                            [DEBUG  ]  New config 'module_tag': []
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  New config 'data_format': tsv
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  New config 'base_count_desc': millions
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  New config 'data_dump_file': True
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  New config 'custom_content': {'order': []}
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  Command used: /home/daniel.castanedamogo/anaconda3/envs/multiqc/bin/multiqc -c utils/multiqc_config.yaml -f /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw -n multiqc_report_raw.html
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2026-05-12 14:07:22,545] multiqc                                            [INFO   ]  This is MultiQC v1.0.dev0
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  Command     : /home/daniel.castanedamogo/anaconda3/envs/multiqc/bin/multiqc -c utils/multiqc_config.yaml -f /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw -n multiqc_report_raw.html
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  Working dir : /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526
+[2026-05-12 14:07:22,545] multiqc                                            [INFO   ]  Template    : default
+[2026-05-12 14:07:22,545] multiqc                                            [DEBUG  ]  Running in --force mode, will overwrite any existing reports.
+[2026-05-12 14:07:22,546] multiqc                                            [INFO   ]  Searching '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw'
+[2026-05-12 14:07:22,546] multiqc                                            [DEBUG  ]  Analysing modules: peddy, bismark, fastqc, cutadapt, goleft_indexcov, kallisto, busco, samtools, picard, rseqc, quast, gatk, hicup, qualimap, featureCounts, star, salmon, fastq_screen, methylQA, htseq, preseq, snpeff, bamtools, bowtie1, trimmomatic, bowtie2, prokka, slamdunk, clusterflow, bcftools, skewer, tophat, samblaster, custom_content
+[2026-05-12 14:07:22,549] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /home/daniel.castanedamogo/tmp/tmp20z94Y
+[2026-05-12 14:07:22,646] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_50P_1_fastqc.html
+[2026-05-12 14:07:22,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_192S_1_fastqc.html
+[2026-05-12 14:07:22,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_48P_1_fastqc.html
+[2026-05-12 14:07:22,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_191P_1_fastqc.html
+[2026-05-12 14:07:22,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_119P_1_fastqc.html
+[2026-05-12 14:07:22,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_221P_1_fastqc.html
+[2026-05-12 14:07:22,648] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_120S_1_fastqc.html
+[2026-05-12 14:07:22,648] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_50P_2_fastqc.html
+[2026-05-12 14:07:22,648] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_4P_1_fastqc.html
+[2026-05-12 14:07:22,648] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_47P_1_fastqc.html
+[2026-05-12 14:07:22,649] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_222S_1_fastqc.html
+[2026-05-12 14:07:22,649] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_52P_1_fastqc.html
+[2026-05-12 14:07:22,649] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_190S_1_fastqc.html
+[2026-05-12 14:07:22,649] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_118_1_fastqc.html
+[2026-05-12 14:07:22,649] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_53P_1_fastqc.html
+[2026-05-12 14:07:22,650] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_193P_1_fastqc.html
+[2026-05-12 14:07:22,650] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_10P_1_fastqc.html
+[2026-05-12 14:07:22,650] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_122S_1_fastqc.html
+[2026-05-12 14:07:22,650] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_109S_1_fastqc.html
+[2026-05-12 14:07:22,651] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_192S_2_fastqc.html
+[2026-05-12 14:07:22,651] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_83P_1_fastqc.html
+[2026-05-12 14:07:22,651] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_121S_1_fastqc.html
+[2026-05-12 14:07:22,651] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_83P_2_fastqc.html
+[2026-05-12 14:07:22,652] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_123P_1_fastqc.html
+[2026-05-12 14:07:22,652] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_223P_1_fastqc.html
+[2026-05-12 14:07:22,652] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_191P_2_fastqc.html
+[2026-05-12 14:07:22,652] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_183P_1_fastqc.html
+[2026-05-12 14:07:22,652] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_224S_1_fastqc.html
+[2026-05-12 14:07:22,653] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_120S_2_fastqc.html
+[2026-05-12 14:07:22,653] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_48P_2_fastqc.html
+[2026-05-12 14:07:22,653] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_64P_1_fastqc.html
+[2026-05-12 14:07:22,653] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_44P_1_fastqc.html
+[2026-05-12 14:07:22,654] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_119P_2_fastqc.html
+[2026-05-12 14:07:22,654] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_184S_1_fastqc.html
+[2026-05-12 14:07:22,654] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_4P_2_fastqc.html
+[2026-05-12 14:07:22,654] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_51P_1_fastqc.html
+[2026-05-12 14:07:22,654] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_11P_1_fastqc.html
+[2026-05-12 14:07:22,655] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_47P_2_fastqc.html
+[2026-05-12 14:07:22,655] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_52P_2_fastqc.html
+[2026-05-12 14:07:22,655] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_221P_2_fastqc.html
+[2026-05-12 14:07:22,655] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_53P_2_fastqc.html
+[2026-05-12 14:07:22,655] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_222S_2_fastqc.html
+[2026-05-12 14:07:22,656] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_190S_2_fastqc.html
+[2026-05-12 14:07:22,656] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_118_2_fastqc.html
+[2026-05-12 14:07:22,656] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_65P_1_fastqc.html
+[2026-05-12 14:07:22,656] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_10P_2_fastqc.html
+[2026-05-12 14:07:22,657] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_156P_1_fastqc.html
+[2026-05-12 14:07:22,657] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_122S_2_fastqc.html
+[2026-05-12 14:07:22,657] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_193P_2_fastqc.html
+[2026-05-12 14:07:22,657] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_66P_1_fastqc.html
+[2026-05-12 14:07:22,658] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_157S_1_fastqc.html
+[2026-05-12 14:07:22,658] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_109S_2_fastqc.html
+[2026-05-12 14:07:22,658] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_51P_2_fastqc.html
+[2026-05-12 14:07:22,658] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_84P_1_fastqc.html
+[2026-05-12 14:07:22,658] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_123P_2_fastqc.html
+[2026-05-12 14:07:22,659] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_82P_1_fastqc.html
+[2026-05-12 14:07:22,659] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_64P_2_fastqc.html
+[2026-05-12 14:07:22,659] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_44P_2_fastqc.html
+[2026-05-12 14:07:22,659] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_121S_2_fastqc.html
+[2026-05-12 14:07:22,660] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_153S_1_fastqc.html
+[2026-05-12 14:07:22,660] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_6P_1_fastqc.html
+[2026-05-12 14:07:22,660] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_11P_2_fastqc.html
+[2026-05-12 14:07:22,660] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_223P_2_fastqc.html
+[2026-05-12 14:07:22,661] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_108S_1_fastqc.html
+[2026-05-12 14:07:22,661] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_70P_1_fastqc.html
+[2026-05-12 14:07:22,661] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_65P_2_fastqc.html
+[2026-05-12 14:07:22,661] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_182S_1_fastqc.html
+[2026-05-12 14:07:22,661] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_158P_1_fastqc.html
+[2026-05-12 14:07:22,662] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Lib_pos_plate2_1_fastqc.html
+[2026-05-12 14:07:22,662] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_183P_2_fastqc.html
+[2026-05-12 14:07:22,662] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_8P_1_fastqc.html
+[2026-05-12 14:07:22,662] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_156P_2_fastqc.html
+[2026-05-12 14:07:22,662] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_66P_2_fastqc.html
+[2026-05-12 14:07:22,663] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_224S_2_fastqc.html
+[2026-05-12 14:07:22,663] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Lib_pos_plate1_1_fastqc.html
+[2026-05-12 14:07:22,663] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_81P_1_fastqc.html
+[2026-05-12 14:07:22,663] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_184S_2_fastqc.html
+[2026-05-12 14:07:22,664] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_159S_1_fastqc.html
+[2026-05-12 14:07:22,664] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_225P_1_fastqc.html
+[2026-05-12 14:07:22,664] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_82P_2_fastqc.html
+[2026-05-12 14:07:22,664] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_84P_2_fastqc.html
+[2026-05-12 14:07:22,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_157S_2_fastqc.html
+[2026-05-12 14:07:22,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_6P_2_fastqc.html
+[2026-05-12 14:07:22,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_182S_2_fastqc.html
+[2026-05-12 14:07:22,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_226S_1_fastqc.html
+[2026-05-12 14:07:22,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_9P_1_fastqc.html
+[2026-05-12 14:07:22,666] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Lib_neg_plate2_1_fastqc.html
+[2026-05-12 14:07:22,666] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_70P_2_fastqc.html
+[2026-05-12 14:07:22,666] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_195_1_fastqc.html
+[2026-05-12 14:07:22,666] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Lib_neg_plate2_2_fastqc.html
+[2026-05-12 14:07:22,666] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_46P_1_fastqc.html
+[2026-05-12 14:07:22,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_81P_2_fastqc.html
+[2026-05-12 14:07:22,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Lib_pos_plate2_2_fastqc.html
+[2026-05-12 14:07:22,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_152P_1_fastqc.html
+[2026-05-12 14:07:22,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_153S_2_fastqc.html
+[2026-05-12 14:07:22,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_108S_2_fastqc.html
+[2026-05-12 14:07:22,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_117_1_fastqc.html
+[2026-05-12 14:07:22,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_63P_1_fastqc.html
+[2026-05-12 14:07:22,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Lib_pos_plate1_2_fastqc.html
+[2026-05-12 14:07:22,669] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_8P_2_fastqc.html
+[2026-05-12 14:07:22,669] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_158P_2_fastqc.html
+[2026-05-12 14:07:22,669] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_159S_2_fastqc.html
+[2026-05-12 14:07:22,669] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_226S_2_fastqc.html
+[2026-05-12 14:07:22,669] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_9P_2_fastqc.html
+[2026-05-12 14:07:22,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_151S_1_fastqc.html
+[2026-05-12 14:07:22,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_225P_2_fastqc.html
+[2026-05-12 14:07:22,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_227P_1_fastqc.html
+[2026-05-12 14:07:22,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_63P_2_fastqc.html
+[2026-05-12 14:07:22,671] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_46P_2_fastqc.html
+[2026-05-12 14:07:22,671] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_152P_2_fastqc.html
+[2026-05-12 14:07:22,671] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_196_1_fastqc.html
+[2026-05-12 14:07:22,671] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_195_2_fastqc.html
+[2026-05-12 14:07:22,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_60P_1_fastqc.html
+[2026-05-12 14:07:22,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_100P_1_fastqc.html
+[2026-05-12 14:07:22,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_117_2_fastqc.html
+[2026-05-12 14:07:22,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_174S_1_fastqc.html
+[2026-05-12 14:07:22,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_151S_2_fastqc.html
+[2026-05-12 14:07:22,673] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_227P_2_fastqc.html
+[2026-05-12 14:07:22,673] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_100P_2_fastqc.html
+[2026-05-12 14:07:22,673] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_60P_2_fastqc.html
+[2026-05-12 14:07:22,673] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_228S_1_fastqc.html
+[2026-05-12 14:07:22,673] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_189P_1_fastqc.html
+[2026-05-12 14:07:22,674] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_196_2_fastqc.html
+[2026-05-12 14:07:22,674] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_174S_2_fastqc.html
+[2026-05-12 14:07:22,674] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_7P_1_fastqc.html
+[2026-05-12 14:07:22,674] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_189P_2_fastqc.html
+[2026-05-12 14:07:22,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_199P_1_fastqc.html
+[2026-05-12 14:07:22,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_199P_2_fastqc.html
+[2026-05-12 14:07:22,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_228S_2_fastqc.html
+[2026-05-12 14:07:22,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_110S_1_fastqc.html
+[2026-05-12 14:07:22,676] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_7P_2_fastqc.html
+[2026-05-12 14:07:22,676] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_230S_1_fastqc.html
+[2026-05-12 14:07:22,676] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_105P_1_fastqc.html
+[2026-05-12 14:07:22,676] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_1P_1_fastqc.html
+[2026-05-12 14:07:22,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_104P_1_fastqc.html
+[2026-05-12 14:07:22,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_181P_1_fastqc.html
+[2026-05-12 14:07:22,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_180S_1_fastqc.html
+[2026-05-12 14:07:22,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_110S_2_fastqc.html
+[2026-05-12 14:07:22,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_230S_2_fastqc.html
+[2026-05-12 14:07:22,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_105P_2_fastqc.html
+[2026-05-12 14:07:22,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_1P_2_fastqc.html
+[2026-05-12 14:07:22,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_148P_1_fastqc.html
+[2026-05-12 14:07:22,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_pos_plate1_1_fastqc.html
+[2026-05-12 14:07:22,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_104P_2_fastqc.html
+[2026-05-12 14:07:22,679] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_180S_2_fastqc.html
+[2026-05-12 14:07:22,679] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_181P_2_fastqc.html
+[2026-05-12 14:07:22,679] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_76P_1_fastqc.html
+[2026-05-12 14:07:22,679] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_30P_1_fastqc.html
+[2026-05-12 14:07:22,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_pos_plate1_2_fastqc.html
+[2026-05-12 14:07:22,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_55P_1_fastqc.html
+[2026-05-12 14:07:22,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_232S_1_fastqc.html
+[2026-05-12 14:07:22,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_76P_2_fastqc.html
+[2026-05-12 14:07:22,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_30P_2_fastqc.html
+[2026-05-12 14:07:22,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_163S_1_fastqc.html
+[2026-05-12 14:07:22,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_148P_2_fastqc.html
+[2026-05-12 14:07:22,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_39P_1_fastqc.html
+[2026-05-12 14:07:22,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_55P_2_fastqc.html
+[2026-05-12 14:07:22,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_25P_1_fastqc.html
+[2026-05-12 14:07:22,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_57P_1_fastqc.html
+[2026-05-12 14:07:22,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_2P_1_fastqc.html
+[2026-05-12 14:07:22,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_232S_2_fastqc.html
+[2026-05-12 14:07:22,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_42P_1_fastqc.html
+[2026-05-12 14:07:22,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_209P_1_fastqc.html
+[2026-05-12 14:07:22,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_149S_1_fastqc.html
+[2026-05-12 14:07:22,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_39P_2_fastqc.html
+[2026-05-12 14:07:22,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_58P_1_fastqc.html
+[2026-05-12 14:07:22,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_pos_plate2_1_fastqc.html
+[2026-05-12 14:07:22,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_163S_2_fastqc.html
+[2026-05-12 14:07:22,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_25P_2_fastqc.html
+[2026-05-12 14:07:22,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_77P_1_fastqc.html
+[2026-05-12 14:07:22,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_2P_2_fastqc.html
+[2026-05-12 14:07:22,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_42P_2_fastqc.html
+[2026-05-12 14:07:22,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_57P_2_fastqc.html
+[2026-05-12 14:07:22,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_pos_plate2_2_fastqc.html
+[2026-05-12 14:07:22,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_149S_2_fastqc.html
+[2026-05-12 14:07:22,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_209P_2_fastqc.html
+[2026-05-12 14:07:22,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_58P_2_fastqc.html
+[2026-05-12 14:07:22,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_77P_2_fastqc.html
+[2026-05-12 14:07:22,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_210S_1_fastqc.html
+[2026-05-12 14:07:22,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_59P_1_fastqc.html
+[2026-05-12 14:07:22,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_78P_1_fastqc.html
+[2026-05-12 14:07:22,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_14P_1_fastqc.html
+[2026-05-12 14:07:22,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_164P_1_fastqc.html
+[2026-05-12 14:07:22,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_210S_2_fastqc.html
+[2026-05-12 14:07:22,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_59P_2_fastqc.html
+[2026-05-12 14:07:22,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_pos_plate3_1_fastqc.html
+[2026-05-12 14:07:22,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_79S_1_fastqc.html
+[2026-05-12 14:07:22,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_32P_1_fastqc.html
+[2026-05-12 14:07:22,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_78P_2_fastqc.html
+[2026-05-12 14:07:22,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_14P_2_fastqc.html
+[2026-05-12 14:07:22,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_164P_2_fastqc.html
+[2026-05-12 14:07:22,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_79S_2_fastqc.html
+[2026-05-12 14:07:22,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_pos_plate3_2_fastqc.html
+[2026-05-12 14:07:22,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_32P_2_fastqc.html
+[2026-05-12 14:07:22,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_172S_1_fastqc.html
+[2026-05-12 14:07:22,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_166_1_fastqc.html
+[2026-05-12 14:07:22,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_116P_1_fastqc.html
+[2026-05-12 14:07:22,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_172S_2_fastqc.html
+[2026-05-12 14:07:22,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_212S_1_fastqc.html
+[2026-05-12 14:07:22,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_166_2_fastqc.html
+[2026-05-12 14:07:22,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_113P_1_fastqc.html
+[2026-05-12 14:07:22,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_212S_2_fastqc.html
+[2026-05-12 14:07:22,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Lib_neg_plate1_1_fastqc.html
+[2026-05-12 14:07:22,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_116P_2_fastqc.html
+[2026-05-12 14:07:22,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Lib_neg_plate1_2_fastqc.html
+[2026-05-12 14:07:22,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_113P_2_fastqc.html
+[2026-05-12 14:07:22,693] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_5P_1_fastqc.html
+[2026-05-12 14:07:22,693] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_33P_1_fastqc.html
+[2026-05-12 14:07:22,693] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_150P_1_fastqc.html
+[2026-05-12 14:07:22,693] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_112S_1_fastqc.html
+[2026-05-12 14:07:22,694] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_197_1_fastqc.html
+[2026-05-12 14:07:22,694] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_146S_1_fastqc.html
+[2026-05-12 14:07:22,694] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_5P_2_fastqc.html
+[2026-05-12 14:07:22,694] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_112S_2_fastqc.html
+[2026-05-12 14:07:22,694] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_33P_2_fastqc.html
+[2026-05-12 14:07:22,695] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_150P_2_fastqc.html
+[2026-05-12 14:07:22,695] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_41P_1_fastqc.html
+[2026-05-12 14:07:22,695] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_146S_2_fastqc.html
+[2026-05-12 14:07:22,695] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_218S_1_fastqc.html
+[2026-05-12 14:07:22,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_218S_2_fastqc.html
+[2026-05-12 14:07:22,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_197_2_fastqc.html
+[2026-05-12 14:07:22,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_41P_2_fastqc.html
+[2026-05-12 14:07:22,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_43P_1_fastqc.html
+[2026-05-12 14:07:22,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_127S_1_fastqc.html
+[2026-05-12 14:07:22,697] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_34P_1_fastqc.html
+[2026-05-12 14:07:22,697] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_167P_1_fastqc.html
+[2026-05-12 14:07:22,697] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_43P_2_fastqc.html
+[2026-05-12 14:07:22,697] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_213S_1_fastqc.html
+[2026-05-12 14:07:22,698] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_127S_2_fastqc.html
+[2026-05-12 14:07:22,698] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_211P_1_fastqc.html
+[2026-05-12 14:07:22,698] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_167P_2_fastqc.html
+[2026-05-12 14:07:22,698] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_34P_2_fastqc.html
+[2026-05-12 14:07:22,699] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_211P_2_fastqc.html
+[2026-05-12 14:07:22,699] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_213S_2_fastqc.html
+[2026-05-12 14:07:22,699] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_165S_1_fastqc.html
+[2026-05-12 14:07:22,699] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_198_1_fastqc.html
+[2026-05-12 14:07:22,699] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_229P_1_fastqc.html
+[2026-05-12 14:07:22,700] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_198_2_fastqc.html
+[2026-05-12 14:07:22,700] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_165S_2_fastqc.html
+[2026-05-12 14:07:22,700] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_177P_1_fastqc.html
+[2026-05-12 14:07:22,700] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_229P_2_fastqc.html
+[2026-05-12 14:07:22,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_31P_1_fastqc.html
+[2026-05-12 14:07:22,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_177P_2_fastqc.html
+[2026-05-12 14:07:22,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_31P_2_fastqc.html
+[2026-05-12 14:07:22,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_214S_1_fastqc.html
+[2026-05-12 14:07:22,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_169P_1_fastqc.html
+[2026-05-12 14:07:22,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_194S_1_fastqc.html
+[2026-05-12 14:07:22,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_214S_2_fastqc.html
+[2026-05-12 14:07:22,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_35P_1_fastqc.html
+[2026-05-12 14:07:22,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_169P_2_fastqc.html
+[2026-05-12 14:07:22,703] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_162P_1_fastqc.html
+[2026-05-12 14:07:22,703] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_194S_2_fastqc.html
+[2026-05-12 14:07:22,703] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_26P_1_fastqc.html
+[2026-05-12 14:07:22,703] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_26P_2_fastqc.html
+[2026-05-12 14:07:22,703] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_35P_2_fastqc.html
+[2026-05-12 14:07:22,704] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_162P_2_fastqc.html
+[2026-05-12 14:07:22,704] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_176S_1_fastqc.html
+[2026-05-12 14:07:22,704] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_16P_1_fastqc.html
+[2026-05-12 14:07:22,704] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_36P_1_fastqc.html
+[2026-05-12 14:07:22,705] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_176S_2_fastqc.html
+[2026-05-12 14:07:22,705] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_114P_1_fastqc.html
+[2026-05-12 14:07:22,705] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_36P_2_fastqc.html
+[2026-05-12 14:07:22,705] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_215S_1_fastqc.html
+[2026-05-12 14:07:22,706] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_126P_1_fastqc.html
+[2026-05-12 14:07:22,706] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_16P_2_fastqc.html
+[2026-05-12 14:07:22,706] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_114P_2_fastqc.html
+[2026-05-12 14:07:22,706] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_215S_2_fastqc.html
+[2026-05-12 14:07:22,706] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_126P_2_fastqc.html
+[2026-05-12 14:07:22,707] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_231P_1_fastqc.html
+[2026-05-12 14:07:22,707] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_12P_1_fastqc.html
+[2026-05-12 14:07:22,707] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_178S_1_fastqc.html
+[2026-05-12 14:07:22,707] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_216S_1_fastqc.html
+[2026-05-12 14:07:22,708] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_170S_1_fastqc.html
+[2026-05-12 14:07:22,708] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_12P_2_fastqc.html
+[2026-05-12 14:07:22,708] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_216S_2_fastqc.html
+[2026-05-12 14:07:22,708] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_231P_2_fastqc.html
+[2026-05-12 14:07:22,708] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_38P_1_fastqc.html
+[2026-05-12 14:07:22,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_178S_2_fastqc.html
+[2026-05-12 14:07:22,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_170S_2_fastqc.html
+[2026-05-12 14:07:22,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_38P_2_fastqc.html
+[2026-05-12 14:07:22,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_130S_1_fastqc.html
+[2026-05-12 14:07:22,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_115S_1_fastqc.html
+[2026-05-12 14:07:22,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_200S_1_fastqc.html
+[2026-05-12 14:07:22,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_130S_2_fastqc.html
+[2026-05-12 14:07:22,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_115S_2_fastqc.html
+[2026-05-12 14:07:22,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_200S_2_fastqc.html
+[2026-05-12 14:07:22,711] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_neg_plate2_1_fastqc.html
+[2026-05-12 14:07:22,711] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_111P_1_fastqc.html
+[2026-05-12 14:07:22,711] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_217P_1_fastqc.html
+[2026-05-12 14:07:22,711] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_neg_plate2_2_fastqc.html
+[2026-05-12 14:07:22,712] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_217P_2_fastqc.html
+[2026-05-12 14:07:22,712] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_111P_2_fastqc.html
+[2026-05-12 14:07:22,712] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_171P_1_fastqc.html
+[2026-05-12 14:07:22,712] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_171P_2_fastqc.html
+[2026-05-12 14:07:22,713] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_45P_1_fastqc.html
+[2026-05-12 14:07:22,713] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_203_1_fastqc.html
+[2026-05-12 14:07:22,713] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_45P_2_fastqc.html
+[2026-05-12 14:07:22,713] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_203_2_fastqc.html
+[2026-05-12 14:07:22,713] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_208S_1_fastqc.html
+[2026-05-12 14:07:22,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_29P_1_fastqc.html
+[2026-05-12 14:07:22,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_75P_1_fastqc.html
+[2026-05-12 14:07:22,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_208S_2_fastqc.html
+[2026-05-12 14:07:22,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_29P_2_fastqc.html
+[2026-05-12 14:07:22,715] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_75P_2_fastqc.html
+[2026-05-12 14:07:22,715] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_3P_1_fastqc.html
+[2026-05-12 14:07:22,715] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_3P_2_fastqc.html
+[2026-05-12 14:07:22,715] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_131P_1_fastqc.html
+[2026-05-12 14:07:22,715] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_128S_1_fastqc.html
+[2026-05-12 14:07:22,716] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_138S_1_fastqc.html
+[2026-05-12 14:07:22,716] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_129P_1_fastqc.html
+[2026-05-12 14:07:22,716] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_131P_2_fastqc.html
+[2026-05-12 14:07:22,716] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_204_1_fastqc.html
+[2026-05-12 14:07:22,717] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_138S_2_fastqc.html
+[2026-05-12 14:07:22,717] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_128S_2_fastqc.html
+[2026-05-12 14:07:22,717] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_129P_2_fastqc.html
+[2026-05-12 14:07:22,717] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_204_2_fastqc.html
+[2026-05-12 14:07:22,717] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_40P_1_fastqc.html
+[2026-05-12 14:07:22,718] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_40P_2_fastqc.html
+[2026-05-12 14:07:22,718] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_neg_plate3_1_fastqc.html
+[2026-05-12 14:07:22,718] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_107P_1_fastqc.html
+[2026-05-12 14:07:22,718] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_neg_plate3_2_fastqc.html
+[2026-05-12 14:07:22,719] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_173P_1_fastqc.html
+[2026-05-12 14:07:22,719] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_107P_2_fastqc.html
+[2026-05-12 14:07:22,719] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_175P_1_fastqc.html
+[2026-05-12 14:07:22,719] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_173P_2_fastqc.html
+[2026-05-12 14:07:22,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_175P_2_fastqc.html
+[2026-05-12 14:07:22,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_13P_1_fastqc.html
+[2026-05-12 14:07:22,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_160P_1_fastqc.html
+[2026-05-12 14:07:22,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_140S_1_fastqc.html
+[2026-05-12 14:07:22,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_13P_2_fastqc.html
+[2026-05-12 14:07:22,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_160P_2_fastqc.html
+[2026-05-12 14:07:22,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_140S_2_fastqc.html
+[2026-05-12 14:07:22,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_15P_1_fastqc.html
+[2026-05-12 14:07:22,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_142S_1_fastqc.html
+[2026-05-12 14:07:22,722] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_179P_1_fastqc.html
+[2026-05-12 14:07:22,722] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_15P_2_fastqc.html
+[2026-05-12 14:07:22,722] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_142S_2_fastqc.html
+[2026-05-12 14:07:22,722] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_179P_2_fastqc.html
+[2026-05-12 14:07:22,722] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_205P_1_fastqc.html
+[2026-05-12 14:07:22,723] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_54P_1_fastqc.html
+[2026-05-12 14:07:22,723] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_205P_2_fastqc.html
+[2026-05-12 14:07:22,723] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_27P_1_fastqc.html
+[2026-05-12 14:07:22,723] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_54P_2_fastqc.html
+[2026-05-12 14:07:22,724] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_27P_2_fastqc.html
+[2026-05-12 14:07:22,724] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_neg_plate1_1_fastqc.html
+[2026-05-12 14:07:22,724] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_Extr_neg_plate1_2_fastqc.html
+[2026-05-12 14:07:22,724] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_74P_1_fastqc.html
+[2026-05-12 14:07:22,724] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_73P_1_fastqc.html
+[2026-05-12 14:07:22,725] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_28P_1_fastqc.html
+[2026-05-12 14:07:22,725] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_73P_2_fastqc.html
+[2026-05-12 14:07:22,725] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_74P_2_fastqc.html
+[2026-05-12 14:07:22,725] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_28P_2_fastqc.html
+[2026-05-12 14:07:22,726] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_161S_1_fastqc.html
+[2026-05-12 14:07:22,726] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_207P_1_fastqc.html
+[2026-05-12 14:07:22,726] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_161S_2_fastqc.html
+[2026-05-12 14:07:22,726] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_188S_1_fastqc.html
+[2026-05-12 14:07:22,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_207P_2_fastqc.html
+[2026-05-12 14:07:22,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_188S_2_fastqc.html
+[2026-05-12 14:07:22,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_141P_1_fastqc.html
+[2026-05-12 14:07:22,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_56P_1_fastqc.html
+[2026-05-12 14:07:22,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_147_1_fastqc.html
+[2026-05-12 14:07:22,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_141P_2_fastqc.html
+[2026-05-12 14:07:22,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_56P_2_fastqc.html
+[2026-05-12 14:07:22,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_147_2_fastqc.html
+[2026-05-12 14:07:22,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_145P_1_fastqc.html
+[2026-05-12 14:07:22,729] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_137P_1_fastqc.html
+[2026-05-12 14:07:22,729] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_145P_2_fastqc.html
+[2026-05-12 14:07:22,729] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_137P_2_fastqc.html
+[2026-05-12 14:07:22,729] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_134S_1_fastqc.html
+[2026-05-12 14:07:22,729] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_206S_1_fastqc.html
+[2026-05-12 14:07:22,730] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_134S_2_fastqc.html
+[2026-05-12 14:07:22,730] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: PD_206S_2_fastqc.html
+[2026-05-12 14:07:23,052] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:07:25,104] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:10:40,075] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 372 reports
+[2026-05-12 14:11:38,723] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:38,905] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:39,089] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:39,208] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:39,829] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:41,881] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:43,050] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:43,141] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:43,335] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:43,439] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:43,454] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2026-05-12 14:11:43,910] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:44,009] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:44,191] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:44,357] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:44,446] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:44,553] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:44,758] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:44,971] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:45,169] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:45,367] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:45,571] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:45,779] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:46,005] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:46,092] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:47,166] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2026-05-12 14:11:47,327] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:47,515] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:47,698] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:47,788] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:47,976] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_raw',)
+[2026-05-12 14:11:48,080] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2026-05-12 14:11:48,137] multiqc                                            [WARNING]  Deleting    : multiqc_raw/multiqc_report_raw.html   (-f was specified)
+[2026-05-12 14:11:48,141] multiqc                                            [INFO   ]  Report      : multiqc_raw/multiqc_report_raw.html
+[2026-05-12 14:11:48,141] multiqc                                            [WARNING]  Deleting    : multiqc_raw/multiqc_report_raw_data   (-f was specified)
+[2026-05-12 14:11:48,160] multiqc                                            [INFO   ]  Data        : multiqc_raw/multiqc_report_raw_data
+[2026-05-12 14:11:48,163] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/multiqc_fastqc.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,180] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/mqc_fastqc_per_base_sequence_quality_plot_1.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,193] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/mqc_fastqc_per_sequence_quality_scores_plot_1.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,197] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Percentages.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,213] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Counts.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,224] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/mqc_fastqc_per_base_n_content_plot_1.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,233] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/mqc_fastqc_sequence_duplication_levels_plot_1.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,261] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/mqc_fastqc_overrepresented_sequencesi_plot_1.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,265] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/mqc_fastqc_adapter_content_plot_1.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,284] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/multiqc_general_stats.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:48,294] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmp20z94Y/multiqc_data/multiqc_sources.txt' to '/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/multiqc_raw/multiqc_report_raw_data'
+[2026-05-12 14:11:49,204] multiqc                                            [INFO   ]  MultiQC complete

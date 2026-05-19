@@ -1,0 +1,61 @@
+[2026-05-12 16:38:13,426] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/daniel.castanedamogo/anaconda3/envs/multiqc/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc_config.yaml
+[2026-05-12 16:38:13,427] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/daniel.castanedamogo/.multiqc_config.yaml
+[2026-05-12 16:38:13,428] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2026-05-12 16:38:13,428] multiqc                                            [DEBUG  ]  Command used: /home/daniel.castanedamogo/anaconda3/envs/multiqc/bin/multiqc . -o ../multiqc/multiqc_prinseq_derep124/
+[2026-05-12 16:38:13,428] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2026-05-12 16:38:13,428] multiqc                                            [INFO   ]  This is MultiQC v1.0.dev0
+[2026-05-12 16:38:13,428] multiqc                                            [DEBUG  ]  Command     : /home/daniel.castanedamogo/anaconda3/envs/multiqc/bin/multiqc . -o ../multiqc/multiqc_prinseq_derep124/
+[2026-05-12 16:38:13,428] multiqc                                            [DEBUG  ]  Working dir : /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/fastqc_prinseq124
+[2026-05-12 16:38:13,428] multiqc                                            [INFO   ]  Template    : default
+[2026-05-12 16:38:13,429] multiqc                                            [INFO   ]  Searching '.'
+[2026-05-12 16:38:13,429] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, peddy, methylQA, qualimap, preseq, quast, rseqc, busco, goleft_indexcov, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, slamdunk, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc, clusterflow
+[2026-05-12 16:38:13,430] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /home/daniel.castanedamogo/tmp/tmpx0FktL
+[2026-05-12 16:38:16,492] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2026-05-12 16:38:16,622] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:16,685] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:16,745] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2026-05-12 16:38:16,904] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:31,280] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('.',)
+[2026-05-12 16:38:31,340] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:35,150] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:35,196] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:35,273] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('.',)
+[2026-05-12 16:38:36,234] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('.',)
+[2026-05-12 16:38:37,182] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:38,116] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:39,034] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:39,128] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:48,372] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:48,420] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('.',)
+[2026-05-12 16:38:49,339] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('.',)
+[2026-05-12 16:38:52,091] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:53,028] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:53,178] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:53,231] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('.',)
+[2026-05-12 16:38:53,318] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('.',)
+[2026-05-12 16:38:54,230] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:59,668] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2026-05-12 16:38:59,771] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:38:59,888] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:39:00,823] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:39:01,748] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:39:02,720] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:39:03,679] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('.',)
+[2026-05-12 16:39:04,587] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('.',)
+[2026-05-12 16:39:04,658] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:40:17,318] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 372 reports
+[2026-05-12 16:40:38,032] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('.',)
+[2026-05-12 16:40:38,055] multiqc                                            [INFO   ]  Report      : ../multiqc/multiqc_prinseq_derep124/multiqc_report.html
+[2026-05-12 16:40:38,057] multiqc                                            [INFO   ]  Data        : ../multiqc/multiqc_prinseq_derep124/multiqc_data
+[2026-05-12 16:40:38,058] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/multiqc_fastqc.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,075] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/mqc_fastqc_per_base_sequence_quality_plot_1.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,086] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/mqc_fastqc_per_sequence_quality_scores_plot_1.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,091] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Percentages.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,108] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Counts.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,120] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/mqc_fastqc_per_base_n_content_plot_1.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,131] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/mqc_fastqc_sequence_length_distribution_plot_1.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,143] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/mqc_fastqc_sequence_duplication_levels_plot_1.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,209] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/mqc_fastqc_overrepresented_sequencesi_plot_1.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,215] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/multiqc_general_stats.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,222] multiqc                                            [DEBUG  ]  Moving data file from '/home/daniel.castanedamogo/tmp/tmpx0FktL/multiqc_data/multiqc_sources.txt' to '../multiqc/multiqc_prinseq_derep124/multiqc_data'
+[2026-05-12 16:40:38,674] multiqc                                            [INFO   ]  MultiQC complete
