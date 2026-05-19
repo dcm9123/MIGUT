@@ -43,3 +43,7 @@ Now I will visualize the results with `fastqc` and `multiqc`:
 I am back from YUL, and I have done a few updates on the analysis. First, I decided to keep the results from the QC pipeline that does the following: raw data -> bbduk adapter removal -> bbduk polyG polyC removal -> Prinseq -> bmtagger -> bbmerge -> Metaphlan4
 
 I was able to reduce the duplication with Prinseq to levels varying between 0%-8%. The results of my pipeline are in ARC, specifically in `/bulk/IMCshared/daniel/parkinsons/novaseq/results_0526/` 
+
+For Metaphlan4, I keep having issues with their `merge_abundance.py` script. It seems that their formatting has not been updated for Metaphlan4.2. The commands that have been working fine are:
+`for file in *.txt; do sgb_to_gtdb_profile.py -i ${file} -o gtdb/${file%%.txt}_gtdb.txt; done;` (taking into account that each file is an individual metaphlan4.txt table)
+`merge_metaphlan_tables.py -l path.txt -o ../merged_abundance_table.txt` In here, I had to make a file called `path.txt` where each file has its path directory. It wouldn't work otherwise
