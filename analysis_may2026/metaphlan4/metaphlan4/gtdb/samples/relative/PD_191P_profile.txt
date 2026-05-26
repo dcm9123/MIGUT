@@ -1,0 +1,13 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#clade_name	relative_abundance
+UNCLASSIFIED	0.0
+d__Bacteria	100.0
+d__Bacteria;p__Bacteroidota	100.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia	100.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales	100.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae	100.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Phocaeicola	75.29092
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides	24.70908
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Phocaeicola;s__Phocaeicola dorei	75.29092
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__Bacteroides uniformis	13.81705
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__Bacteroides xylanisolvens	10.89203

@@ -1,0 +1,15 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/home/daniel.castanedamogo/anaconda3/envs/metaphlan4/bin/metaphlan --nproc 24 --input_type fastq --db_dir /bulk/IMCshared_bulk/shared/dbs/metaphlan4.2/ -t rel_ab_w_read_stats -o /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/metaphlan4/PD_212S_metaphlan4.txt --mapout /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/metaphlan4/PD_212S_bowtie2.vz2 --verbose /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/bbmerge/PD_212S_bbmerged.fastq.gz
+#12750 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 5412
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	57.552941	-	7338
+k__Bacteria	2	42.447059	0.0003367091119577882	5412
+k__Bacteria|p__Firmicutes	2|1239	42.447059	0.0003367091119577882	5412
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	42.447059	0.0003367091119577882	5412
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales	2|1239|186801|3085636	42.447059	0.0003367091119577882	5412
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae	2|1239|186801|3085636|186803	42.447059	0.0003367091119577882	5412
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes	2|1239|186801|3085636|186803|207244	42.447059	0.0003367091119577882	5412
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes|s__Anaerostipes_hadrus	2|1239|186801|3085636|186803|207244|649756	42.447059	0.0003367091119577882	5412
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes|s__Anaerostipes_hadrus|t__SGB4540	2|1239|186801|3085636|186803|207244|649756|	42.447059	0.0003367091119577882	5412
