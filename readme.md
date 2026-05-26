@@ -1,10 +1,10 @@
-###April 19th, 2026
+### April 19th, 2026
 
 After waiting for months, I finally have the Parkinson's data with me. I will be presenting some basic results to the public this upcoming Friday at the PAA (Lunch & Learn). The directory and samples I am working with are located in ARC, specifically in `/bulk/IMCshared/daniel/novaseq/data`, where I have a total of 186 samples divided into two .fastq files (372 .fastq.gz files in total).
 
 I tried working with the existing metaphlan4 pipeline from the Sycuro Lab, but I am having compatibility issues with my Snakemake version vs theirs. Because of that, I decided to run my own analysis in my own semi-automatic workflow by using more updated software and database versions. The first thing I noticed is that the `config` file for Snakemake had a very short adapter sequence (short for Illumina, at least). After visualizing the .fastqc and .multiqc reports of the data, I could see that whomever run that pipeline, did wrong the use adapter sequences, as multiqc was showing a very-high level of adapter and representative sequences that should not be there after running cutadapt and prinseq. Because of that, I decided to look for the right ones and start over with my own results.
 
-###April 27th, 2026
+### April 27th, 2026
 
 I had a chance to present my research at PAA, the talk went well. I had to rush some analyses and data generation to do so. Here is what I did in a nutshell:
 
@@ -52,8 +52,16 @@ For Metaphlan4, I keep having issues with their `merge_abundance.py` script. It 
 ### May 26th, 2026
 So, I have the output directories with the merged relative and absolute abundances. The output directory is in `/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/utils/output_directory`. To run it, I had to deal with a grumpy individual using two scripts:
 
-
+sgb_to_gtdb_profile_abundances.py
 merge_metaphlan_profiles_to_tables.py
+merge_metaphlan_tables.py
 
 
-The first script was run like this: `for file in /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/metaphlan4/metaphlan4/metaphlan4/samples/*; do echo ${file}; python sgb_to_gtdb_profile_abundances.py --metaphlan_SGB_profile_infile ${file} --sgb_to_gtdb_tsv_file mpa_vJan25_CHOCOPhlAnSGB_202503_SGB2GTDB.tsv --output_dir merged; done;` , which gives me the total abundances (absolute) of each SGB text profile to GTDB 
+The first script was run like this: `for file in /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/metaphlan4/metaphlan4/metaphlan4/samples/*; do echo ${file}; python sgb_to_gtdb_profile_abundances.py --metaphlan_SGB_profile_infile ${file} --sgb_to_gtdb_tsv_file mpa_vJan25_CHOCOPhlAnSGB_202503_SGB2GTDB.tsv --output_dir merged; done;` , which gives me the total abundances (absolute) of each SGB text profile to GTDB. 
+
+The second script was run like this: `python merge_metaphlan_profiles_to_tables.py --metaphlan_SGB_profile_dir ../metaphlan4/metaphlan4/metaphlan4/samples/ --metaphlan_GTDB_profile_dir merged/ --output_dir output_directory`. The output of this script gave me 3 files: 1 absolute abundance merged for GTDB, and the relative and absolute abundance merged for SGB. Therefore, I need to get the next table that has the relative abundances merged for GTDB:
+
+`python merge_metaphlan_tables.py -l ../gtdb_sample_path.txt -o gtdb_relative_merged.txt --gtdb_profiles`
+
+All the output merged tables are found in `/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/merged_tables_abundances` with a total of four merged tables.
+
