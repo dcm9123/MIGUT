@@ -46,4 +46,14 @@ I was able to reduce the duplication with Prinseq to levels varying between 0%-8
 
 For Metaphlan4, I keep having issues with their `merge_abundance.py` script. It seems that their formatting has not been updated for Metaphlan4.2. The commands that have been working fine are:
 `for file in *.txt; do sgb_to_gtdb_profile.py -i ${file} -o gtdb/${file%%.txt}_gtdb.txt; done;` (taking into account that each file is an individual metaphlan4.txt table)
-`merge_metaphlan_tables.py -l path.txt -o ../merged_abundance_table.txt` In here, I had to make a file called `path.txt` where each file has its path directory. It wouldn't work otherwise
+`merge_metaphlan_tables.py -l path.txt -o ../merged_abundance_table.txt` In here, I had to make a file called `path.txt` where each file has its path directory. It wouldn't work otherwise.
+
+
+### May 26th, 2026
+So, I have the output directories with the merged relative and absolute abundances. The output directory is in `/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/utils/output_directory`. To run it, I had to deal with a grumpy individual using two scripts:
+
+
+merge_metaphlan_profiles_to_tables.py
+
+
+The first script was run like this: `for file in /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/metaphlan4/metaphlan4/metaphlan4/samples/*; do echo ${file}; python sgb_to_gtdb_profile_abundances.py --metaphlan_SGB_profile_infile ${file} --sgb_to_gtdb_tsv_file mpa_vJan25_CHOCOPhlAnSGB_202503_SGB2GTDB.tsv --output_dir merged; done;` , which gives me the total abundances (absolute) of each SGB text profile to GTDB 
