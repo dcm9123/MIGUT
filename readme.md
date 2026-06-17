@@ -65,3 +65,10 @@ The second script was run like this: `python merge_metaphlan_profiles_to_tables.
 
 All the output merged tables are found in `/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/merged_tables_abundances` with a total of four merged tables.
 
+### June 17th, 2026
+
+I had previously omitted an important part of the MaAsLin2 functional analysis. The PICRUSt2 results are analyzed using two complementary approaches:
+
+1. **Community-based analysis:** Merge the standard, unstratified PICRUSt2 pathway-abundance output from all consortia, then run MaAsLin2 on the combined table. This tests differences in the total predicted functional capacity of the microbial community.
+
+2. **Microbial-contribution analysis:** Use the PICRUSt2 output stratified by ASV to retain the microbial source of each predicted pathway. For each species, add together the pathway abundances contributed by all ASVs assigned to that species. Merge these species-level pathway-contribution tables across all consortia, then run MaAsLin2 again. This tests which microbial species are contributing to the observed pathway-level differences.
