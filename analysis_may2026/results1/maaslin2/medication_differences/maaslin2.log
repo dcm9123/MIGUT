@@ -1,0 +1,23 @@
+2026-06-01 12:48:26.261312 INFO::Writing function arguments to log file
+2026-06-01 12:48:26.263126 DEBUG::Function arguments
+2026-06-01 12:48:26.263972 DEBUG::Output folder: /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/medication_differences
+2026-06-01 12:48:26.264711 DEBUG::Min Abundance: 0.000000
+2026-06-01 12:48:26.265395 DEBUG::Min Prevalence: 0.100000
+2026-06-01 12:48:26.266081 DEBUG::Normalization: TSS
+2026-06-01 12:48:26.266753 DEBUG::Transform: LOG
+2026-06-01 12:48:26.267439 DEBUG::Analysis method: LM
+2026-06-01 12:48:26.26811 DEBUG::Max significance: 0.250000
+2026-06-01 12:48:26.268796 DEBUG::Random effects:
+2026-06-01 12:48:26.26947 DEBUG::Fixed effects: Medication_coded
+2026-06-01 12:48:26.270144 DEBUG::Correction method: BH
+2026-06-01 12:48:26.270834 DEBUG::Standardize: TRUE
+2026-06-01 12:48:26.271503 DEBUG::Cores: 8
+2026-06-01 12:48:26.272178 INFO::Verifying options selected are valid
+2026-06-01 12:48:26.27358 INFO::Determining format of input files
+2026-06-01 12:48:26.27514 INFO::Input format is data samples as columns and metadata samples as rows
+2026-06-01 12:48:26.29442 DEBUG::Transformed data so samples are rows
+2026-06-01 12:48:26.338675 DEBUG::The following samples were found to have features but no metadata. They will be removed. PD_40P_profile,PD_70P_profile,PD_117_profile,PD_118_profile,PD_147_profile,PD_166_profile,PD_195_profile,PD_196_profile,PD_197_profile,PD_198_profile,PD_203_profile,PD_204_profile
+2026-06-01 12:48:26.339507 DEBUG::The following samples were found to have metadata but no features. They will be removed. PD_17P_profile,PD_18P_profile,PD_19P_profile,PD_20P_profile,PD_21P_profile,PD_22P_profile,PD_23P_profile,PD_24P_profile,PD_26P_profile,PD_28P_profile,PD_36P_profile,PD_50P_profile,PD_81P_profile,PD_83P_profile,PD_107P_profile,PD_112P_profile,PD_117P_profile,PD_118P_profile,PD_147P_profile,PD_161P_profile,PD_166P_profile,PD_168P_profile,PD_182P_profile,PD_187P_profile,PD_191P_profile,PD_192P_profile,PD_195P_profile,PD_196P_profile,PD_197P_profile,PD_198P_profile,PD_199P_profile,PD_203P_profile,PD_204P_profile,PD_211P_profile,PD_212P_profile,PD_216P_profile,PD_217P_profile,PD_218P_profile
+2026-06-01 12:48:26.340153 DEBUG::A total of 146 samples were found in both the data and metadata
+2026-06-01 12:48:26.34073 DEBUG::Reordering data/metadata to use same sample ordering
+2026-06-01 12:48:26.354307 INFO::Formula for fixed effects: expr ~  Medication_coded

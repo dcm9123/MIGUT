@@ -1,0 +1,2 @@
+"feature"	"metadata"	"value"	"name"	"coef"	"null_hypothesis"	"stderr"	"pval_individual"	"qval_individual"	"pval_joint"	"qval_joint"	"error"	"model"	"N"	"N_not_zero"
+"d__Bacteria;p__Bacillota_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Fusicatenibacter;s__Fusicatenibacter saccharivorans"	"Group"	"PD"	"GroupPD"	-0.813992071820661	0.237902005229349	0.226471333961156	9.66460545770431e-06	0.00385617757762402	9.66460545770431e-06	0.00385617757762402	NA	"abundance"	146	132

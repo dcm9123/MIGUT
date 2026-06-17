@@ -20,36 +20,46 @@ setwd(path)
 #f_input = read.table(paste0(path,"/analysis_may2026/filtered_metaphlan4_abundances/merged_absolute_abundances_table_GTDB_filtered.txt"), header = TRUE, sep = "\t", row.names = 1)
 # Generating the ps object
 
-consortium = "ns1"
+consortium = "s2"
 
+#Reading oasv count table (filtered) and metadata
 raw_input = read.table(paste0(path,"PICRUSt2.6/",consortium,"_input/",consortium,"_filtered_asvs_count600_len400_prev20_f_sra.tsv"), header = TRUE, sep = "\t", row.names = 1)
 metadata_df = read.csv(paste0(path,"/Metadata/Danska_diabetes_metadata364_20260409.txt"), header = TRUE, sep = "\t")
 
 metadata_df = as.data.frame(metadata_df)
 colnames(metadata_df)
 
+#Replace the sample names in the metadata, by removing the 'X' that is added if it starts with a number
 otu_table = as.matrix(raw_input)
 colnames(otu_table) = lapply(colnames(otu_table), function(name) gsub("X","",name))
 
-
+#Read the taxa table for all mice samples
 taxa_table = as.matrix(read.csv(paste0(path,"/Phyloseq2/taxa_ps_mice_samples.tsv"), header = TRUE, sep = "\t"))
+# Make sure that column 1 is used as rownames
 rownames(taxa_table) = taxa_table[,1]
+# Remove the first column from the taxa table since it is now used as rownames
 taxa_table = taxa_table[,-1]
 taxa_table = as.matrix(taxa_table)
 taxa_df = as.data.frame(taxa_table)
+# Add a new taxonomic rank that includes genus and species
 taxa_df$Genus_and_species = paste(taxa_df$genus_final, taxa_df$species_final, sep = "_")
+# Change to matrix so phyloseq can integrate it into a ps object
 taxa_matrix = as.matrix(taxa_df)
 
-
+# Include only the columns of interest in the metadata table
 sample_data = metadata_df[,c("Id","Sex","Consortium","Control","Inoculum","Timepoint","Merged.Weeks","Sex.and.Consortium","Sex.and.Timepoint","Week.and.Consortium")]
+# Name the rownames of the metadata with the sample names, which are in the 'Id' column
 rownames(sample_data) = sample_data$Id
+# To make sure that the metadata and the otu sample names match, I have to remove the word 'Plate', the number, and the '_S\\d+_L001' part from the sample names in the metadata. This is because the sample names in the otu table are like 'NS1_1_S1_L001', while in the metadata they are like 'Plate1_1_S1_L001'. I want to make them both like 'NS1_1_S1_L001' so they match.
 sample_data$Id = lapply(sample_data$Id, function(id) gsub("Plate\\d_","",id))
 sample_data$Id = lapply(sample_data$Id, function(id) gsub("_S\\d+_L001","",id))
 sample_data = subset(sample_data, Consortium == toupper(consortium))
+# Remove the controls, we don't need them for this analyses
 sample_data = sample_data[!(sample_data$Id %in% c("Positive_Control","Negative_Control", paste0(toupper(consortium), "_Inoculum"))),]
 rownames(sample_data) = sample_data$Id
 rownames(sample_data)
 
+# Create the ps object
 ps = phyloseq(otu_table(otu_table, taxa_are_rows = TRUE), tax_table(taxa_matrix), sample_data(sample_data))
 #ps = merge_taxa(ps, "species_final")
 
@@ -141,21 +151,36 @@ make_tax_rank_colors = function(ps_object, tax_rank){
     taxa_df = as.data.frame(tax_table(ps_object))
     tax_rank_prefix = paste0(tolower(substr(tax_rank, 1, 1)), "__")
     tax_rank_values = sub(paste0("^", tax_rank_prefix), "", taxa_df[, tax_rank])
-    tax_rank_values = sort(unique(tax_rank_values[!is.na(tax_rank_values) & tax_rank_values != ""]))
-    setNames(
-        grDevices::hcl.colors(length(tax_rank_values), palette = "Dark 3"),
-        tax_rank_values)
+    if(!("Burkholderiales" %in% tax_rank_values)){
+        tax_rank_values$tax_rank = "Burkholderiales"
+        tax_rank_values = sort(unique(tax_rank_values[!is.na(tax_rank_values) & tax_rank_values != ""]))
+    }
+    color_list = c("#cf8b84",
+    "#8e48c9",
+    "#6ab952",
+    "#c54d92",
+    "#567340",
+    "#d24f38",
+    "#57a9b2",
+    "#bd9a3e",
+    "#6d67a7",
+    "#773633")
+    color_rep = rep(color_list, length.out = length(tax_rank_values))
+    setNames(color_rep, tax_rank_values)
 }
 
 
 plotting_networks = function(network_to_plot, spic_network, category, ps_object, tax_rank, plot_file_name, 
-                        tax_rank_colors = NULL, multicommunity, labels, color_for_vertex, shared_list, hei=8, wid=14){
+                        tax_rank_colors = NULL, multicommunity, node_labels, add_legend, shared_list, hei=8, wid=14){
     taxa_matrix = tax_table(ps_object)
     taxa_df = as.data.frame(taxa_matrix)
+    # This column will be used for labeling the nodes of the network
     species_names = taxa_df$Genus_and_species
-    
+
+    # Read the count table and make sure to count the number of samples that are not zero counts for a given taxon
     matrix_to_work = as.matrix(otu_table(ps_object))
     matrix_to_work = as.data.frame(matrix_to_work)
+    # Getting the proportion
     matrix_to_work$non_zero_count = rowSums(matrix_to_work>0)/ncol(matrix_to_work)
     non_zero_count = matrix_to_work$non_zero_count
     names(non_zero_count) = rownames(matrix_to_work)
@@ -177,50 +202,63 @@ plotting_networks = function(network_to_plot, spic_network, category, ps_object,
         E(igraph_object)$weight = beta_symmetric[cbind(edge_list[,1], edge_list[,2])]
     }
     else{
+        # Getting the covariance matrix from the lasso model, so we can determine the weight of each taxon
         cov_matrix = cov2cor(getOptCov(network_to_plot))
         #cov_matrix = getOptCov(network_to_plot)
         weights = adj_matrix * cov_matrix
         E(igraph_object)$weight = weights[cbind(edge_list[,1], edge_list[,2])]
     }
 
-    E(igraph_object)$abs_weight <- abs(E(igraph_object)$weight)
-    E(igraph_object)$sign <- ifelse(E(igraph_object)$weight > 0, "positive", "negative")
+    # This one is for the thickness of the line
+    E(igraph_object)$abs_weight = abs(E(igraph_object)$weight)
+    # This one is to paint the lines as red if they are negative and black if the 'correlation' is positive
+    E(igraph_object)$sign = ifelse(E(igraph_object)$weight > 0, "positive", "negative")
 
     tax_rank_prefix = paste0(tolower(substr(tax_rank, 1, 1)), "__")
-    V(igraph_object)$alpha = non_zero_count[V(igraph_object)$name]
-    V(igraph_object)$tax_rank = taxa_df[V(igraph_object)$name, tax_rank]
+
+    V(igraph_object)$alpha = non_zero_count[V(igraph_object)$name] #The alpha (transparency node) will be equivalent to the proportion of non-zeros
+    V(igraph_object)$tax_rank = taxa_df[V(igraph_object)$name, tax_rank] 
     V(igraph_object)$tax_rank = sub(paste0("^", tax_rank_prefix), "", V(igraph_object)$tax_rank)
     V(igraph_object)$label = species_names
-    V(igraph_object)$shape = "circle"
-    V(igraph_object)$color = "black"
+    V(igraph_object)$shape = "circle" # All nodes as circles
+    V(igraph_object)$color = "black" # All edges as black
 
      # Store the original OTU ID key in an attribute so we can find it after vertex deletions
-    V(igraph_object)$otu_id = V(igraph_object)$name
-    V(igraph_object)$name = species_names
+    V(igraph_object)$otu_id = V(igraph_object)$name # Store the original OTU ID key in an attribute so we can find it after vertex deletions
+    V(igraph_object)$name = species_names # Change the vertex names to the species names for better visualization, but we keep the original OTU ID in a separate attribute in case we need it later for matching with the metadata or taxonomy after vertex deletions.
 
-    cutoff <- quantile(E(igraph_object)$abs_weight, 0, na.rm = TRUE)
+    cutoff <- quantile(E(igraph_object)$abs_weight, 0, na.rm = TRUE) # We can adjust this cutoff to be more stringent or less stringent. For example, we can set it to the 75th percentile of the absolute weights, so we only keep the top 25% of the edges with the highest absolute weights. Or we can set it to a fixed value, such as 0.1, so we only keep edges with an absolute weight greater than 0.1. The choice of cutoff will depend on how many edges we want to keep in the network and how strong we want the associations to be.
 
-    igraph_filt <- delete_edges(
+    igraph_filt <- delete_edges( # If needed, remove any edges with an absolute weight below a certain cutoff, to keep only the strongest associations. This is optional, and the cutoff can be adjusted based on how many edges we want to keep in the network.
         igraph_object,
         E(igraph_object)[abs_weight < cutoff]
     )
 
+    # Same filtering but for vertices, if needed (in case the network is too populated)
     igraph_filt <- delete_vertices(
         igraph_filt,
         V(igraph_filt)[degree(igraph_filt) < 0]
     )
 
     E(igraph_filt)$layout_weight <- E(igraph_filt)$abs_weight
-    if(is.null(tax_rank_colors)){
+    if(tax_rank_colors == TRUE){
         tax_rank_colors = make_tax_rank_colors(ps_object, tax_rank)
-    }
-    
-    if(color_for_vertex == TRUE){
         classes = sort(unique(V(igraph_filt)$tax_rank))
         class_colors = tax_rank_colors[classes]
         V(igraph_filt)$color = class_colors[V(igraph_filt)$tax_rank]
+        for(item in shared_list){
+                V(igraph_filt)[label == item]$shape = "square"
     }
-    else{
+    
+#    if(add_legend == TRUE){
+#        classes = sort(unique(V(igraph_filt)$tax_rank))
+#        class_colors = tax_rank_colors[classes]
+#        V(igraph_filt)$color = class_colors[V(igraph_filt)$tax_rank]
+#        for(item in shared_list){
+#                V(igraph_filt)[label == item]$shape = "square"
+#        }
+    } else {
+    
         if(is.null(shared_list) == FALSE){
             for(item in shared_list){
                 V(igraph_filt)[label == item]$color = "blue"
@@ -230,27 +268,31 @@ plotting_networks = function(network_to_plot, spic_network, category, ps_object,
     }
     set.seed(123)
 
-    layout_fr <- layout_with_fr(
+    layout_fr = layout_with_fr(
         igraph_filt,
-        weights = E(igraph_filt)$layout_weight
+        weights = E(igraph_filt)$layout_weight 
     )
 
-    if(labels == TRUE){
+    if(node_labels == TRUE){
         v_label = V(igraph_filt)$label
     } else {
         v_label = NA
     }
 
-    vertex_size = log10(apply(otu_table(ps_object), 1, median, na.rm = TRUE) + 1)
-    vertex_size = scales::rescale(vertex_size, to = c(1, 30))
+    # Set the vertex size based on the median abundance of each taxon across samples, so that more abundant taxa have larger nodes in the network. We can use the original ps_object to get the abundances, and we can use the vertex attribute 'otu_id' to match the vertices with the taxa in the ps_object after filtering. We can also apply a log transformation to the abundances to make the differences more visually distinguishable, and we can rescale the vertex sizes to a reasonable range for plotting.
+    otu_table_proportion = apply(otu_table(ps_object), 2, function(x) (x)/sum(x)) # Convert to relative abundances
+
+    vertex_size = apply(otu_table_proportion, 1, median, na.rm = TRUE) # Get the median abundance per taxon across samples, and use it to plot the vertex size
+    vertex_size = scales::rescale(vertex_size, to = c(10, 50)) # Rescale the vertex sizes from 5 to 30
 
     print(min(vertex_size))
     print(max(vertex_size))
 
-    # 1. Compute your 0.2 to 0.8 transparency limits
-    raw_alpha_vector <- as.numeric(V(igraph_filt)$alpha)
-    raw_alpha_vector[is.na(raw_alpha_vector)] <- 0  # Replace NAs with zero
-    final_alpha <- as.numeric(scales::rescale(raw_alpha_vector, to = c(0, 1)))
+    # 1. Compute your 0.2 to 0.8 transparency limits, or adjust as needed
+    raw_alpha_vector = as.numeric(V(igraph_filt)$alpha)
+    raw_alpha_vector[is.na(raw_alpha_vector)] = 0  # Replace NAs with zero
+    final_alpha = as.numeric(scales::rescale(raw_alpha_vector, to = c(0.99, 1))) # Rescale to a range of 0.4 to 1 for better visibility, adjust as needed
+    print(final_alpha)
 
     # 2. Extract original colors and guarantee zero NA values
     base_colors <- as.character(V(igraph_filt)$color)
@@ -259,7 +301,7 @@ plotting_networks = function(network_to_plot, spic_network, category, ps_object,
     # 3. Apply alpha mapping using the reliable scales::alpha function
     # This completely replaces adjustcolor() and avoids the d == c(4L, 4L) check entirely
     final_vertex_colors <- scales::alpha(base_colors, alpha = final_alpha)
-    final_frame_colors  <- scales::alpha("black", alpha = final_alpha)
+    final_frame_colors  <- scales::alpha("black", alpha = 1)
 
     # 4. Render the PNG network graph cleanly
     png(plot_file_name, height = hei, width = wid, units = "in", res = 600)
@@ -267,7 +309,6 @@ plotting_networks = function(network_to_plot, spic_network, category, ps_object,
     plot(igraph_filt,
          vertex.size = vertex_size,
          vertex.label = v_label,
-         main = category,
          edge.width = scales::rescale(E(igraph_filt)$abs_weight, to = c(1, 3)),
          edge.color = ifelse(E(igraph_filt)$sign == "positive", "black", "red"),
 
@@ -275,8 +316,9 @@ plotting_networks = function(network_to_plot, spic_network, category, ps_object,
          vertex.color = final_vertex_colors,
          vertex.frame.color = final_frame_colors,
          layout = layout_fr)
+    title(main = category, cex.main = 0.7)
 
-    if(color_for_vertex == TRUE){
+    if(add_legend == TRUE){
         legend(
             "topleft",
             legend = names(class_colors),
@@ -284,14 +326,12 @@ plotting_networks = function(network_to_plot, spic_network, category, ps_object,
             pch = 19,
             pt.cex = 1.5,
             bty = "n",
-            cex = 0.8
+            cex = 0.8,
         )
     }
     dev.off()
     return(igraph_object)
 }
-
-
 
 #Generating best model and plotting_networks, SPIC method
 ps_w9w10 = prune_samples(sample_data(ps)$Timepoint == "week_9" | sample_data(ps)$Timepoint == "week_10", ps)
@@ -317,6 +357,8 @@ tax_df$Genus_and_species[tax_df$genus_final == "Parabacteroides"] <- "Parabacter
 tax_df$species_final[tax_df$Genus_and_species == "Parabacteroides_distasonis"] <- "distasonis"
 tax_df$Genus_and_species[tax_df$genus_final == "Hungatella"] <- "Hungatella_effluvi"
 tax_df$species_final[tax_df$Genus_and_species == "Hungatella_effluvi"] <- "effluvi"
+tax_df$species_final[tax_df$Genus_and_species == "Phocaeicola_NA"] <- "vulgatus"
+tax_df$Genus_and_species[tax_df$genus_final == "Phocaeicola" & tax_df$species_final == "vulgatus"] <- "Phocaeicola_vulgatus"
 tax_table(ps_w5) = as.matrix(tax_df)
 
 tax_df = as.data.frame(tax_table(ps_w9w10))
@@ -324,7 +366,11 @@ tax_df$Genus_and_species[tax_df$genus_final == "Parabacteroides"] <- "Parabacter
 tax_df$species_final[tax_df$Genus_and_species == "Parabacteroides_distasonis"] <- "distasonis"
 tax_df$Genus_and_species[tax_df$genus_final == "Hungatella"] <- "Hungatella_effluvi"
 tax_df$species_final[tax_df$Genus_and_species == "Hungatella_effluvi"] <- "effluvi"
+tax_df$species_final[tax_df$Genus_and_species == "Phocaeicola_NA"] <- "vulgatus"
+tax_df$Genus_and_species[tax_df$genus_final == "Phocaeicola" & tax_df$species_final == "vulgatus"] <- "Phocaeicola_vulgatus"
 tax_table(ps_w9w10) = as.matrix(tax_df)
+
+View(tax_table(ps_w5))
 
 ################################################
 
@@ -336,8 +382,9 @@ ps_w5 #20 taxa, 41 samples (ns1), 19 taxa, 50 samples, s2
 #View(tax_table(ps_w9w10))
 otu_table_ps = as.data.frame(otu_table(ps_w5))
 otu_table_ps$rowmedian = (apply(otu_table_ps, 1, median, na.rm = TRUE))
+otu_table_ps$rowmedian
 #View(otu_table_ps)
-
+View(tax_table(ps_w9w10))
 
 
 ps_w9w10_network_mb = network_generation(ps_w9w10, method_to_use = "mb", lambda_min_ratio = 1e-2, n_lambda = 30, pulsar_rep_num = 50, pulsar_ncores = 8, sparcc_method = FALSE)
@@ -358,66 +405,52 @@ length(shared_microbes)
 
 ### WEEK 9 AND WEEK 10 FIRST ###
 adj_matrix_w9w10 = as_adjacency_matrix(plotting_networks(ps_w9w10_network_mb, spic_network = "mb", category = paste0(toupper(consortium), " w9w10"), ps_object = ps_w9w10, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "_w9w10_mb_network_no_labels.png"),
-                  tax_rank_colors = NULL, labels = FALSE, color_for_vertex = FALSE, shared_list = shared_microbes))
-
-plotting_networks(ps_w9w10_network_mb, spic_network = "mb", category = paste0(toupper(consortium), " w9w10"), ps_object = ps_w9w10, 
                   tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "_w9w10_mb_network_labels.png"),
-                  tax_rank_colors = NULL, labels = TRUE, color_for_vertex = FALSE, shared_list = shared_microbes, hei = 4, wid = 7)
+                  tax_rank_colors = TRUE, node_labels = TRUE, add_legend = TRUE, shared_list = shared_microbes))
 
 plotting_networks(ps_w9w10_network_mb, spic_network = "mb", category = paste0(toupper(consortium), " w9w10"), ps_object = ps_w9w10, 
                   tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "mini_w9w10_mb_network_no_labels.png"),
-                  tax_rank_colors = NULL, labels = FALSE, color_for_vertex = FALSE, shared_list = shared_microbes, hei = 4, wid = 7)
+                  tax_rank_colors = TRUE, node_labels = FALSE, add_legend = FALSE, shared_list = shared_microbes, hei = 3, wid = 5)
 
 glasso_adj_matrix_w9w10 = as_adjacency_matrix(plotting_networks(ps_w9w10_network_lasso, spic_network = "glasso", category = paste0(toupper(consortium), " w9w10"), ps_object = ps_w9w10, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "_w9w10_glasso_network_no_labels.png"),
-                  tax_rank_colors = NULL, labels = FALSE, color_for_vertex = FALSE, shared_list = shared_microbes))
+                  tax_rank = "order_final", plot_file_name = paste0(consortium, "_w9w10_glasso_network_labels.png"),
+                  tax_rank_colors = TRUE, node_labels = TRUE, add_legend = TRUE, shared_list = shared_microbes))
 
 plotting_networks(ps_w9w10_network_lasso, spic_network = "glasso", category = paste0(toupper(consortium), " w9w10"), ps_object = ps_w9w10, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "_w9w10_glasso_network_labels.png"),
-                  tax_rank_colors = NULL, labels = TRUE, color_for_vertex = FALSE, shared_list = shared_microbes)
-
-plotting_networks(ps_w9w10_network_lasso, spic_network = "glasso", category = paste0(toupper(consortium), " w9w10"), ps_object = ps_w9w10, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "mini_w9w10_glasso_network_no_labels.png"),
-                  tax_rank_colors = NULL, labels = FALSE, color_for_vertex = FALSE, shared_list = shared_microbes, hei = 4, wid = 7)
+                  tax_rank = "order_final", plot_file_name = paste0(consortium, "mini_w9w10_glasso_network_no_labels.png"),
+                  tax_rank_colors = TRUE, node_labels = FALSE, add_legend = FALSE, shared_list = shared_microbes, hei = 3, wid = 5)
 
 x = adj2igraph(glasso_adj_matrix_w9w10)
 V(x)$edges
 
 
 
+View(tax_table(ps_w9w10))
 View(otu_table(ps_w5))
 
 ### WEEK 5 NOW ###
+
 adj_matrix_w5 = as_adjacency_matrix(plotting_networks(ps_w5_network_mb, spic_network = "mb", category = paste0(toupper(consortium), " w5"), ps_object = ps_w5, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "_w5_mb_network_no_labels.png"),
-                  tax_rank_colors = NULL, labels = FALSE, color_for_vertex = FALSE, shared_list = shared_microbes))
+                  tax_rank = "order_final", plot_file_name = paste0(consortium, "_w5_mb_network_labels.png"),
+                  tax_rank_colors = TRUE, node_labels = TRUE, add_legend = TRUE, shared_list = shared_microbes))
 
 plotting_networks(ps_w5_network_mb, spic_network = "mb", category = paste0(toupper(consortium), " w5"), ps_object = ps_w5, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "_w5_mb_network_labels.png"),
-                  tax_rank_colors = NULL, labels = TRUE, color_for_vertex = FALSE, shared_list = shared_microbes, hei = 4, wid = 7)
-
-plotting_networks(ps_w5_network_mb, spic_network = "mb", category = paste0(toupper(consortium), " w5"), ps_object = ps_w5, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "mini_w5_mb_network_no_labels.png"),
-                  tax_rank_colors = NULL, labels = FALSE, color_for_vertex = FALSE, shared_list = shared_microbes, hei = 4, wid = 7)
-
-glasso_adj_matrix_w5 = as_adjacency_matrix(plotting_networks(ps_w5_network_lasso, spic_network = "glasso", category = paste0(toupper(consortium), " w5"), ps_object = ps_w5, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "_w5_glasso_network_no_labels.png"),
-                  tax_rank_colors = NULL, labels = FALSE, color_for_vertex = FALSE, shared_list = shared_microbes))
+                  tax_rank = "order_final", plot_file_name = paste0(consortium, "mini_w5_mb_network_no_labels.png"),
+                  tax_rank_colors = TRUE, node_labels = FALSE, add_legend = FALSE, shared_list = shared_microbes, hei = 3, wid = 5)
 
 plotting_networks(ps_w5_network_lasso, spic_network = "glasso", category = paste0(toupper(consortium), " w5"), ps_object = ps_w5, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "_w5_glasso_network_labels.png"),
-                  tax_rank_colors = NULL, labels = TRUE, color_for_vertex = FALSE, shared_list = shared_microbes)
+                  tax_rank = "order_final", plot_file_name = paste0(consortium, "_w5_glasso_network_labels.png"),
+                  tax_rank_colors = TRUE, node_labels = TRUE, add_legend = TRUE, shared_list = shared_microbes)
 
 plotting_networks(ps_w5_network_lasso, spic_network = "glasso", category = paste0(toupper(consortium), " w5"), ps_object = ps_w5, 
-                  tax_rank = "Genus_and_species", plot_file_name = paste0(consortium, "mini_w5_glasso_network_no_labels.png"),
-                  tax_rank_colors = NULL, labels = FALSE, color_for_vertex = FALSE, shared_list = shared_microbes, hei = 4, wid = 7)
+                  tax_rank = "order_final", plot_file_name = paste0(consortium, "mini_w5_glasso_network_no_labels.png"),
+                  tax_rank_colors = TRUE, node_labels = FALSE, add_legend = FALSE, shared_list = shared_microbes, hei = 3, wid = 5)
 
 log10(apply(otu_table(ps_w9w10), 1, median, na.rm = TRUE))
 cbind(otu_table(ps_w9w10), tax_table(ps_w9w10))
 
 
-
+colnames(tax_table(ps_w9w10))
 
 # CONNECTIONS
 psw9w10_network_matrix_lasso = as.matrix(getRefit(ps_w9w10_network_lasso))

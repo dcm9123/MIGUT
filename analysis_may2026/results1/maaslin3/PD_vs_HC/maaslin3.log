@@ -1,0 +1,97 @@
+2026-06-02 10:26:06.06 INFO::Writing function arguments to log file
+2026-06-02 10:26:06.06 DEBUG::Function arguments
+2026-06-02 10:26:06.06 DEBUG::Output folder: /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC
+2026-06-02 10:26:06.06 DEBUG::Formula: ~ Group
+2026-06-02 10:26:06.06 DEBUG::Fixed effects:
+2026-06-02 10:26:06.06 DEBUG::Reference:
+2026-06-02 10:26:06.07 DEBUG::Random effects:
+2026-06-02 10:26:06.07 DEBUG::Group effects:
+2026-06-02 10:26:06.07 DEBUG::Ordered effects:
+2026-06-02 10:26:06.07 DEBUG::Strata effects:
+2026-06-02 10:26:06.07 DEBUG::Min Abundance: 0.000000
+2026-06-02 10:26:06.07 DEBUG::Min Prevalence: 0.000000
+2026-06-02 10:26:06.07 DEBUG::Max Prevalence: 1.010000
+2026-06-02 10:26:06.07 DEBUG::Zero Threshold: 0.000000
+2026-06-02 10:26:06.07 DEBUG::Min variance: 0.000000
+2026-06-02 10:26:06.07 DEBUG::Max significance: 0.050000
+2026-06-02 10:26:06.07 DEBUG::Normalization: TSS
+2026-06-02 10:26:06.07 DEBUG::Transform: LOG
+2026-06-02 10:26:06.07 DEBUG::Correction method: BH
+2026-06-02 10:26:06.07 DEBUG::Standardize: TRUE
+2026-06-02 10:26:06.07 DEBUG::Abundance median comparison: TRUE
+2026-06-02 10:26:06.07 DEBUG::Prevalence median comparison: FALSE
+2026-06-02 10:26:06.07 DEBUG::Abundance median comparison threshold: 0
+2026-06-02 10:26:06.07 DEBUG::Prevalence median comparison threshold: 0
+2026-06-02 10:26:06.07 DEBUG::Subtract median: FALSE
+2026-06-02 10:26:06.08 DEBUG::Warn prevalence: FALSE
+2026-06-02 10:26:06.08 DEBUG::Small random effects: FALSE
+2026-06-02 10:26:06.08 DEBUG::Bypass small group warning: FALSE
+2026-06-02 10:26:06.08 DEBUG::Augment: TRUE
+2026-06-02 10:26:06.08 DEBUG::Evaluate only: abundance
+2026-06-02 10:26:06.08 DEBUG::Number of mirai daemons: 8
+2026-06-02 10:26:06.08 DEBUG::Balanced Summary plot: FALSE
+2026-06-02 10:26:06.08 INFO::Verifying options selected are valid
+2026-06-02 10:26:06.08 INFO::Determining format of input files
+2026-06-02 10:26:06.08 INFO::Input format is data samples as columns and metadata samples as rows
+2026-06-02 10:26:06.09 DEBUG::Transformed data so samples are rows
+2026-06-02 10:26:06.09 DEBUG::A total of 146 samples were found in both the data and metadata
+2026-06-02 10:26:06.09 INFO::The following samples were found to have features but no metadata (or feature specific covariates if applicable). They will be removed. PD_40P_profile,PD_70P_profile,PD_117_profile,PD_118_profile,PD_147_profile,PD_166_profile,PD_195_profile,PD_196_profile,PD_197_profile,PD_198_profile,PD_203_profile,PD_204_profile
+2026-06-02 10:26:06.09 INFO::The following samples were found to have metadata but no features (or feature specific covariates if applicable). They will be removed. PD_17P_profile,PD_18P_profile,PD_19P_profile,PD_20P_profile,PD_21P_profile,PD_22P_profile,PD_23P_profile,PD_24P_profile,PD_26P_profile,PD_28P_profile,PD_36P_profile,PD_50P_profile,PD_81P_profile,PD_83P_profile,PD_107P_profile,PD_112P_profile,PD_117P_profile,PD_118P_profile,PD_147P_profile,PD_161P_profile,PD_166P_profile,PD_168P_profile,PD_182P_profile,PD_187P_profile,PD_191P_profile,PD_192P_profile,PD_195P_profile,PD_196P_profile,PD_197P_profile,PD_198P_profile,PD_199P_profile,PD_203P_profile,PD_204P_profile,PD_211P_profile,PD_212P_profile,PD_216P_profile,PD_217P_profile,PD_218P_profile
+2026-06-02 10:26:06.09 DEBUG::Reordering data/metadata to use same sample ordering
+2026-06-02 10:26:06.10 INFO::Running selected normalization method: TSS
+2026-06-02 10:26:06.13 INFO::Writing normalized data to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/features/data_norm.tsv
+2026-06-02 10:26:06.15 INFO::Filter data based on min abundance, min prevalence, and max prevalence
+2026-06-02 10:26:06.16 INFO::Total samples in data: 146
+2026-06-02 10:26:06.16 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2026-06-02 10:26:06.16 INFO::Max samples allowed with min abundance for a feature not to be filtered: 147.460000
+2026-06-02 10:26:06.23 INFO::Total filtered features: 0
+2026-06-02 10:26:06.24 INFO::Filtered feature names from abundance, min prevalence, and max prevalence filtering:
+2026-06-02 10:26:06.25 INFO::Total features filtered by non-zero variance filtering: 0
+2026-06-02 10:26:06.25 INFO::Filtered feature names from variance filtering:
+2026-06-02 10:26:06.25 INFO::Writing filtered data to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/features/filtered_data.tsv
+2026-06-02 10:26:06.28 INFO::Running selected transform method: LOG
+2026-06-02 10:26:06.29 INFO::Writing normalized, filtered, transformed data to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/features/data_transformed.tsv
+2026-06-02 10:26:06.31 INFO::Applying z-score to standardize continuous metadata
+2026-06-02 10:26:06.46 INFO::Running the linear model component
+2026-06-02 10:26:06.49 DEBUG::Object: augment, Size: 56
+2026-06-02 10:26:06.49 DEBUG::Object: cores, Size: 56
+2026-06-02 10:26:06.49 DEBUG::Object: correction, Size: 112
+2026-06-02 10:26:06.50 DEBUG::Object: extract_out, Size: 1136
+2026-06-02 10:26:06.50 DEBUG::Object: feature_specific_covariate, Size: 0
+2026-06-02 10:26:06.50 DEBUG::Object: feature_specific_covariate_name, Size: 0
+2026-06-02 10:26:06.50 DEBUG::Object: feature_specific_covariate_record, Size: 0
+2026-06-02 10:26:06.50 DEBUG::Object: features, Size: 576904
+2026-06-02 10:26:06.50 DEBUG::Object: fit_vars, Size: 112
+2026-06-02 10:26:06.50 DEBUG::Object: formula, Size: 728
+2026-06-02 10:26:06.50 DEBUG::Object: fun_list, Size: 71080
+2026-06-02 10:26:06.50 DEBUG::Object: func_to_run, Size: 431360
+2026-06-02 10:26:06.50 DEBUG::Object: groups, Size: 48
+2026-06-02 10:26:06.50 DEBUG::Object: log_feature_progress, Size: 1136
+2026-06-02 10:26:06.50 DEBUG::Object: median_comparison, Size: 56
+2026-06-02 10:26:06.50 DEBUG::Object: median_comparison_threshold, Size: 56
+2026-06-02 10:26:06.50 DEBUG::Object: metadata, Size: 279248
+2026-06-02 10:26:06.51 DEBUG::Object: model, Size: 112
+2026-06-02 10:26:06.51 DEBUG::Object: model_function, Size: 13592
+2026-06-02 10:26:06.51 DEBUG::Object: ordereds, Size: 48
+2026-06-02 10:26:06.51 DEBUG::Object: random_effects_formula, Size: 0
+2026-06-02 10:26:06.51 DEBUG::Object: ranef_function, Size: 0
+2026-06-02 10:26:06.51 DEBUG::Object: save_models, Size: 56
+2026-06-02 10:26:06.51 DEBUG::Object: small_meta, Size: 12328
+2026-06-02 10:26:06.51 DEBUG::Object: small_random_effects, Size: 56
+2026-06-02 10:26:06.51 DEBUG::Object: strata, Size: 48
+2026-06-02 10:26:06.51 DEBUG::Object: subtract_median, Size: 56
+2026-06-02 10:26:06.51 DEBUG::Object: summary_function, Size: 57008
+2026-06-02 10:26:06.51 DEBUG::Object: func_to_run, Size: 431360
+2026-06-02 10:26:15.06 INFO::Performing tests against medians
+2026-06-02 10:26:17.08 INFO::Counting total values for each feature
+2026-06-02 10:26:17.10 WARNING::Deleting existing residuals file: /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/fits/residuals_linear.rds
+2026-06-02 10:26:17.10 INFO::Writing residuals to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/fits/residuals_linear.rds
+2026-06-02 10:26:17.11 WARNING::Deleting existing fitted file: /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/fits/fitted_linear.rds
+2026-06-02 10:26:17.11 INFO::Writing fitted values to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/fits/fitted_linear.rds
+2026-06-02 10:26:17.12 INFO::Writing all the results to file (ordered 
+            by increasing individual q-values): /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/all_results.tsv
+2026-06-02 10:26:17.13 INFO::Writing the significant results without errors (those which have joint q-values less than or equal to the threshold of 0.050000 ) to file (ordered by increasing individual q-values): /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/significant_results.tsv
+2026-06-02 10:26:17.13 INFO::Writing summary plot of significant
+                        results to file: /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/figures/summary_plot.pdf
+2026-06-02 10:26:18.85 INFO::Writing association plots (one for each significant association) to output folder: /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin3/PD_vs_HC/figures
+2026-06-02 10:26:18.85 INFO::Plotting associations from most to least significant, grouped by metadata

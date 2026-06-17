@@ -1,0 +1,4 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Eubacterium_I.s__Eubacterium_I.ramulus	BMI	BMI	0.338925078193633	0.102811190553153	146	77	0.0012424097731291	0.172678888883696
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Mediterraneibacter.s__Mediterraneibacter.faecis	BMI	BMI	0.485512838788489	0.148475741732969	146	112	0.00135601088457376	0.172678888883696
+d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Schaedlerella.s__Schaedlerella.hominis	BMI	BMI	0.131770608421254	0.0403770861588092	146	15	0.00138512477714194	0.172678888883696

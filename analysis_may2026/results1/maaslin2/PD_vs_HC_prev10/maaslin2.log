@@ -1,0 +1,44 @@
+2026-06-01 21:12:47.112382 INFO::Writing function arguments to log file
+2026-06-01 21:12:47.123772 DEBUG::Function arguments
+2026-06-01 21:12:47.133675 DEBUG::Output folder: /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10
+2026-06-01 21:12:47.134787 DEBUG::Min Abundance: 0.000000
+2026-06-01 21:12:47.135927 DEBUG::Min Prevalence: 0.100000
+2026-06-01 21:12:47.137045 DEBUG::Normalization: TSS
+2026-06-01 21:12:47.137975 DEBUG::Transform: LOG
+2026-06-01 21:12:47.138773 DEBUG::Analysis method: LM
+2026-06-01 21:12:47.139512 DEBUG::Max significance: 0.250000
+2026-06-01 21:12:47.140224 DEBUG::Random effects:
+2026-06-01 21:12:47.140908 DEBUG::Fixed effects: Group
+2026-06-01 21:12:47.141579 DEBUG::Correction method: BH
+2026-06-01 21:12:47.142255 DEBUG::Standardize: TRUE
+2026-06-01 21:12:47.142925 DEBUG::Cores: 8
+2026-06-01 21:12:47.143579 INFO::Verifying options selected are valid
+2026-06-01 21:12:47.194682 INFO::Determining format of input files
+2026-06-01 21:12:47.196558 INFO::Input format is data samples as columns and metadata samples as rows
+2026-06-01 21:12:47.201826 DEBUG::Transformed data so samples are rows
+2026-06-01 21:12:47.213611 DEBUG::The following samples were found to have features but no metadata. They will be removed. PD_40P_profile,PD_70P_profile,PD_117_profile,PD_118_profile,PD_147_profile,PD_166_profile,PD_195_profile,PD_196_profile,PD_197_profile,PD_198_profile,PD_203_profile,PD_204_profile
+2026-06-01 21:12:47.214736 DEBUG::The following samples were found to have metadata but no features. They will be removed. PD_17P_profile,PD_18P_profile,PD_19P_profile,PD_20P_profile,PD_21P_profile,PD_22P_profile,PD_23P_profile,PD_24P_profile,PD_26P_profile,PD_28P_profile,PD_36P_profile,PD_50P_profile,PD_81P_profile,PD_83P_profile,PD_107P_profile,PD_112P_profile,PD_117P_profile,PD_118P_profile,PD_147P_profile,PD_161P_profile,PD_166P_profile,PD_168P_profile,PD_182P_profile,PD_187P_profile,PD_191P_profile,PD_192P_profile,PD_195P_profile,PD_196P_profile,PD_197P_profile,PD_198P_profile,PD_199P_profile,PD_203P_profile,PD_204P_profile,PD_211P_profile,PD_212P_profile,PD_216P_profile,PD_217P_profile,PD_218P_profile
+2026-06-01 21:12:47.215788 DEBUG::A total of 146 samples were found in both the data and metadata
+2026-06-01 21:12:47.216631 DEBUG::Reordering data/metadata to use same sample ordering
+2026-06-01 21:12:47.223075 INFO::Formula for fixed effects: expr ~  Group
+2026-06-01 21:12:47.224927 INFO::Filter data based on min abundance and min prevalence
+2026-06-01 21:12:47.226271 INFO::Total samples in data: 146
+2026-06-01 21:12:47.227675 INFO::Min samples required with min abundance for a feature not to be filtered: 14.600000
+2026-06-01 21:12:47.235173 INFO::Total filtered features: 27
+2026-06-01 21:12:47.237034 INFO::Filtered feature names from abundance and prevalence filtering: d__Bacteria.p__Actinomycetota.c__Actinomycetes.o__Actinomycetales.f__Actinomycetaceae.g__Pauljensenia.s__Pauljensenia.sp905370305, d__Bacteria.p__Actinomycetota.c__Coriobacteriia.o__Coriobacteriales.f__Eggerthellaceae.g__Senegalimassilia.s__Senegalimassilia.anaerobia, d__Bacteria.p__Bacillota.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus.sp004166885, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Fimadaptatus.s__Fimadaptatus.faecigallinarum, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Christensenellales.f__Aristaeellaceae.g__Pullichristensenella.s__Pullichristensenella.excrementipullorum, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Coprococcus.s__Coprococcus.ammoniilyticus, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Muricoprocola.s__Muricoprocola.shaoxingensis, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Lachnospirales.f__Lachnospiraceae.g__Oliverpabstia.s__Oliverpabstia.faecicola, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Anaeromassilibacillus.s__Anaeromassilibacillus.sp001305115, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Avimonas_A.s__Avimonas_A.narfia, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Eubacterium_R.s__Eubacterium_R.sp000436835, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__Solibaculum.s__Solibaculum.mannosilyticum, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Acutalibacteraceae.g__UMGS856.s__UMGS856.sp900546265, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Agathobaculum.s__Agathobaculum.ammoniilyticum, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Butyricicoccaceae.g__Butyricicoccus_A.s__Butyricicoccus_A.intestinisimiae, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Scatomorpha.s__Scatomorpha.merdavium, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__UMGS1766.s__UMGS1766.sp900554855, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Oscillospiraceae.g__Vescimonas.s__Vescimonas.sp003539495, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__HGM13222.s__HGM13222.sp900757485, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruminococcus_C.s__Ruminococcus_C.sp000433635, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__Ruminococcaceae.g__Ruthenibacterium.s__, d__Bacteria.p__Bacillota_A.c__Clostridia.o__Oscillospirales.f__UMGS1783.g__UMGS1783.s__UMGS1783.sp900555065, d__Bacteria.p__Bacillota_A.c__Clostridia.o__TANB77.f__CAG.508.g__CAG.269.s__CAG.269.sp001916005, d__Bacteria.p__Bacillota_C.c__Negativicutes.o__Acidaminococcales.f__Acidaminococcaceae.g__Acidaminococcus.s__Acidaminococcus.intestini, d__Bacteria.p__Bacillota_I.c__Bacilli_A.o__ML615J.28.f__CAG.313.g__CAG.313.s__CAG.313.sp000433035, d__Bacteria.p__Desulfobacterota.c__Desulfovibrionia.o__Desulfovibrionales.f__Desulfovibrionaceae.g__Mailhella.s__Mailhella.merdigallinarum, d__Bacteria.p__Synergistota.c__Synergistia.o__Synergistales.f__Synergistaceae.g__Cloacibacillus.s__Cloacibacillus.evryensis
+2026-06-01 21:12:47.246467 INFO::Total filtered features with variance filtering: 0
+2026-06-01 21:12:47.248235 INFO::Filtered feature names from variance filtering:
+2026-06-01 21:12:47.24968 INFO::Running selected normalization method: TSS
+2026-06-01 21:12:47.258968 INFO::Applying z-score to standardize continuous metadata
+2026-06-01 21:12:47.265943 INFO::Running selected transform method: LOG
+2026-06-01 21:12:47.277519 INFO::Running selected analysis method: LM
+2026-06-01 21:12:47.280475 INFO::Creating cluster of 8 R processes
+2026-06-01 21:12:56.316223 INFO::Counting total values for each feature
+2026-06-01 21:12:56.332092 INFO::Writing filtered data to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10/features/filtered_data.tsv
+2026-06-01 21:12:56.367384 INFO::Writing filtered, normalized data to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10/features/filtered_data_norm.tsv
+2026-06-01 21:12:56.416747 INFO::Writing filtered, normalized, transformed data to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10/features/filtered_data_norm_transformed.tsv
+2026-06-01 21:12:56.487239 INFO::Writing residuals to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10/fits/residuals.rds
+2026-06-01 21:12:56.501468 INFO::Writing fitted values to file /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10/fits/fitted.rds
+2026-06-01 21:12:56.506789 INFO::Writing all results to file (ordered by increasing q-values): /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10/all_results.tsv
+2026-06-01 21:12:56.511845 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10/significant_results.tsv
+2026-06-01 21:12:56.515298 INFO::Writing heatmap of significant results to file: /Users/danielcm/Desktop/MIGUT/analysis_may2026/maaslin2/PD_vs_HC_prev10/heatmap.pdf
