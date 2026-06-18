@@ -74,3 +74,5 @@ I had previously omitted an important part of the MaAsLin2 functional analysis. 
 2. **Microbial-contribution analysis:** Use the PICRUSt2 output stratified by ASV to retain the microbial source of each predicted pathway. For each species, add together the pathway abundances contributed by all ASVs assigned to that species. Merge these species-level pathway-contribution tables across all consortia, then run MaAsLin2 again. This tests which microbial species are contributing to the observed pathway-level differences.
 
 After running MaAsLin2, I used the `metacyc_to_maaslin2.py` script to annotate each pathway in the MaAsLin2 output with its corresponding MetaCyc categories.
+
+I then ran `enriched_maaslin2_category_average.R` to generate the category-level bar plots.
