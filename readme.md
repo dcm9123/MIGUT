@@ -64,3 +64,8 @@ The second script was run like this: `python merge_metaphlan_profiles_to_tables.
 `python merge_metaphlan_tables.py -l ../gtdb_sample_path.txt -o gtdb_relative_merged.txt --gtdb_profiles`
 
 All the output merged tables are found in `/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/merged_tables_abundances` with a total of four merged tables.
+
+
+### July 15th, 2026
+
+Now that I have the merged tables, I am getting the raw data from Avril Metcalfe's work from BC. I have requested the raw files but haven't heard back from the person who is currently holding them (only from Avril). While I get this, I will be running the polished reads we have from them through `Metaphlan4` and `Humann3` and compare them to our existing data set. I need to run the clustering method that Kenzie worked with in a paper she presented at our Journal Club, and work on a ggtree visualization of some of the strains of interest. I also need to merge the tables from the Vancouver metaphlan4 results so I can compare them with Calgary using both `Maaslin2` and `Ancom-BC`
