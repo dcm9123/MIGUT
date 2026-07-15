@@ -52,9 +52,9 @@ For Metaphlan4, I keep having issues with their `merge_abundance.py` script. It 
 ### May 26th, 2026
 So, I have the output directories with the merged relative and absolute abundances. The output directory is in `/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/utils/output_directory`. To run it, I had to deal with a grumpy individual using two scripts:
 
-sgb_to_gtdb_profile_abundances.py
-merge_metaphlan_profiles_to_tables.py
-merge_metaphlan_tables.py
+`sgb_to_gtdb_profile_abundances.py` --> input: metaphlan4 SGB relative abundance profile; output: GTDB absolute abundance profile
+`merge_metaphlan_profiles_to_tables.py` --> input:
+`merge_metaphlan_tables.py`
 
 
 The first script was run like this: `for file in /bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/metaphlan4/metaphlan4/metaphlan4/samples/*; do echo ${file}; python sgb_to_gtdb_profile_abundances.py --metaphlan_SGB_profile_infile ${file} --sgb_to_gtdb_tsv_file mpa_vJan25_CHOCOPhlAnSGB_202503_SGB2GTDB.tsv --output_dir merged; done;` , which gives me the total abundances (absolute) of each SGB text profile to GTDB. 
@@ -69,3 +69,10 @@ All the output merged tables are found in `/bulk/IMCshared_bulk/daniel/parkinson
 ### July 15th, 2026
 
 Now that I have the merged tables, I am getting the raw data from Avril Metcalfe's work from BC. I have requested the raw files but haven't heard back from the person who is currently holding them (only from Avril). While I get this, I will be running the polished reads we have from them through `Metaphlan4` and `Humann3` and compare them to our existing data set. I need to run the clustering method that Kenzie worked with in a paper she presented at our Journal Club, and work on a ggtree visualization of some of the strains of interest. I also need to merge the tables from the Vancouver metaphlan4 results so I can compare them with Calgary using both `Maaslin2` and `Ancom-BC`
+
+I have merged the new results from the vancouver data set, and they are available in:
+`/bulk/IMCshared_bulk/daniel/parkinsons/novaseq/results_0526/results1/vancouver/`
+`/Users/danielcm/Desktop/MIGUT/vancouver`
+
+Now I will be running `Maaslin2` before I start coding an ANCOM-BC analysis.
+
