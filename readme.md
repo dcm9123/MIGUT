@@ -76,3 +76,4 @@ I have merged the new results from the vancouver data set, and they are availabl
 
 Now I will be running `Maaslin2` before I start coding an ANCOM-BC analysis.
 
+The new `ancom_bc2-migut.R` script is the initial workflow for running ANCOM-BC2 on the microbiome abundance data. It reads the Calgary GTDB absolute-abundance table and participant metadata, loads the corresponding Vancouver data for future comparisons, removes samples that do not have matching metadata, and provides a function for retaining a selected taxonomic rank (currently species-level taxa marked with `s__`). The current ANCOM-BC2 model tests for differences associated with Parkinson's disease group while accounting for BMI, uses Holm correction for multiple testing, and exposes the bias-corrected abundance table and statistical results for further review. The script is still being developed and will support the planned Calgary-versus-Vancouver comparison.
