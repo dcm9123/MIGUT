@@ -53,23 +53,50 @@ filtering_dataset_by_taxa_rank = function(dataset, taxa_rank){
     return(dataset_filtered)
 }
 
-x = filtering_dataset_by_taxa_rank(dataset_calgary_f, "s__")  #This will filter the dataset to keep only the species-level taxa
+
+df_samples_excluded = excluding_samples(dataset_calgary, metadata_calgary)[[1]]
+df_metadata_calgary_f = excluding_samples(dataset_calgary, metadata_calgary)[[2]]
+df_species = filtering_dataset_by_taxa_rank(df_samples_excluded, "s__")  #This will filter the dataset to keep only the species-level taxa
 
 
 # Main function to run ANCOM-BC2
-ancombc2_results = ancombc2(data = dataset_calgary_f,
+ancombc2_results = ancombc2(data = df_species,
                             taxa_are_rows = TRUE,
-                            fix_formula = "Group + BMI",
-                            p_adj_method = "holm",
+                            fix_formula = "Group + Age + Sex_Male1_Female2",
+                            p_adj_method = "BH",
                             #struc_zero = TRUE,
-                            meta_data = metadata_calgary_f,
-                            #group = "PD",
+                            meta_data = df_metadata_calgary_f,
+                            group = "Group",
                             alpha = 0.05,
+                            global = TRUE,
+                            prv_cut = 0.10,
                             verbose = TRUE)
 
-metadata_calgary_f$Group
+ancombc2_results_2 = ancombc2(data = df_species,
+                            taxa_are_rows = TRUE,
+                            fix_formula = "Group + Age + Sex_Male1_Female2",
+                            p_adj_method = "BH",
+                            #struc_zero = TRUE,
+                            meta_data = df_metadata_calgary_f,
+                            group = "Group",
+                            alpha = 0.05,
+                            global = TRUE,
+                            prv_cut = 0.05,
+                            verbose = TRUE)
 
-ancombc2_results$bias_correct_log_table
-ancombc2_results$res
-View(ancombc2_results$res)
+ancombc2_results_3 = ancombc2(data = df_species,
+                            taxa_are_rows = TRUE,
+                            fix_formula = "Group",
+                            p_adj_method = "BH",
+                            #struc_zero = TRUE,
+                            meta_data = df_metadata_calgary_f,
+                            group = "Group",
+                            alpha = 0.05,
+                            global = TRUE,
+                            prv_cut = 0.10,
+                            verbose = TRUE)
 
+
+write.csv(ancombc2_results$res, "/Users/danielcm/Desktop/MIGUT/vancouver/ancombc/calgary/ancombc2_results_calgary_species_level_prev10.csv", row.names = TRUE)
+write.csv(ancombc2_results_2$res, "/Users/danielcm/Desktop/MIGUT/vancouver/ancombc/calgary/ancombc2_results_calgary_species_level_prev5.csv", row.names = TRUE)
+write.csv(ancombc2_results_3$res, "/Users/danielcm/Desktop/MIGUT/vancouver/ancombc/calgary/ancombc2_results_calgary_species_level_prev10_only_diagnosis.csv", row.names = TRUE)
