@@ -31,7 +31,7 @@ df_filt_species = df_filt %>%
 print(paste0("After filtering to keep only species-level features, the data frame has ",nrow(df_filt_species)," rows and ",ncol(df_filt_species)," columns."))
 print(paste0("A total of ",nrow(df_filt)-nrow(df_filt_species)," features were removed by filtering to keep only species-level features."))
 
-proportion_of_zeros_to_remove = 1.0
+proportion_of_zeros_to_remove = 0.90
 
 
 
@@ -45,8 +45,12 @@ df_filt2$zero_percentage
 df_filt2 = df_filt2 %>%
     filter(zero_percentage <= proportion_of_zeros_to_remove)
 
+df_filt2
 
 print(paste0("After filtering to keep only features with less than ", proportion_of_zeros_to_remove*100, "% zeros, the data frame has ",nrow(df_filt2)," rows and ",ncol(df_filt2)," columns."))
 print(paste0("A total of ",nrow(df_filt_species)-nrow(df_filt2)," features were removed by filtering to keep only features with less than ", proportion_of_zeros_to_remove*100, "% zeros."))
+
+nrow(df_filt2)
+ncol(df_filt2)
 
 write.table(df_filt2[,1:(ncol(df_filt2)-2)], file.path(output_dir, "merged_absolute_abundances_table_GTDB_filtered.txt"), sep = "\t", row.names = TRUE, quote = FALSE)

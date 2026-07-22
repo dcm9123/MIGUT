@@ -120,7 +120,7 @@ calling_maaslin2 = function(maaslin_input, metadata_df, output_dir, fixed_effect
         df_in$qval_within_level >= 0.05, "No evidence of enrichment",
         ifelse(abs(df_in$coef) >= 1 & df_in$qval_within_level < 0.05, "Enriched",
         ifelse(abs(df_in$coef) > 0.585 & df_in$qval_within_level < 0.05, "Potentially enriched",
-        "Lolz")))
+        "No evidence of enrichment")))
 
     write.csv(df_in, file.path(output_dir, "all_results_with_neglog10qval.csv"), row.names = FALSE)
 

@@ -155,7 +155,7 @@ plotting_networks = function(network_to_plot, spic_network, category, ps_object,
 
   igraph_filt <- delete_vertices(
     igraph_filt,
-    V(igraph_filt)[degree(igraph_filt) < 3]
+    V(igraph_filt)[degree(igraph_filt) < 0]
   )
 
   E(igraph_filt)$layout_weight <- E(igraph_filt)$abs_weight
@@ -213,7 +213,8 @@ hc_network = network_generation(ps_hc_only, method_to_use = "mb", lambda_min_rat
 #pd_male_network = network_generation(ps_pd_male_only, method_to_use = "mb", lambda_min_ratio = 1e-2, n_lambda = 30, pulsar_rep_num = 50, pulsar_ncores = 8, sparcc_method = FALSE)
 #pd_female_network = network_generation(ps_pd_female_only, method_to_use = "mb", lambda_min_ratio = 1e-2, n_lambda = 30, pulsar_rep_num = 50, pulsar_ncores = 8, sparcc_method = FALSE)
 
-
+ps_pd_only
+ps_hc_only
 #pd_network$refit
 #pd_network$est
 #pd_network$fun
@@ -234,12 +235,20 @@ total_connections_hc
 
 # CLOSENNES ()
 pd_network_graph = adj2igraph(getRefit(pd_network), rmEmptyNodes = TRUE,vertex.attr = list(name = colnames(ps_pd_only)))
-pd_closeness = closeness(pd_network_graph, vids = V(pd_network_graph), mode = "all", normalized = TRUE, cutoff = -1)
+pd_closeness = harmonic_centrality(pd_network_graph, mode = "all", normalized = FALSE, cutoff = -1)
 pd_closeness
 
 hc_network_graph = adj2igraph(getRefit(hc_network), rmEmptyNodes = TRUE,vertex.attr = list(name = colnames(ps_hc_only)))
-hc_closeness = closeness(hc_network_graph, vids = V(hc_network_graph), mode = "all", normalized = TRUE, cutoff = -1)
+hc_closeness = harmonic_centrality(hc_network_graph, mode = "all", normalized = FALSE, cutoff = -1)
 hc_closeness
+
+for(item in pd_closeness){
+  cat((log10(item)),"\n")
+}
+
+for(item in hc_closeness){
+  cat((log10(item)),"\n")
+}
 
 # DENSITY
 density_pd = edge_density(pd_network_graph, loops = FALSE)
@@ -268,9 +277,29 @@ for(item in hc_betweenness_raw){
   cat((item),"\n")
 }
 
-pd_distances = distances(pd_network_graph, mode = "all", algorithm = "automatic")
-pd_distances
+pd_mean_distance = mean_distance(pd_network_graph, directed = FALSE)
+pd_mean_distance
+hc_mean_distance = mean_distance(hc_network_graph, directed = FALSE)
+hc_mean_distance
 
+pd_distances = distances(pd_network_graph)[upper.tri(distances(pd_network_graph))]
+pd_distances = pd_distances[is.finite(pd_distances)]
+mean(pd_distances)
+sd(pd_distances)
+length(pd_distances)
+as.matrix(pd_distances)
+
+hc_distances = distances(hc_network_graph)[upper.tri(distances(hc_network_graph))]
+hc_distances = hc_distances[is.finite(hc_distances)]
+mean(hc_distances)
+sd(hc_distances)
+length(hc_distances)
+
+components(pd_network_graph)$no
+components(hc_network_graph)$no
+components(pd_network_graph)$csize
+components(hc_network_graph)$csize
+components(pd_network_graph)
 
 
 possible_pd_connections_max = (ntaxa(ps_pd_only) * (ntaxa(ps_pd_only)-1))/2
@@ -289,15 +318,16 @@ zero_connections_hc
 # Plotting plotting_networks
 class_colors = make_tax_rank_colors(ps, "Class")
 order_colors = make_tax_rank_colors(ps, "Order")
+phylum_colors = make_tax_rank_colors(ps, "Phylum")
 
-adj_matrix_pd = as.matrix(plotting_networks(pd_network, spic_network = TRUE, category = "PD", ps_object = ps_pd_only, 
+adj_matrix_pd = as_adjacency_matrix(plotting_networks(pd_network, spic_network = TRUE, category = "PD", ps_object = ps_pd_only, 
                   tax_rank = "Class", plot_file_name = "pd_top_0.75_network.png",
                   tax_rank_colors = class_colors))
 
 rownames(adj_matrix_pd) = colnames(ps_pd_only)
 colnames(adj_matrix_pd) = colnames(ps_pd_only)
 
-adj_matrix_hc = as.matrix(plotting_networks(hc_network, spic_network = TRUE, category = "HC", ps_object = ps_hc_only, 
+adj_matrix_hc = as_adjacency_matrix(plotting_networks(hc_network, spic_network = TRUE, category = "HC", ps_object = ps_hc_only, 
                   tax_rank = "Class", plot_file_name = "hc_top_0.75_network.png",
                   tax_rank_colors = class_colors))
 
@@ -316,9 +346,13 @@ for(item in taxa_degrees_hc){
 }
 
 
-plotting_networks(pd_network, spic_network = TRUE, category = "HC", ps_object = ps_hc_only, 
-                  tax_rank = "Order", plot_file_name = "hc_top_0.50_network.png",
-                  tax_rank_colors = order_colors)
+plotting_networks(pd_network, spic_network = TRUE, category = "PD", ps_object = ps_pd_only, 
+                  tax_rank = "Phylum", plot_file_name = "pd_top_0.50_phylum_network.png",
+                  tax_rank_colors = phylum_colors)
+
+plotting_networks(hc_network, spic_network = TRUE, category = "HC", ps_object = ps_hc_only, 
+                  tax_rank = "Phylum", plot_file_name = "hc_top_0.50_phylum_network.png",
+                  tax_rank_colors = phylum_colors)
 
 
 tax_table(ps_pd_only) == Species
